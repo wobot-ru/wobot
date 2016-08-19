@@ -1,0 +1,14 @@
+129
+a:4:{s:8:"template";a:1:{s:8:"json.tpl";b:1;}s:9:"timestamp";i:1332859135;s:7:"expires";i:1332859735;s:13:"cache_serials";a:0:{}}{
+    "status":"success",
+    "results":{
+        "updated":4,
+        "inserted":{
+            "links_to_expand":18,
+            "flickr_api_key":19,
+            "bitly_login":20,
+            "bitly_api_key":21
+        },
+        "deleted":0
+    }
+}

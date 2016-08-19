@@ -1,0 +1,211 @@
+/* 
+    Document   : style
+    Created on : 26.09.2011, 15:35:47
+    Author     : Anna
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+body
+{
+    margin: 0;
+    padding: 0;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    background-color: white;
+}
+h1,h2,h3
+{
+    margin: 0;
+    font-family: Calibri;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 95pt;
+}
+
+h2
+{
+    font-size: 23pt;
+}
+
+p
+{
+    font-size: 21pt;
+    font-family: Calibri;
+    
+    margin: 0;
+}
+
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+}
+
+/*header*/
+header div#bcgrnd
+{
+    width: 100%;
+    height: 170px;
+    background-color: #969696;
+    margin-bottom: -170px;
+}
+header div#top
+{
+    overflow: hidden;
+    clear: both;
+}
+
+header div#top .logo
+{
+    padding-top: 17px;
+}
+
+header div#top #twitter_logo
+{
+    padding-left: 40px;
+    padding-right: 24px;
+}
+
+header div#top #fb_logo
+{
+    padding-right: 40px;
+    padding-left: 24px;
+}
+
+header div#top .parts
+{
+    padding: 0px;
+}
+
+header div#top div#trapecia
+{
+    width: 960px;
+    height: 209px;
+    background-color: #000;
+}
+
+header div#top div#trapecia h1
+{
+    color: #fff;
+    
+    margin-top: 20px;
+    padding: -20px;
+    text-align: center;
+}
+
+
+/*main*/
+div#main
+{
+    height: 530px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+div#main .content
+{
+    width: 897px;
+}
+
+
+
+div#main .avatar
+{
+    padding: 20px;
+}
+
+div#main .post
+{
+    overflow: hidden;
+    display:none;
+	word-wrap: break-word;
+}
+
+div#main .post img
+{
+    width: 105px;
+    height: 105px;
+}
+
+div#main .text_post
+{
+    width: 83%;
+}
+
+div#main .text_post h2
+{
+}
+
+div#main .text_post .comment
+{
+   color: #535353;
+   font-style: italic;
+   font-size: 17.5pt;
+   margin-top: 2px;
+
+}
+
+div#main .line
+{
+   background-color: #535353;
+   width: 100%;
+   height: 2px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+div#main #vert_line
+{
+    width: 6px;
+    background-color: #535353;
+    height: 100%;
+    overflow: hidden;
+    margin-right: 30px; 
+    margin-left: 30px; 
+}
+
+/*подложка*/
+div#podlogka
+{
+    width: 1870px;
+    height: 150px;
+    margin-top: 450px;
+    margin-left: -1870px;
+    background-color: transparent;
+    overflow: hidden;
+    background:url('images/grad.png'), repeat-x;
+    
+}
+#graph
+{
+    margin-top: 20px;
+    width: 100%;
+    height: 280px;
+}
+
+#twitter-results {}
+div.status {
+              display:none;
+              clear:both;
+          }
+img.twitter_image {
+              float:left;
+          }
+div.main_info {
+              
+              float:left;
+          }

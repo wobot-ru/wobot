@@ -1,0 +1,63 @@
+<?
+require_once('/var/www/daemon/com/config.php');
+//require_once('/var/www/daemon/com/func.php');
+require_once('/var/www/daemon/com/db.php');
+require_once('/var/www/daemon/bot/kernel.php');
+
+$db = new database();
+$db->connect();
+
+$users=$db->query('SELECT post_id,post_link FROM blog_post WHERE blog_id=0 AND (post_link LIKE \'http://blogs.mail.ru/inbox/%\' OR post_link LIKE \'http://blogs.mail.ru/mail/%\' OR post_link LIKE \'http://blogs.mail.ru/bk/%\' OR post_link LIKE \'http://blogs.mail.ru/list/%\')');
+while ($user=$db->fetch($users))
+{
+	if (preg_match('/http\:\/\/blogs\.mail\.ru\/inbox\//isu',$user['post_link']))
+	{
+		$regex='/http\:\/\/blogs\.mail\.ru\/inbox\/(?<user>[^\/]*?)\//isu';
+		preg_match_all($regex,$user['post_link'],$out);
+		$muser[$user['post_id']]['type']='inbox';
+		$muser[$user['post_id']]['user']=$out['user'][0];
+	}
+	if (preg_match('/http\:\/\/blogs\.mail\.ru\/bk\//isu',$user['post_link']))
+	{
+		$regex='/http\:\/\/blogs\.mail\.ru\/bk\/(?<user>[^\/]*?)\//isu';
+		preg_match_all($regex,$user['post_link'],$out);
+		$muser[$user['post_id']]['type']='bk';
+		$muser[$user['post_id']]['user']=$out['user'][0];
+	}
+	if (preg_match('/http\:\/\/blogs\.mail\.ru\/mail\//isu',$user['post_link']))
+	{
+		$regex='/http\:\/\/blogs\.mail\.ru\/mail\/(?<user>[^\/]*?)\//isu';
+		preg_match_all($regex,$user['post_link'],$out);
+		$muser[$user['post_id']]['type']='mail';
+		$muser[$user['post_id']]['user']=$out['user'][0];
+	}
+	if (preg_match('/http\:\/\/blogs\.mail\.ru\/list\//isu',$user['post_link']))
+	{
+		$regex='/http\:\/\/blogs\.mail\.ru\/list\/(?<user>[^\/]*?)\//isu';
+		preg_match_all($regex,$user['post_link'],$out);
+		$muser[$user['post_id']]['type']='list';
+		$muser[$user['post_id']]['user']=$out['user'][0];
+	}
+}
+
+foreach ($muser as $key => $item)
+{
+	$qw=$db->query('SELECT * FROM robot_blogs2 WHERE blog_link=\'mail.ru/'.$item['type'].'\' AND blog_login=\''.$item['user'].'\' LIMIT 1');
+	if (mysql_num_rows($qw)==0)
+	{
+		//echo 'INSERT INTO robot_blogs2 (blog_link,blog_login) VALUES (\'mail.ru/'.$item['type'].'\',\''.$item['user'].'\')'."\n";
+		$qins=$db->query('INSERT INTO robot_blogs2 (blog_link,blog_login) VALUES (\'mail.ru/'.$item['type'].'\',\''.$item['user'].'\')');
+		$idus=$db->insert_id();
+	}
+	else
+	{
+		$uss=$db->fetch($qw);
+		$idus=$uss['blog_id'];
+	}
+	echo 'UPDATE blog_post SET blog_id='.$idus.' WHERE post_id='.$key."\n";
+	$db->query('UPDATE blog_post SET blog_id='.$idus.' WHERE post_id='.$key);
+}
+echo count($muser);
+//print_r($muser);
+
+?>

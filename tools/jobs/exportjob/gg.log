@@ -1,0 +1,1947 @@
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Warning:  json_decode() expects parameter 1 to be string, array given in /var/www/tools/jobs/exportjob/example_line.php on line 22
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 24
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 83
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 83
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 88
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 88
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 88
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 88
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 92
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 92
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 103
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 113
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Warning:  json_decode() expects parameter 1 to be string, array given in /var/www/tools/jobs/exportjob/example_line.php on line 22
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 24
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 83
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 83
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 88
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 88
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 88
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 88
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 92
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 92
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 103
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 113
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Warning:  json_decode() expects parameter 1 to be string, array given in /var/www/tools/jobs/exportjob/example_line.php on line 22
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 24
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 83
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 83
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 88
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 88
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 88
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 88
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 92
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 92
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 103
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 113
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Warning:  json_decode() expects parameter 1 to be string, array given in /var/www/tools/jobs/exportjob/example_line.php on line 22
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 24
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 36
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 85
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 85
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 90
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 90
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 90
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 90
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 94
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 94
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 105
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 115
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Warning:  json_decode() expects parameter 1 to be string, array given in /var/www/tools/jobs/exportjob/example_line.php on line 22
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 25
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 37
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 86
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 86
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 91
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 91
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 91
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 91
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 95
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 95
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 106
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 116
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Warning:  json_decode() expects parameter 1 to be string, array given in /var/www/tools/jobs/exportjob/example_line.php on line 22
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 25
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 37
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 86
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 86
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 91
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 91
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 91
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 91
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 95
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 95
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 106
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 116
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Parse error:  syntax error, unexpected ';' in /var/www/tools/jobs/exportjob/example_line.php on line 22
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 25
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 37
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 86
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 86
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 91
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 91
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 91
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 91
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 95
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 95
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 106
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 116
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 25
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 37
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 86
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 86
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 91
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 91
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 91
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 91
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 95
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 95
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 106
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 116
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 26
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 38
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 87
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 87
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 92
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 92
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 92
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 92
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 107
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 117
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 27
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 39
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 88
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 88
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 93
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 93
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 93
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 93
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 97
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 97
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 108
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 118
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 28
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 40
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 89
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 89
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 94
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 94
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 94
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 94
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 98
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 98
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 109
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 119
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 28
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 40
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 89
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 89
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 94
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 94
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 94
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 94
+PHP Notice:  Undefined variable: elemy in /var/www/tools/jobs/exportjob/example_line.php on line 98
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/tools/jobs/exportjob/example_line.php on line 98
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 109
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 119
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 94
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 94
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 109
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 119
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 94
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 94
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 109
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 119
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 99
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 99
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 114
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 124
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 95
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 95
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 110
+PHP Notice:  Undefined variable: xcount in /var/www/tools/jobs/exportjob/example_line.php on line 120
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 165
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 165
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 165
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 165
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 165
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 165
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 165
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 165
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 165
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 165
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 165
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 165
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 165
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 165
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 165
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 165
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 165
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 165
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 165
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 165
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 165
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 165
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 165
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 165
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 165
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 165
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/imap.ini on line 1 in Unknown on line 0
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/cli/conf.d/mcrypt.ini on line 1 in Unknown on line 0
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Warning:  array_sum() expects parameter 1 to be array, null given in /var/www/tools/jobs/exportjob/example_line.php on line 96
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 165
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 218
+PHP Notice:  Undefined variable: total in /var/www/tools/jobs/exportjob/charts.class.php on line 268
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 267
+PHP Notice:  Undefined offset: 1 in /var/www/tools/jobs/exportjob/charts.class.php on line 271

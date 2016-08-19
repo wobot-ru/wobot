@@ -1,0 +1,22 @@
+order_num :1;Summ :0.010000;Date :2012-2-16 9:38:10
+order_num :2; Item: 0;Summ :0.010000;Date :2012-3-21 10:46:42
+order_num :39; Item: 61;Summ :0.010000;Date :2012-3-22 2:25:35
+order_num :104; Item: 61;Summ :2.000000;Date :2012-4-14 4:43:33
+order_num :186; Item: 61;Summ :2.000000;Date :2012-4-25 5:36:51
+order_num :187; Item: 61;Summ :2.000000;Date :2012-4-27 4:25:32
+order_num :259; Item: 316;Summ :2.000000;Date :2012-5-15 1:47:58
+order_num :282; Item: 319;Summ :7500.000000;Date :2012-5-17 5:14:53
+order_num :300; Item: 252;Summ :2.000000;Date :2012-5-24 22:25:26
+order_num :301; Item: 324;Summ :1.000000;Date :2012-5-24 22:52:5
+order_num :302; Item: 324;Summ :1.000000;Date :2012-5-24 23:23:59
+order_num :305; Item: 324;Summ :1.000000;Date :2012-5-24 23:49:47
+order_num :307; Item: 324;Summ :1.000000;Date :2012-5-25 0:6:38
+order_num :309; Item: 324;Summ :2.000000;Date :2012-5-25 2:6:18
+order_num :313; Item: 355;Summ :1.000000;Date :2012-5-25 4:55:0
+order_num :340; Item: 0;Summ :1.000000;Date :2012-6-8 2:10:2
+order_num :341; Item: 0;Summ :1.000000;Date :2012-6-8 2:26:25
+order_num :348; Item: 0;Summ :1.000000;Date :2012-6-8 2:42:1
+order_num :349; Item: 0;Summ :1.000000;Date :2012-6-8 2:46:25
+order_num :365; Item: 0;Summ :750.000000;Date :2012-6-17 3:1:45
+order_num :370; Item: 452;Summ :7500.000000;Date :2012-6-22 5:24:22
+order_num :372; Item: 319;Summ :7500.000000;Date :2012-6-26 5:14:52

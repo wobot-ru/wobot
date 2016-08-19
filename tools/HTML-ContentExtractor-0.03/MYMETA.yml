@@ -1,0 +1,24 @@
+---
+abstract: 'extract the main content from a web page by analysising the DOM tree!'
+author:
+  - 'Zhang Jun <jzhang533@gmail.com>'
+build_requires:
+  ExtUtils::MakeMaker: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.112150'
+license: unknown
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: HTML-ContentExtractor
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  HTML::TableExtract: 2.1
+  HTML::TreeBuilder: 3.13
+  Test::More: 0.64
+version: 0.03
