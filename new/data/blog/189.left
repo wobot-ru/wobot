@@ -1,0 +1,6 @@
+
+	<h1 class="sh">Найдено</h1>
+	<table>
+	<tr><td><span class="ss"><u><a href="#" onclick="loaditem('user/comment?order_id=189','#commentbox',function () { showcomment(); } ); return false;"><span class="rln">0</span></a></u></span></td><td><span class="ss">мнений по запросу</span></td></tr>
+	</table>
+	

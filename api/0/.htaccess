@@ -1,0 +1,23 @@
+#Options +Includes +FollowSymLinks -Indexes
+#AllowOverride All
+#AddHandler server-parsed .shtml
+#DirectoryIndex index.shtml index.htm index.php index.html
+AddDefaultCharset utf-8
+#CookieTracking on
+#CookieExpires "1 years"
+
+ErrorDocument 404 /index.php
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_URI} !^/img.*
+RewriteCond %{REQUEST_URI} !^/fb.*
+RewriteCond %{REQUEST_URI} !^/icon.*
+RewriteCond %{REQUEST_URI} !^/css.*
+RewriteCond %{REQUEST_URI} !^/js.*
+RewriteCond %{REQUEST_URI} !^/swf.*
+RewriteCond %{REQUEST_URI} !^/xml.*
+RewriteCond %{REQUEST_URI} !^/data/monitor.*
+RewriteCond %{REQUEST_URI} !^/bot.*
+RewriteCond %{REQUEST_URI} !^/myadmin.*
+RewriteRule ^(.*)$ index.php?s=$1&%{QUERY_STRING}

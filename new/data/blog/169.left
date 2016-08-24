@@ -1,0 +1,6 @@
+
+	<h1 class="sh">Найдено</h1>
+	<table>
+	<tr><td><span class="ss"><u><a href="#" onclick="loaditem('user/comment?order_id=169','#commentbox',function () { showcomment(); } ); return false;"><span class="rln">1</span></a></u></span></td><td><span class="ss">мнений по запросу</span></td></tr>
+	<tr class="socline"><td><span class="ss"><u><a href="#" onclick="loaditem('user/comment?order_id=169&social=twitter.com','#commentbox',function () { showcomment(); } ); return false;"><span class="rln">1</span></a></u></span></td><td><a href="http://twitter.com" target="_blank"  style="text-decoration: none;"><span class="ss" style="text-decoration: none;">twitter.com</span></a></td></tr></table>
+	

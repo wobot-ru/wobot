@@ -1,0 +1,167 @@
+Tue, 05 Feb 2013 19:29:50 +0400 UNSECURE!!!Tue, 05 Feb 2013 19:29:50 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"ec381c2700664bfc82e269d0e462e2758e310bac"},"PAYLOAD":"{\"user_email\":\"irozet@parallels.com\"}"}
+Tue, 05 Feb 2013 19:29:52 +0400 UNSECURE!!!Tue, 05 Feb 2013 19:29:52 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"ec381c2700664bfc82e269d0e462e2758e310bac"},"PAYLOAD":"{\"user_email\":\"irozet@parallels.com\"}"}
+Tue, 05 Feb 2013 20:05:10 +0400 {"REQUEST":{"s":"aps","command":"edit","Sign":"bab22b2fdb96e69ba348e5f1f1279ef8f1cd6020"},"PAYLOAD":"{\"user_old_email\":\"roman@wobot.co\",\"user_email\":\"roman@wobot.co\",\"user_pass\":\"1qwertyR4\"}"}
+Tue, 05 Feb 2013 20:07:11 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"381f479afed91dd25e39b99f8e0ca5cf3971c0f2"},"PAYLOAD":"{\"user_email\":\"roman1@wobot.co\"}"}
+Tue, 05 Feb 2013 20:07:12 +0400 {"REQUEST":{"s":"aps","command":"edit","Sign":"4c967b97e05a3d2aa66d326d936cf3b288427709"},"PAYLOAD":"{\"user_old_email\":\"roman@wobot.co\",\"user_email\":\"roman1@wobot.co\",\"user_pass\":\"1qwertyR4\"}"}
+Tue, 05 Feb 2013 20:07:57 +0400 {"REQUEST":{"s":"aps","command":"edit","Sign":"4d43278cb11fa1a603425df94156232bfd1a84db"},"PAYLOAD":"{\"user_old_email\":\"roman1@wobot.co\",\"user_email\":\"roman1@wobot.co\",\"user_pass\":\"1qwertyR\"}"}
+Tue, 05 Feb 2013 20:08:07 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"381f479afed91dd25e39b99f8e0ca5cf3971c0f2"},"PAYLOAD":"{\"user_email\":\"roman1@wobot.co\"}"}
+Tue, 05 Feb 2013 20:31:33 +0400 UNSECURE!!!Tue, 05 Feb 2013 20:31:33 +0400 {"REQUEST":{"s":"aps","command":"registration","Sign":"6a2497e16f2965c840ad910185d6968dbf56d080"},"PAYLOAD":"{\"user_email\":\"irozet@parallels.com\",\"user_pass\":\"TZyolhfM\"}"}
+Tue, 05 Feb 2013 20:31:33 +0400 UNSECURE!!!Tue, 05 Feb 2013 20:31:33 +0400 {"REQUEST":{"s":"aps","command":"enable","Sign":"ec381c2700664bfc82e269d0e462e2758e310bac"},"PAYLOAD":"{\"user_email\":\"irozet@parallels.com\"}"}
+Tue, 05 Feb 2013 20:32:25 +0400 UNSECURE!!!Tue, 05 Feb 2013 20:32:25 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"ec381c2700664bfc82e269d0e462e2758e310bac"},"PAYLOAD":"{\"user_email\":\"irozet@parallels.com\"}"}
+Tue, 05 Feb 2013 20:32:28 +0400 UNSECURE!!!Tue, 05 Feb 2013 20:32:28 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"ec381c2700664bfc82e269d0e462e2758e310bac"},"PAYLOAD":"{\"user_email\":\"irozet@parallels.com\"}"}
+Tue, 05 Feb 2013 20:37:40 +0400 UNSECURE!!!Tue, 05 Feb 2013 20:37:45 +0400 {"REQUEST":{"s":"aps","command":"registration","Sign":"277137283f3a85bc89d91ec189fef8e0fb89e93d"},"PAYLOAD":"{\"user_email\":\"irozet@parallels.com\",\"user_pass\":\"QniN9DDp\"}"}
+Tue, 05 Feb 2013 20:37:45 +0400 UNSECURE!!!Tue, 05 Feb 2013 20:37:45 +0400 {"REQUEST":{"s":"aps","command":"enable","Sign":"ec381c2700664bfc82e269d0e462e2758e310bac"},"PAYLOAD":"{\"user_email\":\"irozet@parallels.com\"}"}
+Tue, 05 Feb 2013 20:38:57 +0400 UNSECURE!!!Tue, 05 Feb 2013 20:38:57 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"ec381c2700664bfc82e269d0e462e2758e310bac"},"PAYLOAD":"{\"user_email\":\"irozet@parallels.com\"}"}
+Tue, 05 Feb 2013 20:38:59 +0400 UNSECURE!!!Tue, 05 Feb 2013 20:38:59 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"ec381c2700664bfc82e269d0e462e2758e310bac"},"PAYLOAD":"{\"user_email\":\"irozet@parallels.com\"}"}
+Tue, 05 Feb 2013 20:39:02 +0400 UNSECURE!!!Tue, 05 Feb 2013 20:39:02 +0400 {"REQUEST":{"s":"aps","command":"edit","Sign":"ddb259d91380e42f44aa658cd2cd10ece11d74c1"},"PAYLOAD":"{\"user_old_email\":\"irozet@parallels.com\",\"user_email\":\"IhDf_user@provider.com.tst\",\"user_pass\":\"fGFAijDiEIEKGaebcjbaDfKED\"}"}
+Tue, 05 Feb 2013 21:25:40 +0400 UNSECURE!!!Tue, 05 Feb 2013 21:25:40 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"ec381c2700664bfc82e269d0e462e2758e310bac"},"PAYLOAD":"{\"user_email\":\"irozet@parallels.com\"}"}
+Tue, 05 Feb 2013 21:25:42 +0400 UNSECURE!!!Tue, 05 Feb 2013 21:25:42 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"ec381c2700664bfc82e269d0e462e2758e310bac"},"PAYLOAD":"{\"user_email\":\"irozet@parallels.com\"}"}
+Tue, 05 Feb 2013 21:29:11 +0400 UNSECURE!!!Tue, 05 Feb 2013 21:29:11 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"ec381c2700664bfc82e269d0e462e2758e310bac"},"PAYLOAD":"{\"user_email\":\"irozet@parallels.com\"}"}
+Tue, 05 Feb 2013 21:29:12 +0400 UNSECURE!!!Tue, 05 Feb 2013 21:29:12 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"ec381c2700664bfc82e269d0e462e2758e310bac"},"PAYLOAD":"{\"user_email\":\"irozet@parallels.com\"}"}
+Tue, 05 Feb 2013 21:32:42 +0400 UNSECURE!!!Tue, 05 Feb 2013 21:32:42 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"ec381c2700664bfc82e269d0e462e2758e310bac"},"PAYLOAD":"{\"user_email\":\"irozet@parallels.com\"}"}
+Tue, 05 Feb 2013 21:32:44 +0400 UNSECURE!!!Tue, 05 Feb 2013 21:32:44 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"ec381c2700664bfc82e269d0e462e2758e310bac"},"PAYLOAD":"{\"user_email\":\"irozet@parallels.com\"}"}
+Wed, 06 Feb 2013 09:01:47 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"94cbb1ec4e67b5525b757b817074061c7c12e246"},"PAYLOAD":"{\"user_email\":\"kldfgh@jhgf.tu\"}"}
+Wed, 06 Feb 2013 09:12:36 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"94cbb1ec4e67b5525b757b817074061c7c12e246"},"PAYLOAD":"{\"user_email\":\"kldfgh@jhgf.tu\"}"}
+Wed, 06 Feb 2013 09:12:37 +0400 {"REQUEST":{"s":"aps","command":"registration","Sign":"f3061b1a8f4c5109df2772fb6f641216d0511922"},"PAYLOAD":"{\"user_email\":\"kldfgh@jhgf.tu\",\"user_pass\":\"EvP1l5OC\"}"}
+Wed, 06 Feb 2013 09:12:37 +0400 {"REQUEST":{"s":"aps","command":"enable","Sign":"94cbb1ec4e67b5525b757b817074061c7c12e246"},"PAYLOAD":"{\"user_email\":\"kldfgh@jhgf.tu\"}"}
+Wed, 06 Feb 2013 09:17:38 +0400 {"REQUEST":{"s":"aps","command":"registration","Sign":"f3061b1a8f4c5109df2772fb6f641216d0511922"},"PAYLOAD":"{\"user_email\":\"kldfgh@jhgf.tu\",\"user_pass\":\"EvP1l5OC\"}"}
+Wed, 06 Feb 2013 09:17:38 +0400 {"REQUEST":{"s":"aps","command":"enable","Sign":"94cbb1ec4e67b5525b757b817074061c7c12e246"},"PAYLOAD":"{\"user_email\":\"kldfgh@jhgf.tu\"}"}
+Wed, 06 Feb 2013 09:22:39 +0400 {"REQUEST":{"s":"aps","command":"registration","Sign":"f3061b1a8f4c5109df2772fb6f641216d0511922"},"PAYLOAD":"{\"user_email\":\"kldfgh@jhgf.tu\",\"user_pass\":\"EvP1l5OC\"}"}
+Wed, 06 Feb 2013 09:22:39 +0400 {"REQUEST":{"s":"aps","command":"enable","Sign":"94cbb1ec4e67b5525b757b817074061c7c12e246"},"PAYLOAD":"{\"user_email\":\"kldfgh@jhgf.tu\"}"}
+Wed, 06 Feb 2013 12:39:30 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"94cbb1ec4e67b5525b757b817074061c7c12e246"},"PAYLOAD":"{\"user_email\":\"kldfgh@jhgf.tu\"}"}
+Wed, 06 Feb 2013 12:39:31 +0400 {"REQUEST":{"s":"aps","command":"registration","Sign":"82fd1d8d44307026279658a6938d16ee72c4b5e4"},"PAYLOAD":"{\"user_email\":\"kldfgh@jhgf.tu\",\"user_pass\":\"guest\"}"}
+Wed, 06 Feb 2013 12:39:31 +0400 {"REQUEST":{"s":"aps","command":"enable","Sign":"94cbb1ec4e67b5525b757b817074061c7c12e246"},"PAYLOAD":"{\"user_email\":\"kldfgh@jhgf.tu\"}"}
+Wed, 06 Feb 2013 12:42:59 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"94cbb1ec4e67b5525b757b817074061c7c12e246"},"PAYLOAD":"{\"user_email\":\"kldfgh@jhgf.tu\"}"}
+Wed, 06 Feb 2013 12:45:36 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"94cbb1ec4e67b5525b757b817074061c7c12e246"},"PAYLOAD":"{\"user_email\":\"kldfgh@jhgf.tu\"}"}
+Wed, 06 Feb 2013 12:45:58 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"94cbb1ec4e67b5525b757b817074061c7c12e246"},"PAYLOAD":"{\"user_email\":\"kldfgh@jhgf.tu\"}"}
+Wed, 06 Feb 2013 12:49:03 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"94cbb1ec4e67b5525b757b817074061c7c12e246"},"PAYLOAD":"{\"user_email\":\"kldfgh@jhgf.tu\"}"}
+Wed, 06 Feb 2013 12:49:56 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"94cbb1ec4e67b5525b757b817074061c7c12e246"},"PAYLOAD":"{\"user_email\":\"kldfgh@jhgf.tu\"}"}
+Wed, 06 Feb 2013 12:51:46 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"94cbb1ec4e67b5525b757b817074061c7c12e246"},"PAYLOAD":"{\"user_email\":\"kldfgh@jhgf.tu\"}"}
+Wed, 06 Feb 2013 13:31:35 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"94cbb1ec4e67b5525b757b817074061c7c12e246"},"PAYLOAD":"{\"user_email\":\"kldfgh@jhgf.tu\"}"}
+Wed, 06 Feb 2013 13:35:36 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"94cbb1ec4e67b5525b757b817074061c7c12e246"},"PAYLOAD":"{\"user_email\":\"kldfgh@jhgf.tu\"}"}
+Wed, 06 Feb 2013 13:36:26 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"94cbb1ec4e67b5525b757b817074061c7c12e246"},"PAYLOAD":"{\"user_email\":\"kldfgh@jhgf.tu\"}"}
+Wed, 06 Feb 2013 13:36:38 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"94cbb1ec4e67b5525b757b817074061c7c12e246"},"PAYLOAD":"{\"user_email\":\"kldfgh@jhgf.tu\"}"}
+Wed, 06 Feb 2013 13:38:49 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"94cbb1ec4e67b5525b757b817074061c7c12e246"},"PAYLOAD":"{\"user_email\":\"kldfgh@jhgf.tu\"}"}
+Wed, 06 Feb 2013 13:39:35 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"94cbb1ec4e67b5525b757b817074061c7c12e246"},"PAYLOAD":"{\"user_email\":\"kldfgh@jhgf.tu\"}"}
+Wed, 06 Feb 2013 13:40:00 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"94cbb1ec4e67b5525b757b817074061c7c12e246"},"PAYLOAD":"{\"user_email\":\"kldfgh@jhgf.tu\"}"}
+Wed, 06 Feb 2013 13:40:10 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"db4d8c491c776717a39ef1c9554f1d7f95639479"},"PAYLOAD":"{\"user_email\":\"user@ya.ru\"}"}
+Wed, 06 Feb 2013 13:41:04 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"db4d8c491c776717a39ef1c9554f1d7f95639479"},"PAYLOAD":"{\"user_email\":\"user@ya.ru\"}"}
+Wed, 06 Feb 2013 13:41:12 +0400 UNSECURE!!!Wed, 06 Feb 2013 13:41:12 +0400 {"REQUEST":{"s":"aps","command":"remove"},"PAYLOAD":""}
+Wed, 06 Feb 2013 13:41:18 +0400 UNSECURE!!!Wed, 06 Feb 2013 13:41:18 +0400 {"REQUEST":{"s":"aps","command":"remove"},"PAYLOAD":""}
+Wed, 06 Feb 2013 13:41:23 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"db4d8c491c776717a39ef1c9554f1d7f95639479"},"PAYLOAD":"{\"user_email\":\"user@ya.ru\"}"}
+Wed, 06 Feb 2013 13:42:36 +0400 UNSECURE!!!Wed, 06 Feb 2013 13:42:36 +0400 {"REQUEST":{"s":"aps","command":"remove"},"PAYLOAD":""}
+Wed, 06 Feb 2013 13:42:51 +0400 UNSECURE!!!Wed, 06 Feb 2013 13:42:51 +0400 {"REQUEST":{"s":"aps","command":"remove"},"PAYLOAD":""}
+Wed, 06 Feb 2013 13:43:05 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"db4d8c491c776717a39ef1c9554f1d7f95639479"},"PAYLOAD":"{\"user_email\":\"user@ya.ru\"}"}
+Wed, 06 Feb 2013 13:44:38 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"e710466eeb96c5cea3e4d076a73bb9d3b22fb579"},"PAYLOAD":"{\"user_email\":\"zmei123@yandex.ru\"}"}
+Wed, 06 Feb 2013 13:45:21 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"e710466eeb96c5cea3e4d076a73bb9d3b22fb579"},"PAYLOAD":"{\"user_email\":\"zmei123@yandex.ru\"}"}
+Wed, 06 Feb 2013 13:46:56 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"e710466eeb96c5cea3e4d076a73bb9d3b22fb579"},"PAYLOAD":"{\"user_email\":\"zmei123@yandex.ru\"}"}
+Wed, 06 Feb 2013 13:47:10 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"e710466eeb96c5cea3e4d076a73bb9d3b22fb579"},"PAYLOAD":"{\"user_email\":\"zmei123@yandex.ru\"}"}
+Wed, 06 Feb 2013 13:52:56 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"e710466eeb96c5cea3e4d076a73bb9d3b22fb579"},"PAYLOAD":"{\"user_email\":\"zmei123@yandex.ru\"}"}
+Wed, 06 Feb 2013 13:53:54 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"e710466eeb96c5cea3e4d076a73bb9d3b22fb579"},"PAYLOAD":"{\"user_email\":\"zmei123@yandex.ru\"}"}
+Wed, 06 Feb 2013 13:54:59 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"e710466eeb96c5cea3e4d076a73bb9d3b22fb579"},"PAYLOAD":"{\"user_email\":\"zmei123@yandex.ru\"}"}
+Wed, 06 Feb 2013 13:55:21 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"e710466eeb96c5cea3e4d076a73bb9d3b22fb579"},"PAYLOAD":"{\"user_email\":\"zmei123@yandex.ru\"}"}
+Wed, 06 Feb 2013 13:55:59 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"e710466eeb96c5cea3e4d076a73bb9d3b22fb579"},"PAYLOAD":"{\"user_email\":\"zmei123@yandex.ru\"}"}
+Wed, 06 Feb 2013 13:56:27 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"e710466eeb96c5cea3e4d076a73bb9d3b22fb579"},"PAYLOAD":"{\"user_email\":\"zmei123@yandex.ru\"}"}
+Wed, 06 Feb 2013 13:56:34 +0400 UNSECURE!!!Wed, 06 Feb 2013 13:56:34 +0400 {"REQUEST":{"s":"aps","command":"remove"},"PAYLOAD":""}
+Wed, 06 Feb 2013 13:56:38 +0400 UNSECURE!!!Wed, 06 Feb 2013 13:56:38 +0400 {"REQUEST":{"s":"aps","command":"remove"},"PAYLOAD":""}
+Wed, 06 Feb 2013 13:56:44 +0400 UNSECURE!!!Wed, 06 Feb 2013 13:56:44 +0400 {"REQUEST":{"s":"aps","command":"remove"},"PAYLOAD":""}
+Wed, 06 Feb 2013 13:56:47 +0400 UNSECURE!!!Wed, 06 Feb 2013 13:56:47 +0400 {"REQUEST":{"s":"aps","command":"remove"},"PAYLOAD":""}
+Wed, 06 Feb 2013 13:56:50 +0400 UNSECURE!!!Wed, 06 Feb 2013 13:56:50 +0400 {"REQUEST":{"s":"aps","command":"remove"},"PAYLOAD":""}
+Wed, 06 Feb 2013 13:56:54 +0400 UNSECURE!!!Wed, 06 Feb 2013 13:56:54 +0400 {"REQUEST":{"s":"aps","command":"remove"},"PAYLOAD":""}
+Wed, 06 Feb 2013 13:56:56 +0400 UNSECURE!!!Wed, 06 Feb 2013 13:56:56 +0400 {"REQUEST":{"s":"aps","command":"remove"},"PAYLOAD":""}
+Wed, 06 Feb 2013 13:57:00 +0400 UNSECURE!!!Wed, 06 Feb 2013 13:57:00 +0400 {"REQUEST":{"s":"aps","command":"remove"},"PAYLOAD":""}
+Wed, 06 Feb 2013 14:33:21 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"e710466eeb96c5cea3e4d076a73bb9d3b22fb579"},"PAYLOAD":"{\"user_email\":\"zmei123@yandex.ru\"}"}
+Wed, 06 Feb 2013 15:03:18 +0400 UNSECURE!!!Wed, 06 Feb 2013 15:03:18 +0400 {"REQUEST":{"s":"aps","command":"remove"},"PAYLOAD":""}
+Wed, 06 Feb 2013 15:03:22 +0400 UNSECURE!!!Wed, 06 Feb 2013 15:03:22 +0400 {"REQUEST":{"s":"aps","command":"remove"},"PAYLOAD":""}
+Wed, 06 Feb 2013 15:03:26 +0400 UNSECURE!!!Wed, 06 Feb 2013 15:03:26 +0400 {"REQUEST":{"s":"aps","command":"remove"},"PAYLOAD":""}
+Wed, 06 Feb 2013 15:03:42 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"e2039623b21de376b25521f53e04ef53a790a66c"},"PAYLOAD":"{\"user_email\":\"roman@wobot.ru\"}"}
+Wed, 06 Feb 2013 15:03:43 +0400 {"REQUEST":{"s":"aps","command":"registration","Sign":"a4cdaf742db4179efc6dc57f9056218df511191e"},"PAYLOAD":"{\"user_email\":\"roman@wobot.ru\",\"user_pass\":\"test2012\"}"}
+Wed, 06 Feb 2013 15:03:43 +0400 {"REQUEST":{"s":"aps","command":"enable","Sign":"e2039623b21de376b25521f53e04ef53a790a66c"},"PAYLOAD":"{\"user_email\":\"roman@wobot.ru\"}"}
+Wed, 06 Feb 2013 16:30:20 +0400 UNSECURE!!!Wed, 06 Feb 2013 16:30:23 +0400 {"REQUEST":{"s":"aps","command":"remove"},"PAYLOAD":""}
+Wed, 06 Feb 2013 16:30:29 +0400 UNSECURE!!!Wed, 06 Feb 2013 16:30:29 +0400 {"REQUEST":{"s":"aps","command":"remove"},"PAYLOAD":""}
+Wed, 06 Feb 2013 16:30:34 +0400 UNSECURE!!!Wed, 06 Feb 2013 16:30:34 +0400 {"REQUEST":{"s":"aps","command":"remove"},"PAYLOAD":""}
+Wed, 06 Feb 2013 16:31:42 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"e710466eeb96c5cea3e4d076a73bb9d3b22fb579"},"PAYLOAD":"{\"user_email\":\"zmei123@yandex.ru\"}"}
+Wed, 06 Feb 2013 16:33:13 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"e710466eeb96c5cea3e4d076a73bb9d3b22fb579"},"PAYLOAD":"{\"user_email\":\"zmei123@yandex.ru\"}"}
+Wed, 06 Feb 2013 16:51:06 +0400 UNSECURE!!!Wed, 06 Feb 2013 16:51:06 +0400 {"REQUEST":{"s":"aps","command":"remove"},"PAYLOAD":""}
+Wed, 06 Feb 2013 16:51:19 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"e710466eeb96c5cea3e4d076a73bb9d3b22fb579"},"PAYLOAD":"{\"user_email\":\"zmei123@yandex.ru\"}"}
+Wed, 06 Feb 2013 16:51:51 +0400 UNSECURE!!!Wed, 06 Feb 2013 16:51:51 +0400 {"REQUEST":{"s":"aps","command":"remove"},"PAYLOAD":""}
+Wed, 06 Feb 2013 16:52:16 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"e2039623b21de376b25521f53e04ef53a790a66c"},"PAYLOAD":"{\"user_email\":\"roman@wobot.ru\"}"}
+Wed, 06 Feb 2013 16:52:17 +0400 {"REQUEST":{"s":"aps","command":"registration","Sign":"ef1d52568240576d185c1f53f8f6fcab2174e280"},"PAYLOAD":"{\"user_email\":\"roman@wobot.ru\",\"user_pass\":\"guest\"}"}
+Wed, 06 Feb 2013 16:52:17 +0400 {"REQUEST":{"s":"aps","command":"enable","Sign":"e2039623b21de376b25521f53e04ef53a790a66c"},"PAYLOAD":"{\"user_email\":\"roman@wobot.ru\"}"}
+Wed, 06 Feb 2013 16:54:06 +0400 UNSECURE!!!Wed, 06 Feb 2013 16:54:06 +0400 {"REQUEST":{"s":"aps","command":"remove"},"PAYLOAD":""}
+Wed, 06 Feb 2013 17:05:12 +0400 UNSECURE!!!Wed, 06 Feb 2013 17:05:12 +0400 {"REQUEST":{"s":"aps","command":"registration","Sign":"f46556a001f2108adbacdc27e6a76d94fd8c116b"},"PAYLOAD":"{\"user_email\":\"irozet@parallels.com\",\"user_pass\":\"NB28j1C8\"}"}
+Wed, 06 Feb 2013 17:05:12 +0400 UNSECURE!!!Wed, 06 Feb 2013 17:05:12 +0400 {"REQUEST":{"s":"aps","command":"enable","Sign":"ec381c2700664bfc82e269d0e462e2758e310bac"},"PAYLOAD":"{\"user_email\":\"irozet@parallels.com\"}"}
+Wed, 06 Feb 2013 17:05:44 +0400 UNSECURE!!!Wed, 06 Feb 2013 17:05:44 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"ec381c2700664bfc82e269d0e462e2758e310bac"},"PAYLOAD":"{\"user_email\":\"irozet@parallels.com\"}"}
+Wed, 06 Feb 2013 17:05:45 +0400 UNSECURE!!!Wed, 06 Feb 2013 17:05:45 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"ec381c2700664bfc82e269d0e462e2758e310bac"},"PAYLOAD":"{\"user_email\":\"irozet@parallels.com\"}"}
+Wed, 06 Feb 2013 17:54:12 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"c6cf29e7994f10c639c04aa88a3cbc2f9329968b"},"PAYLOAD":"{\"user_email\":\"test@wobot.ru\"}"}
+Wed, 06 Feb 2013 17:54:13 +0400 {"REQUEST":{"s":"aps","command":"registration","Sign":"1608e678a42fe3890f75a607bb6d1e8c1192e5cc"},"PAYLOAD":"{\"user_email\":\"test@wobot.ru\",\"user_pass\":\"guest\"}"}
+Wed, 06 Feb 2013 17:54:13 +0400 {"REQUEST":{"s":"aps","command":"enable","Sign":"c6cf29e7994f10c639c04aa88a3cbc2f9329968b"},"PAYLOAD":"{\"user_email\":\"test@wobot.ru\"}"}
+Wed, 06 Feb 2013 17:55:11 +0400 UNSECURE!!!Wed, 06 Feb 2013 17:55:11 +0400 {"REQUEST":{"s":"aps","command":"remove","user_email":"test@wobot.ru"},"PAYLOAD":""}
+Wed, 06 Feb 2013 17:55:13 +0400 {"REQUEST":{"s":"aps","command":"registration","Sign":"1608e678a42fe3890f75a607bb6d1e8c1192e5cc"},"PAYLOAD":"{\"user_email\":\"test@wobot.ru\",\"user_pass\":\"guest\"}"}
+Wed, 06 Feb 2013 17:55:13 +0400 {"REQUEST":{"s":"aps","command":"enable","Sign":"c6cf29e7994f10c639c04aa88a3cbc2f9329968b"},"PAYLOAD":"{\"user_email\":\"test@wobot.ru\"}"}
+Wed, 06 Feb 2013 18:00:00 +0400 UNSECURE!!!Wed, 06 Feb 2013 18:00:00 +0400 {"REQUEST":{"s":"aps","command":"remove","user_email":"test@wobot.ru"},"PAYLOAD":""}
+Wed, 06 Feb 2013 18:00:01 +0400 {"REQUEST":{"s":"aps","command":"registration","Sign":"1608e678a42fe3890f75a607bb6d1e8c1192e5cc"},"PAYLOAD":"{\"user_email\":\"test@wobot.ru\",\"user_pass\":\"guest\"}"}
+Wed, 06 Feb 2013 18:00:01 +0400 {"REQUEST":{"s":"aps","command":"enable","Sign":"c6cf29e7994f10c639c04aa88a3cbc2f9329968b"},"PAYLOAD":"{\"user_email\":\"test@wobot.ru\"}"}
+Wed, 06 Feb 2013 18:00:11 +0400 UNSECURE!!!Wed, 06 Feb 2013 18:00:11 +0400 {"REQUEST":{"s":"aps","command":"remove","user_email":"test@wobot.ru"},"PAYLOAD":""}
+Wed, 06 Feb 2013 18:12:16 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"5fc23f1e91d6368f89c6a3aec23cb542882dd6af"},"PAYLOAD":"{\"user_email\":\"egordeeva1@parallels.com\"}"}
+Wed, 06 Feb 2013 18:14:22 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"5fc23f1e91d6368f89c6a3aec23cb542882dd6af"},"PAYLOAD":"{\"user_email\":\"egordeeva1@parallels.com\"}"}
+Wed, 06 Feb 2013 18:14:29 +0400 {"REQUEST":{"s":"aps","command":"registration","Sign":"f6748dfe3466ad62b501583614dac792d821738f"},"PAYLOAD":"{\"user_email\":\"egordeeva1@parallels.com\",\"user_pass\":\"0An4iwLm\"}"}
+Wed, 06 Feb 2013 18:14:30 +0400 {"REQUEST":{"s":"aps","command":"enable","Sign":"5fc23f1e91d6368f89c6a3aec23cb542882dd6af"},"PAYLOAD":"{\"user_email\":\"egordeeva1@parallels.com\"}"}
+Wed, 06 Feb 2013 18:17:16 +0400 {"REQUEST":{"s":"aps","command":"registration","Sign":"f6748dfe3466ad62b501583614dac792d821738f"},"PAYLOAD":"{\"user_email\":\"egordeeva1@parallels.com\",\"user_pass\":\"0An4iwLm\"}"}
+Wed, 06 Feb 2013 18:17:16 +0400 {"REQUEST":{"s":"aps","command":"enable","Sign":"5fc23f1e91d6368f89c6a3aec23cb542882dd6af"},"PAYLOAD":"{\"user_email\":\"egordeeva1@parallels.com\"}"}
+Wed, 06 Feb 2013 18:17:50 +0400 {"REQUEST":{"s":"aps","command":"registration","Sign":"f6748dfe3466ad62b501583614dac792d821738f"},"PAYLOAD":"{\"user_email\":\"egordeeva1@parallels.com\",\"user_pass\":\"0An4iwLm\"}"}
+Wed, 06 Feb 2013 18:17:51 +0400 {"REQUEST":{"s":"aps","command":"enable","Sign":"5fc23f1e91d6368f89c6a3aec23cb542882dd6af"},"PAYLOAD":"{\"user_email\":\"egordeeva1@parallels.com\"}"}
+Wed, 06 Feb 2013 18:28:43 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"c6cf29e7994f10c639c04aa88a3cbc2f9329968b"},"PAYLOAD":"{\"user_email\":\"test@wobot.ru\"}"}
+Wed, 06 Feb 2013 18:28:43 +0400 {"REQUEST":{"s":"aps","command":"registration","Sign":"1608e678a42fe3890f75a607bb6d1e8c1192e5cc"},"PAYLOAD":"{\"user_email\":\"test@wobot.ru\",\"user_pass\":\"guest\"}"}
+Wed, 06 Feb 2013 18:28:43 +0400 {"REQUEST":{"s":"aps","command":"enable","Sign":"c6cf29e7994f10c639c04aa88a3cbc2f9329968b"},"PAYLOAD":"{\"user_email\":\"test@wobot.ru\"}"}
+Wed, 06 Feb 2013 18:29:07 +0400 UNSECURE!!!Wed, 06 Feb 2013 18:29:07 +0400 {"REQUEST":{"s":"aps","command":"remove","user_email":"test@wobot.ru"},"PAYLOAD":""}
+Wed, 06 Feb 2013 18:30:44 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"c6cf29e7994f10c639c04aa88a3cbc2f9329968b"},"PAYLOAD":"{\"user_email\":\"test@wobot.ru\"}"}
+Wed, 06 Feb 2013 18:30:45 +0400 {"REQUEST":{"s":"aps","command":"registration","Sign":"1608e678a42fe3890f75a607bb6d1e8c1192e5cc"},"PAYLOAD":"{\"user_email\":\"test@wobot.ru\",\"user_pass\":\"guest\"}"}
+Wed, 06 Feb 2013 18:30:45 +0400 {"REQUEST":{"s":"aps","command":"enable","Sign":"c6cf29e7994f10c639c04aa88a3cbc2f9329968b"},"PAYLOAD":"{\"user_email\":\"test@wobot.ru\"}"}
+Wed, 06 Feb 2013 18:30:51 +0400 UNSECURE!!!Wed, 06 Feb 2013 18:30:51 +0400 {"REQUEST":{"s":"aps","command":"remove","user_email":"test@wobot.ru"},"PAYLOAD":""}
+Wed, 06 Feb 2013 18:33:02 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"c6cf29e7994f10c639c04aa88a3cbc2f9329968b"},"PAYLOAD":"{\"user_email\":\"test@wobot.ru\"}"}
+Wed, 06 Feb 2013 18:34:26 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"c6cf29e7994f10c639c04aa88a3cbc2f9329968b"},"PAYLOAD":"{\"user_email\":\"test@wobot.ru\"}"}
+Wed, 06 Feb 2013 18:34:37 +0400 UNSECURE!!!Wed, 06 Feb 2013 18:34:37 +0400 {"REQUEST":{"s":"aps","command":"remove","user_email":"test@wobot.ru"},"PAYLOAD":""}
+Wed, 06 Feb 2013 18:34:57 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"c6cf29e7994f10c639c04aa88a3cbc2f9329968b"},"PAYLOAD":"{\"user_email\":\"test@wobot.ru\"}"}
+Wed, 06 Feb 2013 18:34:58 +0400 {"REQUEST":{"s":"aps","command":"registration","Sign":"1608e678a42fe3890f75a607bb6d1e8c1192e5cc"},"PAYLOAD":"{\"user_email\":\"test@wobot.ru\",\"user_pass\":\"guest\"}"}
+Wed, 06 Feb 2013 18:34:58 +0400 {"REQUEST":{"s":"aps","command":"enable","Sign":"c6cf29e7994f10c639c04aa88a3cbc2f9329968b"},"PAYLOAD":"{\"user_email\":\"test@wobot.ru\"}"}
+Wed, 06 Feb 2013 18:35:57 +0400 UNSECURE!!!Wed, 06 Feb 2013 18:35:57 +0400 {"REQUEST":{"s":"aps","command":"remove","user_email":"test@wobot.ru"},"PAYLOAD":""}
+Wed, 06 Feb 2013 18:36:32 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"0fbb72f48741e4365c3da7b0b62c200a630d3c26"},"PAYLOAD":"{\"user_email\":\"test@wobot.co\"}"}
+Wed, 06 Feb 2013 18:36:39 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"5fc23f1e91d6368f89c6a3aec23cb542882dd6af"},"PAYLOAD":"{\"user_email\":\"egordeeva1@parallels.com\"}"}
+Wed, 06 Feb 2013 18:39:31 +0400 UNSECURE!!!Wed, 06 Feb 2013 18:39:31 +0400 {"REQUEST":{"s":"aps","command":"remove","user_email":"test@wobot.co"},"PAYLOAD":""}
+Wed, 06 Feb 2013 18:39:42 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"c6cf29e7994f10c639c04aa88a3cbc2f9329968b"},"PAYLOAD":"{\"user_email\":\"test@wobot.ru\"}"}
+Wed, 06 Feb 2013 18:39:44 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"5fc23f1e91d6368f89c6a3aec23cb542882dd6af"},"PAYLOAD":"{\"user_email\":\"egordeeva1@parallels.com\"}"}
+Wed, 06 Feb 2013 18:39:55 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"5fc23f1e91d6368f89c6a3aec23cb542882dd6af"},"PAYLOAD":"{\"user_email\":\"egordeeva1@parallels.com\"}"}
+Wed, 06 Feb 2013 18:41:01 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"08e839f8e46c07f64145036ceb39fa7f563d3a00"},"PAYLOAD":"{\"user_email\":\"egordeeva2@parallels.com\"}"}
+Wed, 06 Feb 2013 18:41:09 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"08e839f8e46c07f64145036ceb39fa7f563d3a00"},"PAYLOAD":"{\"user_email\":\"egordeeva2@parallels.com\"}"}
+Wed, 06 Feb 2013 18:41:27 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"08e839f8e46c07f64145036ceb39fa7f563d3a00"},"PAYLOAD":"{\"user_email\":\"egordeeva2@parallels.com\"}"}
+Wed, 06 Feb 2013 18:41:36 +0400 UNSECURE!!!Wed, 06 Feb 2013 18:41:36 +0400 {"REQUEST":{"s":"aps","command":"remove","user_email":"test@wobot.ru"},"PAYLOAD":""}
+Wed, 06 Feb 2013 18:42:09 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"c6cf29e7994f10c639c04aa88a3cbc2f9329968b"},"PAYLOAD":"{\"user_email\":\"test@wobot.ru\"}"}
+Wed, 06 Feb 2013 18:44:18 +0400 UNSECURE!!!Wed, 06 Feb 2013 18:44:18 +0400 {"REQUEST":{"s":"aps","command":"remove","user_email":"test@wobot.ru"},"PAYLOAD":""}
+Wed, 06 Feb 2013 18:44:28 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"c6cf29e7994f10c639c04aa88a3cbc2f9329968b"},"PAYLOAD":"{\"user_email\":\"test@wobot.ru\"}"}
+Wed, 06 Feb 2013 18:44:28 +0400 {"REQUEST":{"s":"aps","command":"registration","Sign":"1608e678a42fe3890f75a607bb6d1e8c1192e5cc"},"PAYLOAD":"{\"user_email\":\"test@wobot.ru\",\"user_pass\":\"guest\"}"}
+Wed, 06 Feb 2013 18:44:28 +0400 {"REQUEST":{"s":"aps","command":"enable","Sign":"c6cf29e7994f10c639c04aa88a3cbc2f9329968b"},"PAYLOAD":"{\"user_email\":\"test@wobot.ru\"}"}
+Wed, 06 Feb 2013 18:45:22 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"c6cf29e7994f10c639c04aa88a3cbc2f9329968b"},"PAYLOAD":"{\"user_email\":\"test@wobot.ru\"}"}
+Wed, 06 Feb 2013 18:49:35 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"cc1a4a51985655aafe579fad2b76de5830cb8a1e"},"PAYLOAD":"{\"user_email\":\"test1@wobot.ru\"}"}
+Wed, 06 Feb 2013 18:49:36 +0400 {"REQUEST":{"s":"aps","command":"registration","Sign":"933694d31a0cbd69f713208f69ce6415a5f7edd0"},"PAYLOAD":"{\"user_email\":\"test1@wobot.ru\",\"user_pass\":\"guest\"}"}
+Wed, 06 Feb 2013 18:49:36 +0400 {"REQUEST":{"s":"aps","command":"enable","Sign":"cc1a4a51985655aafe579fad2b76de5830cb8a1e"},"PAYLOAD":"{\"user_email\":\"test1@wobot.ru\"}"}
+Wed, 06 Feb 2013 18:49:47 +0400 UNSECURE!!!Wed, 06 Feb 2013 18:49:47 +0400 {"REQUEST":{"s":"aps","command":"remove","user_email":"test1@wobot.ru"},"PAYLOAD":""}
+Wed, 06 Feb 2013 18:50:09 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"cc1a4a51985655aafe579fad2b76de5830cb8a1e"},"PAYLOAD":"{\"user_email\":\"test1@wobot.ru\"}"}
+Wed, 06 Feb 2013 18:50:09 +0400 {"REQUEST":{"s":"aps","command":"registration","Sign":"933694d31a0cbd69f713208f69ce6415a5f7edd0"},"PAYLOAD":"{\"user_email\":\"test1@wobot.ru\",\"user_pass\":\"guest\"}"}
+Wed, 06 Feb 2013 18:50:09 +0400 {"REQUEST":{"s":"aps","command":"enable","Sign":"cc1a4a51985655aafe579fad2b76de5830cb8a1e"},"PAYLOAD":"{\"user_email\":\"test1@wobot.ru\"}"}
+Wed, 06 Feb 2013 18:50:26 +0400 UNSECURE!!!Wed, 06 Feb 2013 18:50:30 +0400 {"REQUEST":{"s":"aps","command":"remove","user_email":"test1@wobot.ru"},"PAYLOAD":""}
+Wed, 06 Feb 2013 18:50:34 +0400 UNSECURE!!!Wed, 06 Feb 2013 18:50:34 +0400 {"REQUEST":{"s":"aps","command":"remove","user_email":"test@wobot.ru"},"PAYLOAD":""}
+Wed, 06 Feb 2013 18:50:49 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"cc1a4a51985655aafe579fad2b76de5830cb8a1e"},"PAYLOAD":"{\"user_email\":\"test1@wobot.ru\"}"}
+Wed, 06 Feb 2013 18:50:57 +0400 UNSECURE!!!Wed, 06 Feb 2013 18:50:57 +0400 {"REQUEST":{"s":"aps","command":"remove","user_email":"test1@wobot.ru"},"PAYLOAD":""}
+Wed, 06 Feb 2013 18:55:17 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"c6cf29e7994f10c639c04aa88a3cbc2f9329968b"},"PAYLOAD":"{\"user_email\":\"test@wobot.ru\"}"}
+Wed, 06 Feb 2013 18:55:59 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"fb928792cb719ed20f2593016d5c156563663d53"},"PAYLOAD":"{\"user_email\":\"test2@wobot.ru\"}"}
+Wed, 06 Feb 2013 18:56:17 +0400 UNSECURE!!!Wed, 06 Feb 2013 18:56:17 +0400 {"REQUEST":{"s":"aps","command":"remove","user_email":"test2@wobot.ru"},"PAYLOAD":""}
+Wed, 06 Feb 2013 18:56:20 +0400 UNSECURE!!!Wed, 06 Feb 2013 18:56:20 +0400 {"REQUEST":{"s":"aps","command":"remove","user_email":"test@wobot.ru"},"PAYLOAD":""}
+Wed, 06 Feb 2013 19:04:46 +0400 UNSECURE!!!Wed, 06 Feb 2013 19:04:46 +0400 {"REQUEST":{"s":"aps","command":"registration","Sign":"fbe7dc9685d7b46590e8108e2429b6baa0bdcffa"},"PAYLOAD":"{\"user_email\":\"irozet@parallels.com\",\"user_pass\":\"BP9i52Pg\"}"}
+Wed, 06 Feb 2013 19:04:46 +0400 UNSECURE!!!Wed, 06 Feb 2013 19:04:47 +0400 {"REQUEST":{"s":"aps","command":"enable","Sign":"ec381c2700664bfc82e269d0e462e2758e310bac"},"PAYLOAD":"{\"user_email\":\"irozet@parallels.com\"}"}
+Wed, 06 Feb 2013 19:05:16 +0400 UNSECURE!!!Wed, 06 Feb 2013 19:05:16 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"ec381c2700664bfc82e269d0e462e2758e310bac"},"PAYLOAD":"{\"user_email\":\"irozet@parallels.com\"}"}
+Wed, 06 Feb 2013 19:05:18 +0400 UNSECURE!!!Wed, 06 Feb 2013 19:05:18 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"ec381c2700664bfc82e269d0e462e2758e310bac"},"PAYLOAD":"{\"user_email\":\"irozet@parallels.com\"}"}
+Wed, 06 Feb 2013 20:47:32 +0400 UNSECURE!!!Wed, 06 Feb 2013 20:47:32 +0400 {"REQUEST":{"s":"aps","command":"registration","Sign":"e1cfaebf8f9ea570082a5526ceb0ef74e3215cce"},"PAYLOAD":"{\"user_email\":\"irozet@parallels.com\",\"user_pass\":\"NOguTCOm\"}"}
+Wed, 06 Feb 2013 20:47:32 +0400 UNSECURE!!!Wed, 06 Feb 2013 20:47:32 +0400 {"REQUEST":{"s":"aps","command":"enable","Sign":"ec381c2700664bfc82e269d0e462e2758e310bac"},"PAYLOAD":"{\"user_email\":\"irozet@parallels.com\"}"}
+Wed, 06 Feb 2013 20:48:05 +0400 UNSECURE!!!Wed, 06 Feb 2013 20:48:05 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"ec381c2700664bfc82e269d0e462e2758e310bac"},"PAYLOAD":"{\"user_email\":\"irozet@parallels.com\"}"}
+Wed, 06 Feb 2013 20:48:06 +0400 UNSECURE!!!Wed, 06 Feb 2013 20:48:06 +0400 {"REQUEST":{"s":"aps","command":"loginvalidator","Sign":"ec381c2700664bfc82e269d0e462e2758e310bac"},"PAYLOAD":"{\"user_email\":\"irozet@parallels.com\"}"}

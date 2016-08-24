@@ -1,0 +1,5 @@
+logs/*
+pids/*
+skeleton/*
+fsearch3/log_elastic.txt
+fsearch3/apache.log
