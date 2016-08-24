@@ -1,0 +1,248 @@
+/*@media (max-width: 979px){
+    .main_container{
+        margin-top: 50px;
+    }
+    .inner-tab-container{
+       /* padding: 10px 0px  !important;*/
+    /*}
+    .span12{
+        margin-left: 0 !important;
+    }
+    .container{
+        margin: 0;
+    }
+    .body{
+        padding: 0 !important;
+    }
+}*/
+/*@media (max-width: 769px){
+    body {
+    padding-right: 0px;
+    padding-left: 0px;
+    }
+    .container{
+        margin: 0;
+    }
+}*/
+.edit_keywords{
+    width: 500px;
+}
+
+@media only screen and (device-width: 1024px) {
+[class*="span"]{
+    margin-left: 0px !important;
+}
+  body {
+    padding-right: 0px;
+    padding-left: 0px;
+    }
+    .container{
+        margin: 50px 0 0 0;
+    }
+    .span12{
+        /*margin-left: 0 !important;*/
+        margin-top: 30px;
+    }
+    .main_container{
+        margin-top: 50px;
+    }
+
+}
+
+@media only screen and (device-width: 768px) {
+[class*="span"]{
+    margin-left: 0px !important;
+}
+  body {
+    padding-right: 0px;
+    padding-left: 0px;
+    }
+    .container{
+        margin: 50px 0 0 0;
+    }
+    .span12{
+        /*margin-left: 0 !important;*/
+        margin-top: 30px;
+    }
+    .main_container{
+        margin-top: 30px;
+    }
+    #user_list{
+        /*width: 768px;*/
+        width: 70%;
+    }
+    #mod_user  .inner-tab-container{
+        margin-left: 40px;
+    }
+    .row{
+        margin-left: 0px;
+    }
+    .big_table{
+        width: 768px;
+
+    }
+    .big_table td{
+        padding: 0px !important;
+    }
+    .edit_keywords{
+        width: 320px;
+    }
+    .email_cut{
+        width: 56px;
+        overflow-x:hidden!important;
+        position:relative;
+        top: 0;
+        left: 0;
+    }
+}
+/*@media (max-width: 767px) {
+    .main_container{
+        margin-top: 30px;
+    }
+    .inner-tab-container{
+        /*padding: 10px 0px !important;*/
+    /*}
+    .span12{
+        margin-left: 0 !important;
+    }
+    .container{
+        margin: 0;
+    }
+    .body{
+        padding: 0 !important;
+    }
+}*/
+
+.main_tabs{
+    margin-bottom: 0;
+}
+.main_tabs li{
+    height: 57px;
+    text-align: center;
+    width: 120px;
+}
+.main_tabs > li > a:hover{
+    height: 39px;
+    text-align: center;
+    width: 96px;
+}
+.main_tabs > .active > a{
+    height: 39px;
+    text-align: center;
+    width: 96px;
+}
+.main_tabs > li > a:focus{
+    outline: none;
+}
+
+.main_tabs_ord{
+    margin-bottom: 0;
+}
+.main_tabs_ord li{
+    height: 57px;
+    text-align: center;
+    width: 128px;
+}
+.main_tabs_ord > li > a:hover{
+    height: 39px;
+    text-align: center;
+    width: 104px;
+}
+.main_tabs_ord > .active > a{
+    height: 39px;
+    text-align: center;
+    width: 104px;
+}
+.main_tabs_ord > li > a:focus{
+    outline: none;
+}
+
+.inner-tab-container{
+    margin-top: 0;
+    padding:10px 20px;
+    border-right: 1px solid #DDD;
+    border-left: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+}
+.alfabet_cont{
+    margin-top: 0;
+    padding:10px 20px;
+    border-right: 1px solid #DDD;
+    border-left: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    position: relative;
+}
+.alfabet_cont table{
+    width: 80%;
+}
+#alf_tabs{
+    margin-bottom: 0;
+}
+#alf_tabs > li > a{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+#debug_textarea{
+    border: 1px solid #ddd;
+    /*margin-left: 19px;
+    width: inherit;*/
+}
+.add_res tbody tr td{
+    padding: 2px 0px;
+}
+.dark_head td{
+    background-color: #DCE3E9 !important;
+}
+.big_table{
+    margin-left: -20px;
+}
+.big_table > tbody > tr > td > select{
+    width: auto;
+}
+.big_table > tbody > tr > td {
+    vertical-align: middle;
+    text-align: center;
+}
+.centred_icons > tbody > tr > td > i {
+    vertical-align: middle;
+    margin: 0 16px;
+}
+#user_list{
+    width: 100%;
+}
+#user_list tr{
+    font-size: 12px;
+}
+#user_list tr td {
+   /* width: 30px;*/
+    padding: 8px 2px;
+}
+#user_list i{
+    margin: 0 3px;
+}
+.email_cut{
+    width: 136px;
+    overflow-x:hidden!important;
+    position: relative;
+}
+.client-list-controls{
+    /*float: left;*/
+    width: 600px;
+    line-height: 45px;
+}
+.tariffs_dropdown{
+    /*display: inline-block;
+    position: absolute;*/
+    display: none;
+}
+.tariff_control{
+    /*display: none;*/
+    width: 250px;
+    /*float: left;*/
+    background-color: white;
+    position: absolute;
+    top: 16px;
+    left: 600px;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+}

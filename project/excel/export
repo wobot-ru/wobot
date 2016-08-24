@@ -1,0 +1,3 @@
+#!/bin/sh
+iconv -f utf-8 -t windows-1251 export.pl > export2.pl
+perl export2.pl

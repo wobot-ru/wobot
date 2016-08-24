@@ -1,0 +1,80 @@
+success: []
+
+success: {"inv_id":"840","InvId":"840","out_summ":"4983.000000","OutSum":"4983.000000","crc":"317355904f5bd11c32b9ae01ed894b27","SignatureValue":"317355904f5bd11c32b9ae01ed894b27","Culture":"ru","Shp_item":"1200"}
+
+success: {"inv_id":"845","InvId":"845","out_summ":"1490.000000","OutSum":"1490.000000","crc":"1ba2a5a65f7668869370b1a2d0baf1d2","SignatureValue":"1ba2a5a65f7668869370b1a2d0baf1d2","Culture":"ru","Shp_item":"3801"}
+
+success: {"inv_id":"849","InvId":"849","out_summ":"4983.000000","OutSum":"4983.000000","crc":"9661edbebc1e9cf75cdc0bd9145388ff","SignatureValue":"9661edbebc1e9cf75cdc0bd9145388ff","Culture":"ru","Shp_item":"3556"}
+
+success: []
+
+success: {"inv_id":"854","InvId":"854","out_summ":"1490.000000","OutSum":"1490.000000","crc":"8a932391671bcc2f81f98dcd62b9e08d","SignatureValue":"8a932391671bcc2f81f98dcd62b9e08d","Culture":"ru","Shp_item":"4011"}
+
+success: {"inv_id":"856","InvId":"856","out_summ":"1490.000000","OutSum":"1490.000000","crc":"e7571f376de8b96d718a768c8cc98b1d","SignatureValue":"e7571f376de8b96d718a768c8cc98b1d","Culture":"ru","Shp_item":"4023"}
+
+success: {"inv_id":"861","InvId":"861","out_summ":"4983.000000","OutSum":"4983.000000","crc":"cfc38edc82bcf94be92d485a6cea0f20","SignatureValue":"cfc38edc82bcf94be92d485a6cea0f20","Culture":"ru","Shp_item":"4026"}
+
+success: {"inv_id":"863","InvId":"863","out_summ":"1490.000000","OutSum":"1490.000000","crc":"242caeecb5e1525611dcc98c663f4c28","SignatureValue":"242caeecb5e1525611dcc98c663f4c28","Culture":"ru","Shp_item":"3810"}
+
+success: {"inv_id":"871","InvId":"871","out_summ":"8940.000000","OutSum":"8940.000000","crc":"a8550a0d05616e99612c16c1c0d84bc9","SignatureValue":"a8550a0d05616e99612c16c1c0d84bc9","Culture":"ru","Shp_item":"3227"}
+
+success: {"inv_id":"871","InvId":"871","out_summ":"8940.000000","OutSum":"8940.000000","crc":"a8550a0d05616e99612c16c1c0d84bc9","SignatureValue":"a8550a0d05616e99612c16c1c0d84bc9","Culture":"ru","Shp_item":"3227"}
+
+success: {"inv_id":"874","InvId":"874","out_summ":"1490.000000","OutSum":"1490.000000","crc":"a8d7a41493b900f5516b9f9d03953cd2","SignatureValue":"a8d7a41493b900f5516b9f9d03953cd2","Culture":"ru","Shp_item":"3890"}
+
+success: {"inv_id":"876","InvId":"876","out_summ":"4470.000000","OutSum":"4470.000000","crc":"6b52dc04b150e084827f12fa064ba846","SignatureValue":"6b52dc04b150e084827f12fa064ba846","Culture":"ru","Shp_item":"3810"}
+
+success: {"inv_id":"876","InvId":"876","out_summ":"4470.000000","OutSum":"4470.000000","crc":"6b52dc04b150e084827f12fa064ba846","SignatureValue":"6b52dc04b150e084827f12fa064ba846","Culture":"ru","Shp_item":"3810"}
+
+success: {"inv_id":"879","InvId":"879","out_summ":"4470.000000","OutSum":"4470.000000","crc":"bf07bcb7bbe29e6c5911be6d52137e72","SignatureValue":"bf07bcb7bbe29e6c5911be6d52137e72","Culture":"ru","Shp_item":"3810"}
+
+success: {"inv_id":"883","InvId":"883","out_summ":"1490.000000","OutSum":"1490.000000","crc":"b81c00c2769634df1d7bf5cc503ce506","SignatureValue":"b81c00c2769634df1d7bf5cc503ce506","Culture":"ru","Shp_item":"3852"}
+
+success: {"inv_id":"886","InvId":"886","out_summ":"1490.000000","OutSum":"1490.000000","crc":"62aca8c4c3a7bee1253de29270c8aaec","SignatureValue":"62aca8c4c3a7bee1253de29270c8aaec","Culture":"ru","Shp_item":"3801"}
+
+success: {"inv_id":"888","InvId":"888","out_summ":"4983.000000","OutSum":"4983.000000","crc":"e1af36973b045cea1c7663007b61343b","SignatureValue":"e1af36973b045cea1c7663007b61343b","Culture":"ru","Shp_item":"3879"}
+
+success: {"inv_id":"888","InvId":"888","out_summ":"4983.000000","OutSum":"4983.000000","crc":"e1af36973b045cea1c7663007b61343b","SignatureValue":"e1af36973b045cea1c7663007b61343b","Culture":"ru","Shp_item":"3879"}
+
+success: {"inv_id":"890","InvId":"890","out_summ":"4983.000000","OutSum":"4983.000000","crc":"3b7aaa1667e9fb7a098b06c1aecc6b93","SignatureValue":"3b7aaa1667e9fb7a098b06c1aecc6b93","Culture":"ru","Shp_item":"4080"}
+
+success: {"inv_id":"892","InvId":"892","out_summ":"4000.000000","OutSum":"4000.000000","crc":"56dd6420493826a6cfa575d8594e7ac6","SignatureValue":"56dd6420493826a6cfa575d8594e7ac6","Culture":"ru","Shp_item":"1564"}
+
+success: {"inv_id":"879","InvId":"879","out_summ":"4470.000000","OutSum":"4470.000000","crc":"bf07bcb7bbe29e6c5911be6d52137e72","SignatureValue":"bf07bcb7bbe29e6c5911be6d52137e72","Culture":"ru","Shp_item":"3810"}
+
+success: {"inv_id":"876","InvId":"876","out_summ":"4470.000000","OutSum":"4470.000000","crc":"6b52dc04b150e084827f12fa064ba846","SignatureValue":"6b52dc04b150e084827f12fa064ba846","Culture":"ru","Shp_item":"3810"}
+
+success: {"inv_id":"898","InvId":"898","out_summ":"1.000000","OutSum":"1.000000","crc":"8d734177811bc44e05be7db5bd9d0934","SignatureValue":"8d734177811bc44e05be7db5bd9d0934","Culture":"ru","Shp_item":"4034"}
+
+success: {"inv_id":"900","InvId":"900","out_summ":"4983.000000","OutSum":"4983.000000","crc":"bda3ce477feed014bdd6c6fce85fa519","SignatureValue":"bda3ce477feed014bdd6c6fce85fa519","Culture":"ru","Shp_item":"3556"}
+
+success: []
+
+success: {"inv_id":"912","InvId":"912","out_summ":"4983.000000","OutSum":"4983.000000","crc":"07a043d0e7522ab5eee84fd0c52617fc","SignatureValue":"07a043d0e7522ab5eee84fd0c52617fc","Culture":"ru","Shp_item":"4067"}
+
+success: {"inv_id":"912","InvId":"912","out_summ":"4983.000000","OutSum":"4983.000000","crc":"07a043d0e7522ab5eee84fd0c52617fc","SignatureValue":"07a043d0e7522ab5eee84fd0c52617fc","Culture":"ru","Shp_item":"4067"}
+
+success: {"inv_id":"912","InvId":"912","out_summ":"4983.000000","OutSum":"4983.000000","crc":"07a043d0e7522ab5eee84fd0c52617fc","SignatureValue":"07a043d0e7522ab5eee84fd0c52617fc","Culture":"ru","Shp_item":"4067"}
+
+success: {"inv_id":"914","InvId":"914","out_summ":"1490.000000","OutSum":"1490.000000","crc":"33a2675df14a7c77b8554ada7c382ce9","SignatureValue":"33a2675df14a7c77b8554ada7c382ce9","Culture":"ru","Shp_item":"3531"}
+
+success: {"inv_id":"914","InvId":"914","out_summ":"1490.000000","OutSum":"1490.000000","crc":"33a2675df14a7c77b8554ada7c382ce9","SignatureValue":"33a2675df14a7c77b8554ada7c382ce9","Culture":"ru","Shp_item":"3531"}
+
+success: {"inv_id":"917","InvId":"917","out_summ":"131580.000000","OutSum":"131580.000000","crc":"024f183f283ef55ef3a8ba39edab50ac","SignatureValue":"024f183f283ef55ef3a8ba39edab50ac","Culture":"ru","Shp_item":"3706"}
+
+success: {"inv_id":"917","InvId":"917","out_summ":"131580.000000","OutSum":"131580.000000","crc":"024f183f283ef55ef3a8ba39edab50ac","SignatureValue":"024f183f283ef55ef3a8ba39edab50ac","Culture":"ru","Shp_item":"3706"}
+
+success: {"inv_id":"919","InvId":"919","out_summ":"1490.000000","OutSum":"1490.000000","crc":"537005c9f94bda0ed8cf975ffdb7a272","SignatureValue":"537005c9f94bda0ed8cf975ffdb7a272","Culture":"ru","Shp_item":"3106"}
+
+success: {"inv_id":"922","InvId":"922","out_summ":"1490.000000","OutSum":"1490.000000","crc":"d12751ee563060ee14aa106e36738cb8","SignatureValue":"d12751ee563060ee14aa106e36738cb8","Culture":"ru","Shp_item":"1603"}
+
+success: {"inv_id":"924","InvId":"924","out_summ":"15198.000000","OutSum":"15198.000000","crc":"5541cc06458bdf4415884e7c77a314e1","SignatureValue":"5541cc06458bdf4415884e7c77a314e1","Culture":"ru","Shp_item":"4030"}
+
+success: {"inv_id":"924","InvId":"924","out_summ":"15198.000000","OutSum":"15198.000000","crc":"5541cc06458bdf4415884e7c77a314e1","SignatureValue":"5541cc06458bdf4415884e7c77a314e1","Culture":"ru","Shp_item":"4030"}
+
+success: {"inv_id":"929","InvId":"929","out_summ":"1490.000000","OutSum":"1490.000000","crc":"fb68c8af690668c1fce64707d84713e3","SignatureValue":"fb68c8af690668c1fce64707d84713e3","Culture":"ru","Shp_item":"3890"}
+
+success: {"inv_id":"929","InvId":"929","out_summ":"1490.000000","OutSum":"1490.000000","crc":"fb68c8af690668c1fce64707d84713e3","SignatureValue":"fb68c8af690668c1fce64707d84713e3","Culture":"ru","Shp_item":"3890"}
+
+success: {"inv_id":"931","InvId":"931","out_summ":"4983.000000","OutSum":"4983.000000","crc":"4b9c104f9f7a738e77c414e033477b02","SignatureValue":"4b9c104f9f7a738e77c414e033477b02","Culture":"ru","Shp_item":"3879"}
+

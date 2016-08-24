@@ -1,0 +1,182 @@
+result: []
+
+success: []
+
+fail:[]
+
+result: {"out_summ":"1.000000","OutSum":"1.000000","inv_id":"439","InvId":"439","crc":"D9E4E01F8CD735379BB447C24B843381","SignatureValue":"D9E4E01F8CD735379BB447C24B843381","PaymentMethod":"Qiwi","IncSum":"1.000000","IncCurrLabel":"QiwiR","Shp_item":"1"}
+
+success: {"inv_id":"439","InvId":"439","out_summ":"1.000000","OutSum":"1.000000","crc":"eb0c6ac7faf3ab1779b3e08482a5e303","SignatureValue":"eb0c6ac7faf3ab1779b3e08482a5e303","Culture":"ru","Shp_item":"1"}
+
+result: {"out_summ":"8000.000000","OutSum":"8000.000000","inv_id":"452","InvId":"452","crc":"A0FBC139B7E8EC869DE3D24BDF9452A8","SignatureValue":"A0FBC139B7E8EC869DE3D24BDF9452A8","PaymentMethod":"EMoney","IncSum":"7936.000000","IncCurrLabel":"WMRM","Shp_item":"1200"}
+
+success: {"inv_id":"452","InvId":"452","out_summ":"8000.000000","OutSum":"8000.000000","crc":"546298a06d89a4a9225814af66c6d84a","SignatureValue":"546298a06d89a4a9225814af66c6d84a","Culture":"ru","Shp_item":"1200"}
+
+result: {"out_summ":"4000.000000","OutSum":"4000.000000","inv_id":"469","InvId":"469","crc":"B04188309F487D7699B8A8B567C26922","SignatureValue":"B04188309F487D7699B8A8B567C26922","PaymentMethod":"eBank","IncSum":"4000.000000","IncCurrLabel":"AlfaBankOceanR","Shp_item":"1564"}
+
+success: {"inv_id":"469","InvId":"469","out_summ":"4000.000000","OutSum":"4000.000000","crc":"32fb6b809b50d1f51484bd97df237d5f","SignatureValue":"32fb6b809b50d1f51484bd97df237d5f","Culture":"ru","Shp_item":"1564"}
+
+result: {"out_summ":"4000.000000","OutSum":"4000.000000","inv_id":"474","InvId":"474","crc":"1473C135083F9EF9776E520133EE4734","SignatureValue":"1473C135083F9EF9776E520133EE4734","PaymentMethod":"OceanBank","IncSum":"4000.000000","IncCurrLabel":"BANKOCEAN2R","Shp_item":"1603"}
+
+success: {"inv_id":"474","InvId":"474","out_summ":"4000.000000","OutSum":"4000.000000","crc":"0b9c6ef12fca49988167c7c808682ec8","SignatureValue":"0b9c6ef12fca49988167c7c808682ec8","Culture":"ru","Shp_item":"1603"}
+
+success: {"inv_id":"474","InvId":"474","out_summ":"4000.000000","OutSum":"4000.000000","crc":"0b9c6ef12fca49988167c7c808682ec8","SignatureValue":"0b9c6ef12fca49988167c7c808682ec8","Culture":"ru","Shp_item":"1603"}
+
+result: {"out_summ":"4000.000000","OutSum":"4000.000000","inv_id":"479","InvId":"479","crc":"566829DDDC67C600BCCF5E9F0A4ADD16","SignatureValue":"566829DDDC67C600BCCF5E9F0A4ADD16","PaymentMethod":"OceanBank","IncSum":"4000.000000","IncCurrLabel":"BANKOCEAN2R","Shp_item":"319"}
+
+result: {"out_summ":"1400.000000","OutSum":"1400.000000","inv_id":"486","InvId":"486","crc":"AAFBB130934A2C65F7FDDFDD406BB8C8","SignatureValue":"AAFBB130934A2C65F7FDDFDD406BB8C8","PaymentMethod":"EMoney","IncSum":"47.080000","IncCurrLabel":"WMZM","Shp_item":"1691"}
+
+success: {"inv_id":"486","InvId":"486","out_summ":"1400.000000","OutSum":"1400.000000","crc":"5ea87bef20a519c3055e44fc2fa19027","SignatureValue":"5ea87bef20a519c3055e44fc2fa19027","Culture":"ru","Shp_item":"1691"}
+
+result: {"out_summ":"1400.000000","OutSum":"1400.000000","inv_id":"489","InvId":"489","crc":"05F88C3CF8BF68E2AA4CEC24232C7D52","SignatureValue":"05F88C3CF8BF68E2AA4CEC24232C7D52","PaymentMethod":"EMoney","IncSum":"1400.000000","IncCurrLabel":"WMRM","Shp_item":"1625"}
+
+success: {"inv_id":"489","InvId":"489","out_summ":"1400.000000","OutSum":"1400.000000","crc":"8e0e49028bd304e4298e21f303f85a93","SignatureValue":"8e0e49028bd304e4298e21f303f85a93","Culture":"ru","Shp_item":"1625"}
+
+result: {"out_summ":"4000.000000","OutSum":"4000.000000","inv_id":"494","InvId":"494","crc":"205BC28E2CED411B8D3FEA528B9F04FB","SignatureValue":"205BC28E2CED411B8D3FEA528B9F04FB","PaymentMethod":"EMoney","IncSum":"4000.000000","IncCurrLabel":"YandexMerchantOceanR","Shp_item":"1564"}
+
+success: {"inv_id":"494","InvId":"494","out_summ":"4000.000000","OutSum":"4000.000000","crc":"79999837405dc842847248e401316871","SignatureValue":"79999837405dc842847248e401316871","Culture":"ru","Shp_item":"1564"}
+
+success: []
+
+result: {"out_summ":"4000.000000","OutSum":"4000.000000","inv_id":"496","InvId":"496","crc":"EE00DEB5ACF80DA74B696A7A1DBF3EA1","SignatureValue":"EE00DEB5ACF80DA74B696A7A1DBF3EA1","PaymentMethod":"OceanBank","IncSum":"4000.000000","IncCurrLabel":"BANKOCEAN2R","Shp_item":"1200"}
+
+success: {"inv_id":"496","InvId":"496","out_summ":"4000.000000","OutSum":"4000.000000","crc":"029dcd420ec204a52440148a39cb8307","SignatureValue":"029dcd420ec204a52440148a39cb8307","Culture":"ru","Shp_item":"1200"}
+
+success: {"inv_id":"496","InvId":"496","out_summ":"4000.000000","OutSum":"4000.000000","crc":"029dcd420ec204a52440148a39cb8307","SignatureValue":"029dcd420ec204a52440148a39cb8307","Culture":"ru","Shp_item":"1200"}
+
+success: {"inv_id":"496","InvId":"496","out_summ":"4000.000000","OutSum":"4000.000000","crc":"029dcd420ec204a52440148a39cb8307","SignatureValue":"029dcd420ec204a52440148a39cb8307","Culture":"ru","Shp_item":"1200"}
+
+success: {"inv_id":"496","InvId":"496","out_summ":"4000.000000","OutSum":"4000.000000","crc":"029dcd420ec204a52440148a39cb8307","SignatureValue":"029dcd420ec204a52440148a39cb8307","Culture":"ru","Shp_item":"1200"}
+
+success: {"inv_id":"496","InvId":"496","out_summ":"4000.000000","OutSum":"4000.000000","crc":"029dcd420ec204a52440148a39cb8307","SignatureValue":"029dcd420ec204a52440148a39cb8307","Culture":"ru","Shp_item":"1200"}
+
+success: {"inv_id":"496","InvId":"496","out_summ":"4000.000000","OutSum":"4000.000000","crc":"029dcd420ec204a52440148a39cb8307","SignatureValue":"029dcd420ec204a52440148a39cb8307","Culture":"ru","Shp_item":"1200"}
+
+success: {"inv_id":"496","InvId":"496","out_summ":"4000.000000","OutSum":"4000.000000","crc":"029dcd420ec204a52440148a39cb8307","SignatureValue":"029dcd420ec204a52440148a39cb8307","Culture":"ru","Shp_item":"1200"}
+
+success: []
+
+result: {"out_summ":"12900.000000","OutSum":"12900.000000","inv_id":"497","InvId":"497","crc":"4F5C023D7E574CC94C3B26E9719C7FF2","SignatureValue":"4F5C023D7E574CC94C3B26E9719C7FF2","PaymentMethod":"eBank","IncSum":"12900.000000","IncCurrLabel":"AlfaBankOceanR","Shp_item":"1909"}
+
+success: {"inv_id":"497","InvId":"497","out_summ":"12900.000000","OutSum":"12900.000000","crc":"a3b28e86a41690c75568e59002ed1890","SignatureValue":"a3b28e86a41690c75568e59002ed1890","Culture":"ru","Shp_item":"1909"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"500","InvId":"500","crc":"B07657AA8ABCCFD5EC5376E0850B7C93","SignatureValue":"B07657AA8ABCCFD5EC5376E0850B7C93","PaymentMethod":"OceanBank","IncSum":"4983.000000","IncCurrLabel":"BANKOCEAN2R","Shp_item":"319"}
+
+result: {"out_summ":"12900.000000","OutSum":"12900.000000","inv_id":"505","InvId":"505","crc":"4116F6ED12E5E925C77A53F2BCCEBB40","SignatureValue":"4116F6ED12E5E925C77A53F2BCCEBB40","PaymentMethod":"EMoney","IncSum":"12900.000000","IncCurrLabel":"WMRM","Shp_item":"166"}
+
+success: {"inv_id":"505","InvId":"505","out_summ":"12900.000000","OutSum":"12900.000000","crc":"571b79163d03357d31c8d00336078e62","SignatureValue":"571b79163d03357d31c8d00336078e62","Culture":"ru","Shp_item":"166"}
+
+result: {"out_summ":"1490.000000","OutSum":"1490.000000","inv_id":"510","InvId":"510","crc":"13F055AA2AA9753DAC103F9FEF74B985","SignatureValue":"13F055AA2AA9753DAC103F9FEF74B985","PaymentMethod":"EMoney","IncSum":"1490.000000","IncCurrLabel":"YandexMerchantOceanR","Shp_item":"1009"}
+
+success: {"inv_id":"510","InvId":"510","out_summ":"1490.000000","OutSum":"1490.000000","crc":"ccc52bb3e08f16ccb9e2a9e86770e16d","SignatureValue":"ccc52bb3e08f16ccb9e2a9e86770e16d","Culture":"ru","Shp_item":"1009"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"513","InvId":"513","crc":"AD8A20467BF4A05956D5E5843EBBE475","SignatureValue":"AD8A20467BF4A05956D5E5843EBBE475","PaymentMethod":"EMoney","IncSum":"4983.000000","IncCurrLabel":"YandexMerchantOceanR","Shp_item":"2064"}
+
+success: {"inv_id":"513","InvId":"513","out_summ":"4983.000000","OutSum":"4983.000000","crc":"007aa619aa4fefb9f25ccebe68ab8c46","SignatureValue":"007aa619aa4fefb9f25ccebe68ab8c46","Culture":"ru","Shp_item":"2064"}
+
+success: {"inv_id":"513","InvId":"513","out_summ":"4983.000000","OutSum":"4983.000000","crc":"007aa619aa4fefb9f25ccebe68ab8c46","SignatureValue":"007aa619aa4fefb9f25ccebe68ab8c46","Culture":"ru","Shp_item":"2064"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"516","InvId":"516","crc":"73664066864079C87A499D6C25344518","SignatureValue":"73664066864079C87A499D6C25344518","PaymentMethod":"Qiwi","IncSum":"4983.000000","IncCurrLabel":"Qiwi29OceanR","Shp_item":"1200"}
+
+result: {"out_summ":"1490.000000","OutSum":"1490.000000","inv_id":"519","InvId":"519","crc":"EF09B13905E620E5D97FA055CDDC54A8","SignatureValue":"EF09B13905E620E5D97FA055CDDC54A8","PaymentMethod":"EMoney","IncSum":"1490.000000","IncCurrLabel":"WMRM","Shp_item":"2231"}
+
+success: {"inv_id":"519","InvId":"519","out_summ":"1490.000000","OutSum":"1490.000000","crc":"d3cf5c2d5f4dd39b0f3e93fe8180b7db","SignatureValue":"d3cf5c2d5f4dd39b0f3e93fe8180b7db","Culture":"ru","Shp_item":"2231"}
+
+success: {"inv_id":"519","InvId":"519","out_summ":"1490.000000","OutSum":"1490.000000","crc":"d3cf5c2d5f4dd39b0f3e93fe8180b7db","SignatureValue":"d3cf5c2d5f4dd39b0f3e93fe8180b7db","Culture":"ru","Shp_item":"2231"}
+
+success: []
+
+result: []
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"532","InvId":"532","crc":"191AAA2DC6B6773E68B9E2A795E66DE3","SignatureValue":"191AAA2DC6B6773E68B9E2A795E66DE3","PaymentMethod":"EMoney","IncSum":"4983.000000","IncCurrLabel":"YandexMerchantOceanR","Shp_item":"2304"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"534","InvId":"534","crc":"D9C73FFA3471C2489693578432BECE9F","SignatureValue":"D9C73FFA3471C2489693578432BECE9F","PaymentMethod":"OceanBank","IncSum":"4983.000000","IncCurrLabel":"BANKOCEAN2R","Shp_item":"319"}
+
+success: {"inv_id":"534","InvId":"534","out_summ":"4983.000000","OutSum":"4983.000000","crc":"db8fff58a3b07fca3f4290b316f7078d","SignatureValue":"db8fff58a3b07fca3f4290b316f7078d","Culture":"ru","Shp_item":"319"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"534","InvId":"534","crc":"D9C73FFA3471C2489693578432BECE9F","SignatureValue":"D9C73FFA3471C2489693578432BECE9F","PaymentMethod":"OceanBank","IncSum":"4983.000000","IncCurrLabel":"BANKOCEAN2R","Shp_item":"319"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"534","InvId":"534","crc":"D9C73FFA3471C2489693578432BECE9F","SignatureValue":"D9C73FFA3471C2489693578432BECE9F","PaymentMethod":"OceanBank","IncSum":"4983.000000","IncCurrLabel":"BANKOCEAN2R","Shp_item":"319"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"534","InvId":"534","crc":"D9C73FFA3471C2489693578432BECE9F","SignatureValue":"D9C73FFA3471C2489693578432BECE9F","PaymentMethod":"OceanBank","IncSum":"4983.000000","IncCurrLabel":"BANKOCEAN2R","Shp_item":"319"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"540","InvId":"540","crc":"BBCD8F45F3EA6997D36DA92C132B95A2","SignatureValue":"BBCD8F45F3EA6997D36DA92C132B95A2","PaymentMethod":"EMoney","IncSum":"4983.000000","IncCurrLabel":"YandexMerchantOceanR","Shp_item":"2064"}
+
+success: {"inv_id":"540","InvId":"540","out_summ":"4983.000000","OutSum":"4983.000000","crc":"1dbeb29473434143a0d548ddd6d8edae","SignatureValue":"1dbeb29473434143a0d548ddd6d8edae","Culture":"ru","Shp_item":"2064"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"540","InvId":"540","crc":"BBCD8F45F3EA6997D36DA92C132B95A2","SignatureValue":"BBCD8F45F3EA6997D36DA92C132B95A2","PaymentMethod":"EMoney","IncSum":"4983.000000","IncCurrLabel":"YandexMerchantOceanR","Shp_item":"2064"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"540","InvId":"540","crc":"BBCD8F45F3EA6997D36DA92C132B95A2","SignatureValue":"BBCD8F45F3EA6997D36DA92C132B95A2","PaymentMethod":"EMoney","IncSum":"4983.000000","IncCurrLabel":"YandexMerchantOceanR","Shp_item":"2064"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"540","InvId":"540","crc":"BBCD8F45F3EA6997D36DA92C132B95A2","SignatureValue":"BBCD8F45F3EA6997D36DA92C132B95A2","PaymentMethod":"EMoney","IncSum":"4983.000000","IncCurrLabel":"YandexMerchantOceanR","Shp_item":"2064"}
+
+result: {"out_summ":"1490.000000","OutSum":"1490.000000","inv_id":"545","InvId":"545","crc":"3091DE0882030E15DEBF3308FC25180D","SignatureValue":"3091DE0882030E15DEBF3308FC25180D","PaymentMethod":"OceanBank","IncSum":"1490.000000","IncCurrLabel":"BANKOCEAN2R","Shp_item":"2325"}
+
+result: {"out_summ":"1490.000000","OutSum":"1490.000000","inv_id":"545","InvId":"545","crc":"3091DE0882030E15DEBF3308FC25180D","SignatureValue":"3091DE0882030E15DEBF3308FC25180D","PaymentMethod":"OceanBank","IncSum":"1490.000000","IncCurrLabel":"BANKOCEAN2R","Shp_item":"2325"}
+
+result: {"out_summ":"1490.000000","OutSum":"1490.000000","inv_id":"545","InvId":"545","crc":"3091DE0882030E15DEBF3308FC25180D","SignatureValue":"3091DE0882030E15DEBF3308FC25180D","PaymentMethod":"OceanBank","IncSum":"1490.000000","IncCurrLabel":"BANKOCEAN2R","Shp_item":"2325"}
+
+result: {"out_summ":"1490.000000","OutSum":"1490.000000","inv_id":"545","InvId":"545","crc":"3091DE0882030E15DEBF3308FC25180D","SignatureValue":"3091DE0882030E15DEBF3308FC25180D","PaymentMethod":"OceanBank","IncSum":"1490.000000","IncCurrLabel":"BANKOCEAN2R","Shp_item":"2325"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"551","InvId":"551","crc":"D8AC76715BD9D5C7169A8496FE6349D8","SignatureValue":"D8AC76715BD9D5C7169A8496FE6349D8","PaymentMethod":"Qiwi","IncSum":"4983.000000","IncCurrLabel":"Qiwi29OceanR","Shp_item":"1200"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"551","InvId":"551","crc":"D8AC76715BD9D5C7169A8496FE6349D8","SignatureValue":"D8AC76715BD9D5C7169A8496FE6349D8","PaymentMethod":"Qiwi","IncSum":"4983.000000","IncCurrLabel":"Qiwi29OceanR","Shp_item":"1200"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"551","InvId":"551","crc":"D8AC76715BD9D5C7169A8496FE6349D8","SignatureValue":"D8AC76715BD9D5C7169A8496FE6349D8","PaymentMethod":"Qiwi","IncSum":"4983.000000","IncCurrLabel":"Qiwi29OceanR","Shp_item":"1200"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"551","InvId":"551","crc":"D8AC76715BD9D5C7169A8496FE6349D8","SignatureValue":"D8AC76715BD9D5C7169A8496FE6349D8","PaymentMethod":"Qiwi","IncSum":"4983.000000","IncCurrLabel":"Qiwi29OceanR","Shp_item":"1200"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"564","InvId":"564","crc":"A878F9816AAB6B695E3BD1960337CD5E","SignatureValue":"A878F9816AAB6B695E3BD1960337CD5E","PaymentMethod":"EMoney","IncSum":"4983.000000","IncCurrLabel":"YandexMerchantOceanR","Shp_item":"2304"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"564","InvId":"564","crc":"A878F9816AAB6B695E3BD1960337CD5E","SignatureValue":"A878F9816AAB6B695E3BD1960337CD5E","PaymentMethod":"EMoney","IncSum":"4983.000000","IncCurrLabel":"YandexMerchantOceanR","Shp_item":"2304"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"564","InvId":"564","crc":"A878F9816AAB6B695E3BD1960337CD5E","SignatureValue":"A878F9816AAB6B695E3BD1960337CD5E","PaymentMethod":"EMoney","IncSum":"4983.000000","IncCurrLabel":"YandexMerchantOceanR","Shp_item":"2304"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"564","InvId":"564","crc":"A878F9816AAB6B695E3BD1960337CD5E","SignatureValue":"A878F9816AAB6B695E3BD1960337CD5E","PaymentMethod":"EMoney","IncSum":"4983.000000","IncCurrLabel":"YandexMerchantOceanR","Shp_item":"2304"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"570","InvId":"570","crc":"33870506DF1080791D25F451121D3080","SignatureValue":"33870506DF1080791D25F451121D3080","PaymentMethod":"EMoney","IncSum":"4983.000000","IncCurrLabel":"YandexMerchantOceanR","Shp_item":"2680"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"570","InvId":"570","crc":"33870506DF1080791D25F451121D3080","SignatureValue":"33870506DF1080791D25F451121D3080","PaymentMethod":"EMoney","IncSum":"4983.000000","IncCurrLabel":"YandexMerchantOceanR","Shp_item":"2680"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"570","InvId":"570","crc":"33870506DF1080791D25F451121D3080","SignatureValue":"33870506DF1080791D25F451121D3080","PaymentMethod":"EMoney","IncSum":"4983.000000","IncCurrLabel":"YandexMerchantOceanR","Shp_item":"2680"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"570","InvId":"570","crc":"33870506DF1080791D25F451121D3080","SignatureValue":"33870506DF1080791D25F451121D3080","PaymentMethod":"EMoney","IncSum":"4983.000000","IncCurrLabel":"YandexMerchantOceanR","Shp_item":"2680"}
+
+fail:{"inv_id":"575","InvId":"575","out_summ":"1490.000000","OutSum":"1490.000000","Culture":"ru","Shp_item":"2602"}
+
+fail:{"inv_id":"576","InvId":"576","out_summ":"1490.000000","OutSum":"1490.000000","Culture":"ru","Shp_item":"2602"}
+
+fail:{"inv_id":"579","InvId":"579","out_summ":"1490.000000","OutSum":"1490.000000","Culture":"ru","Shp_item":"2602"}
+
+fail:{"inv_id":"581","InvId":"581","out_summ":"1490.000000","OutSum":"1490.000000","Culture":"ru","Shp_item":"2602"}
+
+result: {"out_summ":"1490.000000","OutSum":"1490.000000","inv_id":"582","InvId":"582","crc":"F7397A6DC50EDC4B115C7AD47E02E28D","SignatureValue":"F7397A6DC50EDC4B115C7AD47E02E28D","PaymentMethod":"EMoney","IncSum":"48.980000","IncCurrLabel":"LiqPayZ","Shp_item":"2602"}
+
+result: {"out_summ":"1490.000000","OutSum":"1490.000000","inv_id":"582","InvId":"582","crc":"F7397A6DC50EDC4B115C7AD47E02E28D","SignatureValue":"F7397A6DC50EDC4B115C7AD47E02E28D","PaymentMethod":"EMoney","IncSum":"48.980000","IncCurrLabel":"LiqPayZ","Shp_item":"2602"}
+
+result: {"out_summ":"1490.000000","OutSum":"1490.000000","inv_id":"582","InvId":"582","crc":"F7397A6DC50EDC4B115C7AD47E02E28D","SignatureValue":"F7397A6DC50EDC4B115C7AD47E02E28D","PaymentMethod":"EMoney","IncSum":"48.980000","IncCurrLabel":"LiqPayZ","Shp_item":"2602"}
+
+result: {"out_summ":"1490.000000","OutSum":"1490.000000","inv_id":"582","InvId":"582","crc":"F7397A6DC50EDC4B115C7AD47E02E28D","SignatureValue":"F7397A6DC50EDC4B115C7AD47E02E28D","PaymentMethod":"EMoney","IncSum":"48.980000","IncCurrLabel":"LiqPayZ","Shp_item":"2602"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"589","InvId":"589","crc":"27E1BBA708DEED534D540BE863E88777","SignatureValue":"27E1BBA708DEED534D540BE863E88777","PaymentMethod":"EMoney","IncSum":"4983.000000","IncCurrLabel":"YandexMerchantOceanR","Shp_item":"2064"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"589","InvId":"589","crc":"27E1BBA708DEED534D540BE863E88777","SignatureValue":"27E1BBA708DEED534D540BE863E88777","PaymentMethod":"EMoney","IncSum":"4983.000000","IncCurrLabel":"YandexMerchantOceanR","Shp_item":"2064"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"589","InvId":"589","crc":"27E1BBA708DEED534D540BE863E88777","SignatureValue":"27E1BBA708DEED534D540BE863E88777","PaymentMethod":"EMoney","IncSum":"4983.000000","IncCurrLabel":"YandexMerchantOceanR","Shp_item":"2064"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"589","InvId":"589","crc":"27E1BBA708DEED534D540BE863E88777","SignatureValue":"27E1BBA708DEED534D540BE863E88777","PaymentMethod":"EMoney","IncSum":"4983.000000","IncCurrLabel":"YandexMerchantOceanR","Shp_item":"2064"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"594","InvId":"594","crc":"E53114A11BB01972F7FEACE765868D8B","SignatureValue":"E53114A11BB01972F7FEACE765868D8B","PaymentMethod":"Qiwi","IncSum":"4983.000000","IncCurrLabel":"Qiwi29OceanR","Shp_item":"2713"}
+
+success: {"inv_id":"594","InvId":"594","out_summ":"4983.000000","OutSum":"4983.000000","crc":"e694859806619617ff5d2be1cf8431c4","SignatureValue":"e694859806619617ff5d2be1cf8431c4","Culture":"ru","Shp_item":"2713"}
+
+success: {"inv_id":"594","InvId":"594","out_summ":"4983.000000","OutSum":"4983.000000","crc":"e694859806619617ff5d2be1cf8431c4","SignatureValue":"e694859806619617ff5d2be1cf8431c4","Culture":"ru","Shp_item":"2713"}
+
+success: {"inv_id":"594","InvId":"594","out_summ":"4983.000000","OutSum":"4983.000000","crc":"e694859806619617ff5d2be1cf8431c4","SignatureValue":"e694859806619617ff5d2be1cf8431c4","Culture":"ru","Shp_item":"2713"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"594","InvId":"594","crc":"E53114A11BB01972F7FEACE765868D8B","SignatureValue":"E53114A11BB01972F7FEACE765868D8B","PaymentMethod":"Qiwi","IncSum":"4983.000000","IncCurrLabel":"Qiwi29OceanR","Shp_item":"2713"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"594","InvId":"594","crc":"E53114A11BB01972F7FEACE765868D8B","SignatureValue":"E53114A11BB01972F7FEACE765868D8B","PaymentMethod":"Qiwi","IncSum":"4983.000000","IncCurrLabel":"Qiwi29OceanR","Shp_item":"2713"}
+
+result: {"out_summ":"4983.000000","OutSum":"4983.000000","inv_id":"594","InvId":"594","crc":"E53114A11BB01972F7FEACE765868D8B","SignatureValue":"E53114A11BB01972F7FEACE765868D8B","PaymentMethod":"Qiwi","IncSum":"4983.000000","IncCurrLabel":"Qiwi29OceanR","Shp_item":"2713"}
+

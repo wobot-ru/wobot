@@ -1,0 +1,389 @@
+    #L1 #dyn2 {
+	color: #848484;
+}
+
+.L11 { height: 43px !important; }
+
+#L1 .tr {
+	width: 130px !important;
+}
+
+#L1 .btn-theme, #L1 .btn-resources, #L1 .btn-all, #L1 .btn-ready {
+	text-align: center;
+	height: 22px;
+}
+
+#L1 .btn-theme p, #L1 .btn-resources p{
+	padding-top: 3px;
+}
+
+.vltw1 {
+		width: 255px; 
+}
+.layer_T {	
+	width:1098px !important;
+}
+ 
+.FL .order-ready { text-align: center; }
+#L1 .btn-theme {
+	background-color: #1c7abd;
+	/*border-top: 1px solid #0f3864;*/
+	margin-right: 5px;
+	/*width: 64px;*/
+    margin-left: 5px;
+    padding-left: 10px; padding-right: 10px;
+	color: #fff;
+	font-size: 13.65px;
+}
+
+#L1 .btn-resources {
+	background-color: #58a7b7;
+	/*border-top: 1px solid #44747e;*/
+	margin-right: 74px;
+	width: 73px;
+	color: #fff;
+	font-size: 13.65px;	
+}
+
+#L1 .selected {
+    background-color: #E3F2FD;
+    border-top: 1px solid #A0B5C4;
+	margin-top:0px !important;
+}
+
+#L1 .selected p{
+		padding-top: 3px;
+}
+
+
+#L1 .btn-all {
+	font-size: 14px;	
+	width: 38px;
+	margin-right: 18px;
+    margin-top: 5px;
+	color: #072842;
+}
+
+#L1 .ready {
+    color: #072842;
+    font-size: 14px;
+    margin-right: 56px;
+    width: 111px;
+}
+
+#L1 .ready .dyn {
+	font-size: 14px;
+	padding-left: 7px;
+	/*color: #bebebe;	*/
+    color: #848484;
+}
+
+#L1 .sort {
+	font-size: 13.38px;
+	/*width: 350px;*/
+}
+
+#L1 .sort .dropbox{
+/*	height: 20px;*/
+	width: 172px;
+		margin-left: 10px;	
+/*	font-size: 13px;
+	margin-left: 16px;
+	margin-top: -5px;*/
+}
+
+#L1 .sort .dropbox select{
+		width: 151px;
+		margin-left: -340px;
+}
+
+.FL {
+	margin-bot: 7px !important;
+	height: 54px;
+}
+
+.FL .cl1, .FL .cl2 {
+	height:inherit;
+	width: 4px;
+}
+
+.FL .cl1 {
+	background-color: #c7e0d2;
+}
+
+.FL .cl2 {
+	background-color: #e0e0cc;
+}
+
+.FL .cl {
+	border-radius: 3px;
+	width: 848px;
+	height: inherit;
+	padding: 0px;
+	background-color: #f9fbfe;
+}
+	
+.FL .cl2-border {
+	border: 1px solid #d5d3c5;
+	opacity: 0.8;
+}
+
+.FL .cl2-border * {
+	opacity: 0.8;
+}
+	
+.FL .cl1-border {
+	border: 1px solid #c5d5ca;
+}
+
+.FL .cl-left {
+	width: 110px;
+	/*margin-left: -110px;*/
+    height: 54px;
+}
+
+.FL .cl-left .lr0 {
+/*	padding-left: 6px;*/
+	margin-right: 14px;
+	font-size:13px;
+	color: #335c65;
+}
+
+
+
+.FL .cl-left .lr0 a {
+	border-bottom: 1px dotted;
+}
+
+.FL .cl-left .lr1 {
+		margin-right: 20px;
+}
+
+.FL .cl-left .lr2 {
+margin-right: -20px;
+margin-top: -6px;
+opacity: 0;
+}
+
+.FL .cl-left .lr2:hover {
+	opacity: 0.3;
+}
+
+.FL .cl .r0  {
+	width: 4px;
+	margin-right: 5px;
+}
+
+.FL .q {
+	margin: 0 auto;
+	width: 16px;
+}
+.FL .cl .r1  {
+	width: 220px;
+	font-size: 15.5px;
+	color: #072842;
+}
+
+.FL .cl .r2  {
+	width: 75px;	
+	color: #d1d4d6;
+}
+
+.FL .cl .r2 a {
+		border-bottom: 1px dotted;
+}
+
+.FL .cl .r3  {
+	width: 92px;	
+	font-size: 13px;
+}
+
+.FL .cl .r4  {
+	width: 130px;
+}
+
+
+
+.FL .cl .r3 .valign {
+	width: 83px;
+	line-height: 17px;
+}
+	
+.FL .valign {
+	display: table-cell;
+	vertical-align: middle;
+	height: 54px;
+	width:inherit;
+
+	font-size: inherit;
+	color:inherit;
+}
+
+.FL .cl .r4 .w  {
+	width: 100px;
+}
+
+.FL .w .fa {
+	font-size: 10.37px;	
+	text-align: center;
+	margin-bottom: 3px;
+}
+.FL .w .fb {
+	font-size: 17px;	
+	text-align: center;	
+	white-space:nowrap;
+	overflow:hidden;
+}
+
+.FL .s  {
+	font-size: 11px;
+	padding-top: 16px;
+/*margin-left: -5px;*/
+}
+
+.FL .cl .r5  {
+	width: 91px;	
+}
+
+.FL .cl .r5 .w  {
+	width: 49px;	
+}
+
+.FL .cl .r6  {
+	width: 103px;	
+}
+
+.FL .cl .r6 .w  {
+	width: 54px;	
+}
+
+.FL .cl .r7  {
+	width: 69px;	
+	font-size: 13px;
+}
+.FL .cl .r7 div {
+	font-size: 12px;
+}
+
+.FL .cl .rdy { color: #498e4e; margin-bottom: 4px; text-align: center;}
+.FL .cl .notrdy { color: #833f07; margin-bottom: 4px;}
+
+.FL .cl .r8  {
+    margin-left: 808px;
+    position: absolute;
+	z-index: 5;
+}
+
+.FL .cl .r9  {
+    margin-left: 789px;
+    position: absolute;
+	z-index: 5;
+}
+
+.FL .cl .r10  {
+    margin-left: 825px;
+    position: absolute;
+	z-index: 5;
+}
+
+
+#newThemeTips em {padding-top:20px; display:block; color:#e9bcbc;}
+
+    #dialog-Settings input { line-height: 20px; margin-bottom: 5px; width: 97%; height: 20px;}
+    #dialog-Settings input#robokassaSubmit {float: left; width: 45%; height: 25px;}
+
+#dialog-newTheme input, #dialog-newResource input
+/*, #dialog-Settings input */
+{margin-bottom:0px;  line-height: 20px; width:100%;}
+#dialog-newTheme label, input {display: block;}
+
+input#dialog-newTheme-name, 
+input#dialog-newTheme-datepicker1,
+input#dialog-newTheme-datepicker2,
+    input#add_src_url
+{margin-bottom:10px;  line-height: 20px; width: 100%;}
+
+#dialog-newTheme label,
+#dialog-newResource label,
+#dialog-newTheme input,
+#dialog-newResource input {display: block;}
+
+#mail-settings .ui-button .ui-button-text {font-size:12px; }
+
+/*#dialog-newResource input {margin-bottom: 10px;}*/
+
+#scrollbar1 { width: 470px; clear: both; margin: 20px 0 10px; float: left; }
+#scrollbar1 .viewport { width: 455px; height: 150px; overflow: hidden; position: relative; }
+#scrollbar1 .overview { list-style: none; position: absolute;    left: 0; top: 0; }
+#scrollbar1 .thumb .end {background: transparent url(../img/bg-scrollbar-thumb-y.png) no-repeat 50% 0}
+#scrollbar1 .thumb { background: transparent url(../img/bg-scrollbar-thumb-y.png) no-repeat 50% 100% }
+#scrollbar1 .scrollbar { position: relative; float: right; width: 15px; background: transparent url(../img/bg-scrollbar-track-y.png) no-repeat 0 0; }
+#scrollbar1 .track { height: 100%; width:13px; position: relative; padding: 0 1px;
+background: transparent url(../img/bg-scrollbar-trackend-y.png) no-repeat 0 100%;}
+#scrollbar1 .thumb { height: 20px; width: 13px; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
+#scrollbar1 .thumb .end { overflow: hidden; height: 5px; width: 13px; }
+#scrollbar1 .disable{ display: none; }
+
+#scrollbar2 { width: 320px; clear: both; margin: 10px 0 10px; float: left; }
+#scrollbar2 .viewport { width: 305px; height: 160px; overflow: hidden; position: relative; }
+#scrollbar2 .overview { list-style: none; position: absolute;    left: 0; top: 0; }
+#scrollbar2 .thumb .end {background: transparent url(../img/bg-scrollbar-thumb-y.png) no-repeat 50% 0}
+#scrollbar2 .thumb { background: transparent url(../img/bg-scrollbar-thumb-y.png) no-repeat 50% 100% }
+#scrollbar2 .scrollbar { position: relative; float: right; width: 15px; background: transparent url(../img/bg-scrollbar-track-y.png) no-repeat 0 0; }
+#scrollbar2 .track { height: 100%; width:13px; position: relative; padding: 0 1px;
+background: transparent url(../img/bg-scrollbar-trackend-y.png) no-repeat 0 100%;}
+#scrollbar2 .thumb { height: 20px; width: 13px; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
+#scrollbar2 .thumb .end { overflow: hidden; height: 5px; width: 13px; }
+#scrollbar2 .disable{ display: none; }
+
+    table.dialog-List { border-top: 1px solid silver; border-bottom: 1px solid silver; border-collapse: collapse;  }
+    table.dialog-List td { border-bottom: 1px dashed silver; padding: 5px 0;}
+
+   /*ошибки*/
+.error_message{
+		background-size: 40px 40px;
+		background-image: linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%,
+							transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%,
+							transparent 75%, transparent);										
+		 box-shadow: inset 0 -1px 0 rgba(255,255,255,.4);
+		 width: 100%;
+		 border: 1px solid;
+		 color: #fff;
+		 padding: 15px;
+		 position: fixed;
+		 _position: absolute;
+		 text-shadow: 0 1px 0 rgba(0,0,0,.5);
+		 animation: animate-bg 5s linear infinite;
+		 z-index: 100;
+		 height: 50px;
+		 text-align: center;
+}
+
+
+.error_info{
+		 background-color: #4ea5cd;
+		 border-color: #3b8eb5;
+}
+
+.error_error{
+		 background-color: #de4343;
+		 border-color: #c43d3d;
+}
+		 
+.error_warning{
+		 background-color: #eaaf51;
+		 border-color: #d99a36;
+}
+
+.error_success{
+		 background-color: #61b832;
+		 border-color: #55a12c;
+}
+
+.message h3{
+		 margin: 0 0 5px 0;													 
+}
+
+.message p{
+		 margin: 0;													 
+}

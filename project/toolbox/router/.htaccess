@@ -1,0 +1,14 @@
+Options +FollowSymLinks
+
+RewriteEngine On
+
+# Rewrite Base Dir, where PHP files are located
+RewriteBase /test/router/
+
+# Rewrite Controllers and Actions
+RewriteRule ^(.+)/(.+).html$ index.php?controller=$1&action=$2&%{query_string}
+RewriteRule ^(.+)/(.+)/$ index.php?controller=$1&action=$2&%{query_string}
+RewriteRule ^(.+)/$ index.php?controller=$1&%{query_string}
+
+# Deny Access to Source Dirs
+RewriteRule application/|config/|includes/|tpl/|log/ index.php [F]

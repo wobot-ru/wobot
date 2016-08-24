@@ -1,0 +1,12 @@
+#export { position: relative; cursor: pointer; background: url("../img/dda.png") no-repeat 64px 8px; padding-right: 24px; border: 1px solid #D5D7D9;  margin-left: 12px; margin-top: 0; width: 56px; }
+
+#export-variant { display: none; position: absolute; width: 220px; padding: 10px; border: solid 1px #D5D7D9; background: #fff; top: -1px; right: -26px; z-index: 1000; }
+#export-variant>div { float: left; width: 100px; margin: 0 5px; }
+#export-variant>div input { display: inline; margin: 4px 0; }
+#export-variant>div label { font-style: normal; font-size: 13px; }
+#export-variant>button { float: right; margin-top: 6px; }
+#export-variant .lang_choice { width: 210px; border-top: solid 1px #999; margin-top: 5px; }
+#export-variant .lang_choice span { font-style: normal; font-size: 14px; }
+
+#export_page_list>div { display: none; }
+#export_page_list>div:first-child { display: block; }

@@ -1,0 +1,24 @@
+
+how to use this classes:
+
+1. download all the files, classifier.php until all utilities and *.srl file
+2. replace all the file in one folder. example in folder 'PHPclassifier'
+3. create a new folder in folder 'PHPclassifer'. name that folder with 'cat'
+
+in folder 'cat', you add 2 or more folder that are named with your 'category name'.
+
+example, i have two category, spam and notspam, so i make 2 new folder in folder
+'cat', first folder name 'spam' and the second folder name 'notspam'. 
+
+in folder 'spam', i have *.txt file(name is free, blabla.txt), this txt file contain
+the text that we classify spam before. this text will be used by the trainer.
+
+same with the second folder 'notspam'.
+
+----------------
+FOR EXAMPLE
+----------------
+
+for more detail, please download http://students.itb.ac.id/~alfan_fw/PHPTextClassifier.zip
+
+

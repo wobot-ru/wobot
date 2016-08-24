@@ -1,0 +1,52 @@
+2008-07-25T12:02:41-05:00 INFO (6): Router Initialized
+2008-07-25T12:03:19-05:00 INFO (6): Router Initialized
+2008-07-25T12:03:27-05:00 INFO (6): Router Initialized
+2008-07-25T12:03:58-05:00 INFO (6): Router Initialized
+2008-07-25T12:04:05-05:00 INFO (6): Router Initialized
+2008-07-25T12:07:53-05:00 INFO (6): Router Initialized
+2008-07-25T12:09:32-05:00 INFO (6): Router Initialized
+2008-07-25T12:10:02-05:00 INFO (6): Router Initialized
+2008-07-25T12:10:02-05:00 DEBUG (7): Requested action can't be called from this controller
+Trace
+#0 C:\WebRoot\htdocs\library\Gecko\Template\Helpers\HTMLHelper.php(97): Gecko_Controller->linkToAction('grid')
+#1 C:\WebRoot\htdocs\test\router\tpl\index\index.php(7): link_to_action('Full DataGrid', 'grid')
+#2 C:\WebRoot\htdocs\library\Gecko\Template.php(220): include('C:\WebRoot\htdo...')
+#3 C:\WebRoot\htdocs\library\Gecko\Template.php(167): Gecko_Template::renderTemplate('index', Array)
+#4 C:\WebRoot\htdocs\library\Gecko\View.php(103): Gecko_Template::controllerRender('index', Array)
+#5 C:\WebRoot\htdocs\library\Gecko\View.php(80): Gecko_View->display()
+#6 C:\WebRoot\htdocs\library\Gecko\Router.php(192): Gecko_View->render()
+#7 C:\WebRoot\htdocs\library\Gecko\Router.php(209): Gecko_Router->run()
+#8 C:\WebRoot\htdocs\test\router\index.php(6): Gecko_Router->dispatch()
+#9 {main}
+2008-07-25T12:10:25-05:00 INFO (6): Router Initialized
+2008-07-25T12:10:34-05:00 INFO (6): Router Initialized
+2008-07-25T12:10:34-05:00 DEBUG (7): grid template doesn't exists
+Trace
+#0 C:\WebRoot\htdocs\library\Gecko\Template.php(167): Gecko_Template::renderTemplate('grid', Array)
+#1 C:\WebRoot\htdocs\library\Gecko\View.php(103): Gecko_Template::controllerRender('grid', Array)
+#2 C:\WebRoot\htdocs\library\Gecko\View.php(80): Gecko_View->display()
+#3 C:\WebRoot\htdocs\library\Gecko\Router.php(192): Gecko_View->render()
+#4 C:\WebRoot\htdocs\library\Gecko\Router.php(209): Gecko_Router->run()
+#5 C:\WebRoot\htdocs\test\router\index.php(6): Gecko_Router->dispatch()
+#6 {main}
+2008-07-25T12:13:05-05:00 INFO (6): Router Initialized
+2008-07-25T12:13:25-05:00 INFO (6): Router Initialized
+2008-07-25T12:13:59-05:00 INFO (6): Router Initialized
+2008-07-25T12:14:24-05:00 INFO (6): Router Initialized
+2008-07-25T12:14:24-05:00 DEBUG (7): form controller file not found
+Trace
+#0 C:\WebRoot\htdocs\library\Gecko\Router.php(146): Gecko_Router->loadController('form')
+#1 C:\WebRoot\htdocs\library\Gecko\Router.php(209): Gecko_Router->run()
+#2 C:\WebRoot\htdocs\test\router\index.php(6): Gecko_Router->dispatch()
+#3 {main}
+2008-07-25T12:15:36-05:00 INFO (6): Router Initialized
+2008-07-25T12:16:36-05:00 INFO (6): Router Initialized
+2008-07-25T12:16:46-05:00 INFO (6): Router Initialized
+2008-07-25T12:17:09-05:00 INFO (6): Router Initialized
+2008-07-25T12:18:39-05:00 INFO (6): Router Initialized
+2008-07-25T12:18:42-05:00 INFO (6): Router Initialized
+2008-07-25T12:18:43-05:00 INFO (6): Router Initialized
+2008-07-25T12:18:51-05:00 INFO (6): Router Initialized
+2008-07-25T12:18:53-05:00 INFO (6): Router Initialized
+2008-07-25T12:18:56-05:00 INFO (6): Router Initialized
+2008-07-25T12:19:29-05:00 INFO (6): Router Initialized

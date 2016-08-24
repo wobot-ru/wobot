@@ -1,0 +1,68 @@
+.dropdown { float:left; }
+
+.dropdown dd, .dropdown dt, .dropdown ul {
+    margin: 0;
+    padding: 0;
+}
+.dropdown dd {
+    position: relative;
+	 z-index: 100;
+}
+.dropdown a, .dropdown a:visited {
+    color: #000000;
+    outline: medium none;
+    text-decoration: none;
+}
+.dropdown a:hover {
+    color: #333333;
+}
+.dropdown dt a:hover {
+  /* border: 1px solid #D0C9AF;*/
+ /*   color: #5D4617;*/
+}
+.dropdown dt a {
+	 font-style: normal;
+ /*   background: url("arrow.png") no-repeat scroll right center #E4DFCB;*/
+    font-size: 12px;
+  /*  border: 1px solid #D4CA9A;*/
+    display: block;
+    padding: 5px;
+    width: auto;
+}
+.dropdown dt a span {
+    cursor: pointer;
+    display: block;
+}
+.dropdown dd ul {
+	 max-height: 220px;
+	 overflow:auto;
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #b7bbbf;
+    color: #000;
+    display: none;
+    left: 0;
+    list-style: none outside none;
+	 font-style: normal;
+/*    min-width: 90px;*/
+    padding: 5px 0;
+    position: absolute;
+    top: 2px;
+    width: auto;
+}
+.dropdown span.value {
+    display: none;
+}
+.dropdown dd ul li a {
+	font-size: 13px;	
+    display: block;
+    padding: 5px;
+	 font-style: normal;
+}
+.dropdown dd ul li a:hover {
+    background-color: #eee;
+}
+.dropdown img.flag {
+    border: medium none;
+    margin-left: 10px;
+    vertical-align: middle;
+}

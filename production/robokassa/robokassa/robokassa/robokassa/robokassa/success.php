@@ -1,0 +1,187 @@
+<?
+require_once('/var/www/new/com/config.php');
+require_once('/var/www/new/com/func.php');
+require_once('/var/www/new/com/db.php');
+require_once('/var/www/new/bot/kernel.php');
+//require_once('auth.php');
+
+$db = new database();
+$db->connect();
+
+$fl=@fopen("success.log","a+") or
+          die("error");
+fputs($fl,'success: '.json_encode($_REQUEST)."\n\n");
+fclose($fl);
+
+// регистрационная информация (пароль #1)
+// registration info (password #1)
+$mrh_pass1 = "r1o2m3a4";
+
+// чтение параметров
+// read parameters
+$out_summ = $_REQUEST["OutSum"];
+$inv_id = $_REQUEST["InvId"];
+$shp_item = $_REQUEST["Shp_item"];
+$crc = $_REQUEST["SignatureValue"];
+
+$crc = strtoupper($crc);
+
+$my_crc = strtoupper(md5("$out_summ:$inv_id:$mrh_pass1:Shp_item=$shp_item"));
+
+// проверка корректности подписи
+// check signature
+/*
+if ($my_crc != $crc)
+{
+  echo "bad sign\n";
+  exit();
+}
+*/
+
+//$inv_id=293;
+//$out_summ='3';
+
+$res=$db->query('SELECT * FROM billing WHERE bill_id='.intval($inv_id).' LIMIT 1');
+$bill=$db->fetch($res);
+
+$rs=$db->query('UPDATE billing SET date='.time().', status=2, money="'.$out_summ.'" WHERE bill_id='.intval($inv_id));
+
+$res2=$db->query('SELECT * FROM users WHERE user_id='.intval($bill['user_id']).' LIMIT 1');
+//echo 'SELECT * FROM users WHERE user_id='.intval($bill['user_id']).' LIMIT 1';
+$user=$db->fetch($res2);
+
+$res3=$db->query('SELECT * FROM user_tariff WHERE user_id='.intval($bill['user_id']).' LIMIT 1');
+$ut=$db->fetch($res3);
+
+if ((($ut['tariff_id']==3)||($ut['tariff_id']==16)||($ut['ut_date']==0))&&(intval($bill['status'])!=2))
+{//С демо на платный
+	$res=$db->query('INSERT INTO billing (user_id, money, date, status, tariff_id, months) values ('.$user['user_id'].', '.(intval($bill['money'])*(-1)).', '.time().',2,'.$bill['tariff_id'].','.$bill['months'].')');
+	//echo 'INSERT INTO billing (user_id, money, date, status, tariff_id, months) values ('.$user['user_id'].', '.(intval($bill['money'])*(-1)).', '.time().',2,'.$bill['tariff_id'].','.$bill['months'].')';
+	//echo "\n";
+	$doit=$db->fetch($res);
+	$res=$db->query('UPDATE user_tariff set ut_date='.mktime(0,0,0,date('n')+$bill['months'],date('j'),date('Y')).', tariff_id='.$bill['tariff_id'].' WHERE ut_id='.$ut['ut_id']);
+	//echo $bill['months']."\n";
+	//echo 'UPDATE user_tariff set ut_date='.mktime(0,0,0,date('n')+$bill['months'],date('j'),date('Y')).', tariff_id='.$bill['tariff_id'].' WHERE ut_id='.$ut['ut_id'];
+	//echo "\n";
+	$doit=$db->fetch($res);
+	$res=$db->query('UPDATE users set user_active=2 WHERE user_id='.$user['user_id']);
+	//echo 'UPDATE users set user_active=2 WHERE user_id='.$user['user_id'];
+	//echo "\n";
+	$doit=$db->fetch($res);
+	$qtar=$db->query('SELECT * FROM blog_tariff WHERE tariff_id='.$ut['tariff_id']);
+	$tar=$db->fetch($qtar);
+	$headers  = "From: noreply@wobot.ru\r\n"; 
+	$headers .= "Bcc: noreply@wobot.ru\r\n";
+	$headers .= 'MIME-Version: 1.0' . "\r\n";
+	$headers .= 'Content-type: text/html; charset=utf-8'."\r\n";
+	mail('diana@wobot-research.com','Команда Wobot'.(($ut['tariff_id']==3)?' // Оплата!':''),"Пользователь ".$user['user_email']." Оплатил кабинет! . <br>Сумма: ".(intval($bill['money'])*(-1))."<br>Количество месяцев: ".$bill['months']."<br> Тариф: ".$tar['tariff_name'],$headers);
+
+	$headers  = "From: noreply@wobot.ru\r\n"; 
+	$headers .= "Bcc: noreply@wobot.ru\r\n";
+	$headers .= 'MIME-Version: 1.0' . "\r\n";
+	$headers .= 'Content-type: text/html; charset=utf-8'."\r\n";
+	mail('r@wobot.co','Команда Wobot'.(($ut['tariff_id']==3)?' // Оплата!':''),"Пользователь ".$user['user_email']." Оплатил кабинет! . <br>Сумма: ".(intval($bill['money'])*(-1))."<br>Количество месяцев: ".$bill['months']."<br> Тариф: ".$tar['tariff_name'],$headers);
+
+}
+
+//Продление без смены тарифа
+//Обновляем дату завершения срока действия = старая дата завершения + 30 дней * кол-во месяцев
+elseif (($ut['tariff_id']!=3)&&($ut['tariff_id']!=16)&&($ut['tariff_id']==$bill['tariff_id'])&&(intval($bill['status'])!=2))
+{
+	if ($ut['ut_date']<time()) $ut['ut_date']=time();
+	$res=$db->query('INSERT INTO billing (user_id, money, date, status, tariff_id, months) values ('.$user['user_id'].', '.(intval($bill['money'])*(-1)).', '.time().',2,'.$bill['tariff_id'].','.$bill['months'].')');
+	//echo 'INSERT INTO billing (user_id, money, date, status, tariff_id, months) values ('.$user['user_id'].', '.(intval($bill['money'])*(-1)).', '.time().',2,'.$bill['tariff_id'].','.$bill['months'].')';
+	//echo "\n";
+	$doit=$db->fetch($res);
+	$res=$db->query('UPDATE user_tariff set ut_date='.mktime(0,0,0,date('n',$ut['ut_date'])+$bill['months'],date('j',$ut['ut_date']),date('Y',$ut['ut_date'])).' WHERE ut_id='.$ut['ut_id']);
+	//echo $bill['months']."\n";
+	//echo 'UPDATE user_tariff set ut_date='.mktime(0,0,0,date('n')+$bill['months'],date('j'),date('Y')).', tariff_id='.$bill['tariff_id'].' WHERE ut_id='.$ut['ut_id'];
+	//echo "\n";
+	$doit=$db->fetch($res);
+	$res=$db->query('UPDATE users set user_active=2 WHERE user_id='.$user['user_id']);
+	//echo 'UPDATE users set user_active=2 WHERE user_id='.$user['user_id'];
+	//echo "\n";
+	$doit=$db->fetch($res);
+	$qtar=$db->query('SELECT * FROM blog_tariff WHERE tariff_id='.$ut['tariff_id']);
+	$tar=$db->fetch($qtar);
+	$headers  = "From: noreply@wobot.ru\r\n"; 
+	$headers .= "Bcc: noreply@wobot.ru\r\n";
+	$headers .= 'MIME-Version: 1.0' . "\r\n";
+	$headers .= 'Content-type: text/html; charset=utf-8'."\r\n";
+	mail('diana@wobot-research.com','Команда Wobot'.(($ut['tariff_id']==3)?' // Продление!':''),"Пользователь ".$user['user_email']." продлил кабинет без смены тарифа! . <br>Сумма: ".(intval($bill['money'])*(-1))."<br>Количество месяцев: ".$bill['months']."<br> Тариф: ".$tar['tariff_name'],$headers);
+
+	$headers  = "From: noreply@wobot.ru\r\n"; 
+	$headers .= "Bcc: noreply@wobot.ru\r\n";
+	$headers .= 'MIME-Version: 1.0' . "\r\n";
+	$headers .= 'Content-type: text/html; charset=utf-8'."\r\n";
+	mail('r@wobot.co','Команда Wobot'.(($ut['tariff_id']==3)?' // Продление!':''),"Пользователь ".$user['user_email']." продлил кабинет без смены тарифа! . <br>Сумма: ".(intval($bill['money'])*(-1))."<br>Количество месяцев: ".$bill['months']."<br> Тариф: ".$tar['tariff_name'],$headers);
+
+}
+//Замена с продлением
+//Обновляем дату завершения срока действия = текущая дата + 30 дней * кол-во месяцев
+//Обновляем тариф
+elseif (($ut['tariff_id']!=3)&&($ut['tariff_id']!=16)&&($ut['tariff_id']!=$bill['tariff_id'])&&(intval($bill['status'])!=2))
+{
+	$res=$db->query('INSERT INTO billing (user_id, money, date, status, tariff_id, months) values ('.$user['user_id'].', '.(intval($bill['money'])*(-1)).', '.time().',2,'.$bill['tariff_id'].','.$bill['months'].')');
+	//echo 'INSERT INTO billing (user_id, money, date, status, tariff_id, months) values ('.$user['user_id'].', '.(intval($bill['money'])*(-1)).', '.time().',2,'.$bill['tariff_id'].','.$bill['months'].')';
+	//echo "\n";
+	$doit=$db->fetch($res);
+	$res=$db->query('UPDATE user_tariff set ut_date='.mktime(0,0,0,date('n')+$bill['months'],date('j'),date('Y')).', tariff_id='.$bill['tariff_id'].' WHERE ut_id='.$ut['ut_id']);
+	//echo $bill['months']."\n";
+	//echo 'UPDATE user_tariff set ut_date='.mktime(0,0,0,date('n')+$bill['months'],date('j'),date('Y')).', tariff_id='.$bill['tariff_id'].' WHERE ut_id='.$ut['ut_id'];
+	//echo "\n";
+	$doit=$db->fetch($res);
+	$res=$db->query('UPDATE users set user_active=2 WHERE user_id='.$user['user_id']);
+	//echo 'UPDATE users set user_active=2 WHERE user_id='.$user['user_id'];
+	//echo "\n";
+	$doit=$db->fetch($res);
+	$qtar=$db->query('SELECT * FROM blog_tariff WHERE tariff_id='.$ut['tariff_id']);
+	$tar=$db->fetch($qtar);
+	$headers  = "From: noreply@wobot.ru\r\n"; 
+	$headers .= "Bcc: noreply@wobot.ru\r\n";
+	$headers .= 'MIME-Version: 1.0' . "\r\n";
+	$headers .= 'Content-type: text/html; charset=utf-8'."\r\n";
+	mail('diana@wobot-research.com','Команда Wobot'.(($ut['tariff_id']==3)?' // Продление!':''),"Пользователь ".$user['user_email']." продлил кабинет со сменой тарифа! . <br>Сумма: ".(intval($bill['money'])*(-1))."<br>Количество месяцев: ".$bill['months']."<br> Тариф: ".$tar['tariff_name'],$headers);
+
+	$headers  = "From: noreply@wobot.ru\r\n"; 
+	$headers .= "Bcc: noreply@wobot.ru\r\n";
+	$headers .= 'MIME-Version: 1.0' . "\r\n";
+	$headers .= 'Content-type: text/html; charset=utf-8'."\r\n";
+	mail('r@wobot.co','Команда Wobot'.(($ut['tariff_id']==3)?' // Продление!':''),"Пользователь ".$user['user_email']." продлил кабинет со сменой тарифа! . <br>Сумма: ".(intval($bill['money'])*(-1))."<br>Количество месяцев: ".$bill['months']."<br> Тариф: ".$tar['tariff_name'],$headers);
+
+}
+// проверка наличия номера счета в истории операций
+if (intval($user['user_id'])==0)
+{
+	//echo "<meta HTTP-EQUIV=\"REFRESH\" content=\"0; url=http://www.wobot.ru\" />Операция прошла успешно\n";
+	echo'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+	<html lang="ru-RU" xml:lang="ru-RU" xmlns="http://www.w3.org/1999/xhtml">
+	  <head>
+	    <title>Оплата спецпредложения WOBOT &beta;</title>
+	    <meta content="Wobot" name="keywords" />
+	    <meta content="Wobot media" name="author" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	  </head>
+	  <body style="background: #fff;">
+	  <h1>Ваш код: 905'.intval($inv_id).'</h1>
+	  </body>
+	</html>
+';
+}
+echo "Operation of payment is successfully completed\n";
+// check of number of the order info in history of operations
+/*$f=@fopen("order.txt","r+") or die("error");
+
+while(!feof($f))
+{
+  $str=fgets($f);
+
+  $str_exp = explode(";", $str);
+  if ($str_exp[0]=="order_num :$inv_id")
+  { 
+	echo "<meta HTTP-EQUIV=\"REFRESH\" content=\"0; url=http://beta.wobot.ru/themes_list.html?success\" />Операция прошла успешно\n";
+	echo "Operation of payment is successfully completed\n";
+  }
+}
+fclose($f);*/
+?>

@@ -1,0 +1,596 @@
+/* 
+    Document   : style
+    Created on : 09.EXTERN .10.EXTERN .2011, 21:44:49
+    Author     : Anna
+    Description:
+        Purpose of the stylesheet follows.EXTERN .
+*/
+
+/* 16 255 377
+   TODO customize this sample style
+   Syntax recommendation http://www.EXTERN .w3.EXTERN .org/TR/REC-CSS2/
+*/
+
+/* Layout ******************/
+
+.EXTERN .row,.EXTERN .date input,.EXTERN .radiobutton
+{
+    height: 18px;
+}
+
+.EXTERN .rows-2
+{
+    height: 36px;
+}
+.EXTERN .customselect{
+    padding-top: 8px;
+    margin-bottom: -8px;
+}
+.EXTERN .pages
+{
+    margin-top: 18px;
+    padding-top: 18px;
+    overflow: hidden;
+    margin-bottom: -8px;
+}
+.EXTERN .arrows
+{
+    margin-top: -8px;
+}
+/*post*/
+.EXTERN .post
+{
+    margin-top: 32px;
+    overflow: hidden;
+    padding-bottom: 1px;
+    margin-bottom: -1px;
+}
+.EXTERN .resicon, .EXTERN .abouticon
+{
+    width: 18px;
+    height: 18px;
+}
+.EXTERN .dotted{
+    height: 14px;
+}
+.EXTERN .highlightpage
+{
+     padding-top: 6px;
+     padding-bottom: 6px;
+     margin-top: -6px;
+}
+.EXTERN .gendericon
+{
+    width: 11px;
+    height: 11px;
+    margin-top: 1px;
+    margin-bottom: -1px;
+}
+
+.EXTERN .abouticon
+{
+    padding-bottom: 4px;
+}
+.EXTERN .tonalicon
+{
+    width: 16px;
+    height: 16px;
+}
+.EXTERN .tonality
+{
+    margin-left: 7px;
+    margin-right: 16px;
+}
+.EXTERN .header-size
+{
+    height: 90px;
+}
+.EXTERN .greenbtn,.EXTERN .greybtn
+{
+    margin: -1px;
+    padding-top: 7px;
+    height: 29px;
+}
+
+.EXTERN  #headertop
+{
+    overflow: hidden;
+    margin-bottom: -90px;
+}
+.EXTERN  #headerbottom
+{
+    overflow: hidden;
+    margin-bottom: -180px;
+    margin-top: 90px;
+}
+
+.EXTERN  #headercenter
+{
+    height: 120px;
+    overflow: hidden;
+    margin-bottom: -120px;
+    width: 230px;
+}
+.EXTERN .thispage{
+     height: 54px;
+}
+.EXTERN  #filters
+{
+    overflow: hidden;
+}
+
+.EXTERN img.close{
+    margin-right: 2px;
+    margin-top: 2px;
+}
+.EXTERN .filter h3{
+    margin-top: 5px;
+}
+.EXTERN  h4.popupname
+{
+    margin-top: 9px;
+}
+.EXTERN .filter{
+    padding-top: 17px;
+}
+.EXTERN .date{
+    margin-bottom: 16px;
+    padding-bottom: 2px;
+    height: 18px;
+    overflow: hidden;
+}
+.EXTERN  input
+{
+    height: 18px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+.EXTERN  h1, .EXTERN  h2, .EXTERN  h3,.EXTERN  h4,.EXTERN  p{
+    margin: 0;
+}
+.EXTERN  a.btntag{
+    height: 30px;
+    margin-bottom: 6px;
+}
+.EXTERN  a.btntag img
+{
+    padding: 3px;
+}
+.EXTERN .cross_del
+{
+    margin-bottom: -3px;
+}
+.EXTERN .overflow
+{
+    overflow: hidden;
+}
+.EXTERN .tablecontent
+{
+    max-height: 360px;
+}
+/*graph*/
+.EXTERN .graph
+{
+    margin-top: 18px;
+    width: 100%;
+    height: 324px;
+    margin-bottom: 72px;
+}
+.EXTERN .pie
+{
+    margin-top: 10px;
+    height: 190px;
+}
+.EXTERN .circle
+{
+    width: 10px;
+    height:10px;
+    margin-right: 15px;
+    background-color: #f00;
+    margin-top: 4px;
+}
+/*popups*/
+.EXTERN .popupfilter
+{
+    margin-right: -480px;
+    margin-top: -2px;
+/*    max-height:400px;*/
+    position: absolute;
+    z-index: 100;
+    margin-left: 190px;
+    padding-left: 10px;
+}
+.EXTERN .popupmain
+{
+    
+    margin-left: -10px;
+    padding-left: 10px;
+    max-height: 318px;
+}
+.EXTERN .popupmain .EXTERN .scroll
+{
+    padding-bottom: 18px;
+    max-height: 264px;
+}
+.EXTERN .popupbottom a
+{
+    margin-right: 5px;
+    padding-bottom: -10px;
+}
+.EXTERN .popuptree
+{
+   max-height: 300px;
+   padding: 0;
+   margin-left: -11px;
+   padding-left: 15px;
+   margin-bottom: 0;
+   width:265px;
+   overflow: auto;
+   /*font-family: Calibri !important;*/
+   font-size: 11pt !important;
+   padding-top: 18px;
+   padding-bottom: 18px;
+}
+.EXTERN .popuptree input
+{
+    margin-right: 10px;
+}
+.EXTERN .popupfilter .EXTERN .expcoll
+{
+    padding-bottom: 9px;
+}
+.EXTERN .popupfilter .EXTERN .expcoll a{
+    margin-right: 5px;
+}
+/*.EXTERN .popupbottom
+{
+    padding-right: 10px;
+}*/
+/*postpopup*/
+.EXTERN .postpopup
+{
+    margin-top: 5px;
+    margin-left: 510px;
+}
+.EXTERN .tableheaderborder
+{
+    margin-left: 15px;
+    height: 1px;
+    width: 200px;
+    margin-bottom: -1px;
+}
+/* Align ******************/
+.EXTERN .text-right
+{
+    text-align:right;
+}
+.EXTERN .text-justify
+{
+    text-align: justify;
+}
+.EXTERN .text-center,.EXTERN .greenbtn,.EXTERN .greybtn,.EXTERN .smallbtn
+{
+    text-align:center;
+}
+.EXTERN .center
+{
+    display: block;
+    margin:0 auto;
+}
+.EXTERN .vert-center
+{
+    display:  table-cell;
+    vertical-align: middle;
+    margin-top: expression(((outer.EXTERN .offsetHeight/2)
+    -parseInt(offsetHeight)/2)  <0 ? "0" :
+    (outer.EXTERN .offsetHeight/2)
+    -(parseInt(offsetHeight)/2) +'px') ;
+}
+/* Fonts ******************/
+.EXTERN  
+{
+    /*font-family: Calibri;*/
+    font-size: 11pt;
+    line-height: 18px;
+}
+.EXTERN .text-48
+{
+    line-height: 36px;
+    font-size: 36pt;
+}
+.EXTERN .text-24
+{
+    font-size: 18pt;
+}
+.EXTERN .text-18,.EXTERN .greybtn, h4
+{
+    font-size: 13pt;
+}
+.EXTERN .greenbtn
+{
+    font-size: 18pt;
+}
+.EXTERN .bold, h4, h1, h3, h2
+{
+    font-weight: bold;
+}
+.EXTERN  label
+{
+    font-weight: normal;
+}
+.EXTERN .comment
+{
+    font-style: italic;
+}
+.EXTERN  h1
+{
+    font-size: 35pt;
+}
+.EXTERN  h2
+{
+    font-size: 27pt;
+}
+.EXTERN  h3
+{
+    font-size: 19pt;
+}
+.EXTERN  #help
+{
+    margin-top: 90px;
+    margin-left: 757px;
+    margin-bottom: -90px;
+    height: 85px;
+    margin-right: -3px;
+    position: absolute;
+    z-index: 1000;
+}
+.EXTERN  #help img
+{
+    padding: 0 5px 0 10px;
+}
+.EXTERN .keyword
+{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+/* Colors ******************/
+.EXTERN .text-white,.EXTERN .text-white a,.EXTERN .greenbtn,.EXTERN .greybtn,.EXTERN .smallbtn
+{
+    color: #fff !important;
+}
+.EXTERN .text-green,.EXTERN .text-green a
+{
+    color: #360 !important;
+}
+.EXTERN .text-red,.EXTERN .text-red a
+{
+    color: #c00 !important;
+}
+.EXTERN .highlightpage,.EXTERN .keyword
+{
+    background-color: #9c3;
+}
+a.EXTERN .text-black,.EXTERN .text-black a
+{
+    color: #000 !important;
+}
+.EXTERN .text-lightgrey,.EXTERN .text-lightgrey a
+{
+    color:#999 !important;
+}
+.EXTERN .tableheaderborder
+{
+    background-color:#999;
+}
+.EXTERN .text-grey, .EXTERN .text-grey a
+{
+    color:#666 !important;
+}
+.EXTERN .text-darkgrey
+{
+    color:#333 !important;
+}
+.EXTERN .thispage
+{
+    background-image:url('.EXTERN ..EXTERN ./images/highlightpage.EXTERN .png');
+    background-repeat: repeat-x;
+}
+.EXTERN .greenbtn
+{
+    background-image:url('.EXTERN ..EXTERN ./images/btngreen.EXTERN .png');
+    background-repeat: repeat-x;
+    border: 1px solid #360;
+}
+.EXTERN .greybtn
+{
+    background-image:url('.EXTERN ..EXTERN ./images/greybtn.EXTERN .png');
+    background-repeat: repeat-x;
+    border: 1px solid #000;
+}
+.EXTERN  #help
+{
+    border: 3px solid #fff;
+    border-top: 0; 
+}
+.EXTERN  a.btntag,.EXTERN .smallbtn
+{
+    background-color: #666;
+}
+.EXTERN .disabled
+{
+    background-color: #ccc !important;
+}
+.EXTERN .filter_color,.EXTERN .popupfilter
+{
+    background-color: #F8F8F8;
+}
+.EXTERN .popupfilter
+{
+    border: 2px solid #999;
+    border-left: 1px solid #ccc;
+}
+.EXTERN .postpopup
+{
+    border: 2px solid #999;
+}
+.EXTERN .popupmain
+{
+    background-color: #fff;
+}
+.EXTERN .border_top
+{
+    border-top: 1px solid #999;
+}
+.EXTERN .border_bottom
+{
+    border-bottom: 1px solid #999;
+}
+.EXTERN  #headertop, .EXTERN  #help
+{
+    background-color: #666;
+}
+.EXTERN  #headerbottom
+{
+    background-color: #ccc;
+}
+.EXTERN  #headercenter
+{
+    background-color: #fff;
+}
+/* Design ******************/
+.EXTERN .nodecoration a
+{
+    text-decoration: none;
+}
+.EXTERN .dotted
+{
+    text-decoration: none;
+    border-bottom: 1px dotted #000;
+}
+
+.EXTERN .dottedblack
+{
+    text-decoration: none;
+    border-bottom: 1px dashed #000;
+}
+.EXTERN .dottedwhite
+{
+    text-decoration: none;
+    border-bottom: 1px dashed #fff;
+}
+.EXTERN .bottomborder
+{
+    border-bottom: 1px solid #ccc;
+}
+.EXTERN .dottedlightgrey
+{
+    text-decoration: none;
+    border-bottom: 1px dashed #999;
+}
+.EXTERN .dottedgrey
+{
+    text-decoration: none;
+    border-bottom: 1px dashed #666;
+}
+/*.EXTERN .greenbtn,.EXTERN .greybtn,.EXTERN .smallbtn,a.EXTERN .btntag,.EXTERN .keyword
+{
+    border-radius: 5px; 
+     -webkit-border-radius: 5px; 
+     -moz-border-radius: 5px; 
+     -khtml-border-radius:  5px;
+}*/
+.EXTERN .greenbtn,.EXTERN .greybtn,.EXTERN .smallbtn,a.EXTERN .btntag
+{
+    text-decoration: none;
+}
+.EXTERN  #headercenter
+{
+    border-radius: 0 0 20px 20px; 
+     -webkit-border-radius: 0 0 20px 20px; 
+     -moz-border-radius: 0 0 20px 20px; 
+     -khtml-border-radius:  0 0 20px 20px;
+}
+
+.EXTERN .thispage{
+     border-radius: 20px 20px 0 0; 
+     -webkit-border-radius: 20px 20px 0 0; 
+     -moz-border-radius: 20px 20px 0 0; 
+     -khtml-border-radius: 20px 20px 0 0;
+}
+/*.EXTERN .highlightpage
+{
+     border-radius: 20px; 
+     -webkit-border-radius: 20px; 
+     -moz-border-radius: 20px; 
+     -khtml-border-radius: 20px;
+}*/
+.EXTERN  #help
+{
+    border-radius: 0 0 5px 5px; 
+     -webkit-border-radius: 0 0 5px 5px; 
+     -moz-border-radius: 0 0 5px 5px; 
+     -khtml-border-radius: 0 0 5px 5px;
+}
+.EXTERN .wrappedfilter, a
+{
+    cursor: pointer;
+}
+.EXTERN .scroll
+{
+    /*overflow: auto;*/
+}
+
+.EXTERN .record
+{
+	margin: 8px;
+	padding: 8px;
+}
+
+.EXTERN .top_line
+{
+	padding: 3px;
+	margin: 3px;
+}
+
+.EXTERN .number
+{
+
+}
+
+.EXTERN .report_url
+{
+
+}
+
+.EXTERN .report_status
+{
+	font-size: 8px;
+}
+
+.EXTERN .report_date
+{
+	
+}
+
+.EXTERN .bot_line
+{
+	padding: 3px;
+	margin: 3px;
+}
+
+.EXTERN .descr
+{
+	padding-left: 20px;
+	margin-left: 20px;
+	font-size: 12px;
+}
+
+.EXTERN .records_num
+{
+	
+}
+
+.EXTERN .resources_num
+{
+	
+}

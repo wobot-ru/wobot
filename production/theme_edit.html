@@ -1,0 +1,713 @@
+<?php
+require_once('/var/www/api/0/auth.php');
+auth();
+if (!$loged) header('Location: ./');
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <link rel="stylesheet" type="text/css" href="./css/theme.css">
+  <link rel="stylesheet" type="text/css" href="./css/themelist.css">
+  <link rel="stylesheet" type="text/css" href="./css/msglist.css">
+  <link rel="stylesheet" type="text/css" href="./css/dropdown.css">
+  <link rel="stylesheet" type="text/css" href="./css/tooltip.css">
+  <link rel="stylesheet" type="text/css" href="./css/aristo/Aristo.css">
+  <link rel="stylesheet" type="text/css" href="./css/themeedit.css">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="form.css" type="text/css">
+  <link rel="stylesheet" href="blueprint/screen.css" type="text/css" media="screen, projection">
+  <link rel="stylesheet" href="blueprint/print.css" type="text/css" media="print">
+  <link rel="stylesheet" href="js/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen"/>
+
+  <!--[if lt IE 8]>
+    <link rel="stylesheet" type="text/css" href="blueprint/ie.css" media="screen, projection">
+  <![endif]-->
+  <link rel="stylesheet" type="text/css" href="./css/jquery.gritter.css"/>
+  <link rel="stylesheet" type="text/css" href="./css/tipTip.css"/>
+
+
+  <script type="text/javascript" src="./js/ajax_config.js"></script>
+  <script type="text/javascript" src="./js/jquery.js"></script>
+  <script type="text/javascript" src="./js/jquery-ui.js"></script>
+  <script type="text/javascript" src="./js/highcharts.js"></script>
+  <script type="text/javascript" src="./js/modules/exporting.js"></script>
+  <script type="text/javascript" src="./js/tooltip.js"></script>
+  <script type="text/javascript" src="./js/dropbox.js"></script>
+  <script type="text/javascript" src="./js/jquery.rotate.js"></script>
+  <script type="text/javascript" src="./js/jquery.jstree.js"></script>
+  <script type="text/javascript" src="./js/jquery.cookie.js"></script>
+  <script type="text/javascript" src="./js/dateformat.js"></script>
+  <script type="text/javascript" src="./js/datejs.js"></script>
+  <script type="text/javascript" src="./js/jquery.ui.datepicker-ru.js"></script>
+  <script type="text/javascript" src="./js/jquery.tinyscrollbar.min.js"></script>
+  <script type="text/javascript" src="./js/jquery.tipTip.js"></script>
+  <script type="text/javascript" src="./js/jquery.gritter.js"></script>
+
+  <script type="text/javascript" src="./js/ZeroClipboard.js"></script>
+  <script type="text/javascript" src="./js/jquery.zclip.js"></script>
+  <script type="text/javascript" src="./js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+  <script type="text/javascript" src="./js/fancybox/jquery.easing-1.3.pack.js"></script>
+  <script type="text/javascript" src="./js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+
+  <script type="text/javascript" src="./js/checkbox.js"></script>
+  <script type="text/javascript" src="./js/themeedit.js"></script>
+  <script type="text/javascript" src="./js/settings.js"></script>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Wobot: Страница настройки тегов </title>
+</head>
+
+<body>
+<div class="error_info error_message">
+  <h3>template</h3>
+  <p>template</p>
+</div>
+
+<div class="error_error error_message">
+  <h3>template</h3>
+  <p>template</p>
+</div>
+
+<div class="error_warning error_message">
+  <h3>template</h3>
+  <p>template</p>
+</div>
+
+<div class="error_success error_message">
+  <h3>template</h3>
+  <p>template</p>
+</div>
+<div id="container">
+<div id="header">
+  <ul>
+    <li id="logo"><a href="./"><img src="img/header-logo.png" border="0"/></a></li>
+    <li>
+      <div id="user2">
+        <div class="bubbleInfo" style="margin-top: -10px;">
+          Настройка аккаунта:&nbsp;<a id="user_email" href="#" class="trigger" onclick="$('#dialog-Settings').dialog('open'); return false;"></a>
+          <div class="popup" id="user_email-tooltip">Настройки профиля</div>
+        </div>
+        <span class="inline">
+          Осталось дней: <a id="user_exp" href="#" class="trigger" onclick="$('#dialog-Settings').dialog('open'); return false;"></a>
+        </span>
+      </div>
+    </li>
+    <li>
+      <div id="tarif-limit" class="bubbleInfo"></div>
+    </li>
+    <li>
+      <div id="exits">
+        <a id="exit" href="#">Выход&nbsp;<img width="10" src="img/header_x2.png"/></a>
+      </div>
+    </li>
+    <li>
+      <div id="problems">
+        <a href="#" id="faq" target="_blank">Помощь</a>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<div id="body" style="">
+<div class="layer">
+<h3 class="form-block"><span class="pagename">Создание новой темы</span></h3>
+<div class="form-block">
+  <p id="page_intro">Обратите внимание, изменения настроек темы будут влиять только на новые сообщения.</p>
+</div>
+<div class="form-block"><h3>Общая информация</h3></div>
+<div class="form-block ui-form" id="theme_name">
+  <div class="description">
+    <div class="marker"></div>
+    <div class="des-text">Название темы</div>
+    <div class="clear"></div>
+  </div>
+  <div class="form-holder">
+    <input type="text" value="">
+    <div class="error" id="name_error">Название темы должно быть больше трех символов</div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="form-block" id="active_onoff"><h3>Включение/выключение темы</h3></div>
+<div class="form-block ui-form" id="active">
+  <div class="description">
+    <div class="no-marker"></div>
+    <div class="des-text">Активность темы</div>
+    <div class="clear"></div>
+  </div>
+  <div class="form-holder">
+    <div class="radio-block"><input checked="checked" type="radio" name="activ"> <span>включена</span></div>
+    <div class="radio-block"><input type="radio" name="activ"> <span>выключена</span></div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="form-block"><h3>Период мониторинга</h3></div>
+<div class="form-block ui-form" id="period">
+  <div class="description">
+    <div class="no-marker"></div>
+    <div class="des-text">Период сбора упоминаний<br> по теме</div>
+    <div class="clear"></div>
+  </div>
+  <div class="form-holder">
+    <input type="text" id="dialog-newTheme-datepicker1">
+    <input type="text" id="dialog-newTheme-datepicker2">
+
+    <input type="radio" name="period_type" value="week" id="period_type_week">
+    <label for="period_type_week">Последняя неделя</label><br/>
+    <input type="radio" name="period_type" value="month" id="period_type_month" checked="checked">
+    <label for="period_type_month">Последний месяц</label><br/>
+    <input type="radio" name="period_type" value="custom" id="period_type_custom">
+    <label for="period_type_custom">Произвольный период</label>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="form-block" id="show_period_head"><h3>Период мониторинга</h3></div>
+<div class="form-block" id="show_period">
+  <div class="description">
+    <div class="no-marker"></div>
+    <div class="des-text">Период сбора упоминаний<br> по теме</div>
+    <div class="clear"></div>
+  </div>
+  <div class="form-holder">
+    <div id="order_start" class="show_period"></div>
+    <div id="order_end" class="show_period"></div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="form-block"><h3 style="float:left">Поисковый запрос</h3>
+  <span id="query_correct_val" style="display:none;">0</span>
+  <div id="query_correct" class="marker_q"></div>
+  <div class="clear"></div>
+</div>
+<div class="form-block ui-form" id="request_type">
+  <div class="description">
+    <div class="no-marker"></div>
+    <div class="des-text">Тип запроса</div>
+    <div class="clear"></div>
+  </div>
+  <div class="form-holder">
+    <div class="radio-block"><input checked="checked" type="radio" name="req_type"> <span>обычный (рекомендуемый)</span>
+    </div>
+    <div class="radio-block"><input type="radio" name="req_type">
+      <span>расширенный, с использованием языка запросов</span></div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="form-block ui-form" id="key_words">
+  <div class="description">
+    <div class="no-marker"></div>
+    <div class="des-text">Ключевые слова</div>
+    <div class="clear"></div>
+  </div>
+  <div class="form-holder">
+    <textarea></textarea><a href="#" target="_blank" class="quest_marker"></a>
+    <div class="textarea-help">
+      Каждое найденное сообщение будет содержать одно или несколько Ключевых слов. Вводите слова через запятую. <br/>
+      Это обязательное поле!
+    </div>
+    <div class="error" id="words_error">Не введен запрос</div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="form-block ui-form" id="advance_key_words" style="display: none;">
+  <div class="description">
+    <div class="no-marker"></div>
+    <div class="des-text">Уточняющие слова</div>
+    <div class="clear"></div>
+  </div>
+  <div class="form-holder" style="position: relative;">
+    <div class="adv_req_help" style="display: none;">
+      <a target="_blank" href="http://wobot.ru/faq/#1_7">и</a>
+      <a target="_blank" href="http://wobot.ru/faq/#1_7">или</a>
+      <a target="_blank" href="http://wobot.ru/faq/#1_7">стоп-слово</a>
+      <a target="_blank" href="http://wobot.ru/faq/#1_7">еще</a>
+    </div>
+    <input type="hidden" value=""/>
+    <div class="left-symbols-count">700</div>
+    <textarea></textarea><a href="#" target="_blank" class="quest_marker"></a>
+    <div class="selected-search-object"></div>
+
+    <div class="textarea-help" style="display: none;">
+      Каждое найденное сообщение будет содержать ВСЕ Уточняющие слова. Вводите слова через запятую. При использовании этого поля, введенные слова будут искаться ВМЕСТЕ со словами из предыдущего поля. Это поле не обязательно.
+    </div>
+    <div class="error" id="adv_words_error">Не введен запрос</div>
+    <fieldset class="search-object">
+      <legend>Объекты</legend>
+    </fieldset>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="form-block ui-form" id="additional_key_words">
+  <div class="description">
+    <div class="no-marker"></div>
+    <div class="des-text">Уточняющие слова</div>
+    <div class="clear"></div>
+  </div>
+  <div class="form-holder">
+    <textarea></textarea><a href="#" target="_blank" class="quest_marker"></a>
+    <div class="textarea-help">
+      Каждое найденное сообщение будет содержать ВСЕ Уточняющие слова. Вводите слова через запятую. При использовании этого поля, введенные слова будут искаться ВМЕСТЕ со словами из предыдущего поля. Это поле не обязательно.
+    </div>
+    <div class="error" id="add_words_error">Не введен запрос</div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="form-block ui-form" id="stop_words">
+  <div class="description">
+    <div class="no-marker"></div>
+    <div class="des-text">Стоп-слова</div>
+    <div class="clear"></div>
+  </div>
+  <div class="form-holder">
+    <textarea></textarea><a href="#" target="_blank" class="quest_marker"></a>
+    <div class="textarea-help">
+      Найденные сообщения НЕ будут содержать эти слова. Вводите слова через запятую.
+      При использовании этого поля, сообщения, найденные по Ключевым словам, будут убираться из выдачи в соответствии с введенными стоп-словами. Это поле не обязательно.
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="form-block" style="display: none;"><h3>Площадки</h3></div>
+<div class="form-block ui-form" style="display: none;" id="monintoring">
+  <div class="description">
+    <div class="no-marker"></div>
+    <div class="des-text">Мы мониторим</div>
+    <div class="clear"></div>
+  </div>
+  <div class="form-holder">
+    <div class="radio-block"><input checked="checked" type="radio" name="monintoring"> <span>все площадки</span></div>
+    <div class="radio-block"><input type="radio" name="monintoring"> <span>все площадки, кроме перечисленных ниже</span>
+    </div>
+    <div class="radio-block"><input type="radio" name="monintoring"> <span>только перечисленные ниже площадки</span>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="form-block ui-form" id="space_list" style="display: none;">
+  <div class="description">
+    <div class="no-marker"></div>
+    <div class="des-text">Список площадок</div>
+    <div class="clear"></div>
+  </div>
+  <div class="form-holder">
+    <textarea></textarea><a style="display:none" href="#" target="_blank" class="quest_marker"></a>
+    <div class="textarea-help">
+      Размещайте по одному URL адресу в каждой строке.
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="form-block" style="display:none;"><h3>Авторы</h3></div>
+<div class="form-block ui-form" id="authors" style="display:none;">
+  <div class="description">
+    <div class="no-marker"></div>
+    <div class="des-text">Собирать упоминания</div>
+    <div class="clear"></div>
+  </div>
+  <div class="form-holder">
+    <div class="radio-block"><input checked="checked" type="radio" name="authors"> <span>от всех авторов</span></div>
+    <div class="radio-block"><input type="radio" name="authors"> <span>от всех авторов, кроме перечисленных ниже</span>
+    </div>
+    <div class="radio-block"><input type="radio" name="authors"> <span>только перечисленных ниже авторов</span></div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="form-block ui-form" id="authors_list" style="display: none;">
+  <div class="description">
+    <div class="no-marker"></div>
+    <div class="des-text">Список авторов</div>
+    <div class="clear"></div>
+  </div>
+  <div class="form-holder">
+    <textarea></textarea><a style="display:none" href="#" target="_blank" class="quest_marker"></a>
+    <div class="textarea-help">
+      Размещайте по одному имени или URL адресу профиля в каждой строке.
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="form-block" id="dem"><h3>Демографический фильтр</h3></div>
+<div class="form-block" id="dem_hint">
+  <p style="color: #000">
+    Вы можете дополнительно ограничить собираемые упоминания по демографическим
+    признакам авторов. Учтите, что не все социальные сети предоставляют такую информацию об авторах, что может значительно
+    ограничить количество получаемых упоминаний.
+  </p>
+</div>
+<div class="form-block ui-form" id="age_diap">
+  <div class="description">
+    <div class="no-marker"></div>
+    <div class="des-text">Выбор диапазона возрастов</div>
+    <div class="clear"></div>
+  </div>
+  <div class="form-holder">
+    <div class="radio-block"><input checked="checked" type="radio" name="age_diap"/> <span>любой возраст</span></div>
+    <div class="radio-block"><input type="radio" name="age_diap"/> <span>в диапазоне</span></div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="form-block ui-form" id="authors_age">
+  <div class="description">
+    <div class="no-marker"></div>
+    <div class="des-text">Возраст авторов от</div>
+    <div class="clear"></div>
+  </div>
+  <div class="form-holder">
+    <input class="input-age" type="text"> <span style="padding: 0 20px">до</span> <input class="input-age" type="text">
+    <div class="error" id="age_num_error">Ошибка при вводе значения возраста</div>
+    <div class="error" id="age_val_error">Возраст "от" должен быть меньше возраста "до"</div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="form-block ui-form" id="authors_sex">
+  <div class="description">
+    <div class="no-marker"></div>
+    <div class="des-text">Пол авторов</div>
+    <div class="clear"></div>
+  </div>
+  <div class="form-holder">
+    <div class="radio-block"><input checked="checked" type="radio" name="authors_sex"> <span>любой</span></div>
+    <div class="radio-block"><input type="radio" name="authors_sex"> <span>женский</span></div>
+    <div class="radio-block"><input type="radio" name="authors_sex"> <span>мужской</span></div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="form-block ui-form" id="countries_cities">
+  <div class="description">
+    <div class="no-marker"></div>
+    <div class="des-text">Страны</div>
+    <div class="clear"></div>
+  </div>
+  <div class="form-holder">
+    <div class="check-block"><input checked="checked" type="checkbox" name="countries_cities">
+      <span class="loc_span">Россия</span></div>
+    <div class="check-block"><input checked="checked" type="checkbox" name="countries_cities">
+      <span class="loc_span">зарубежье</span></div>
+    <div id="add_country_city" style="display: none;">
+      <input type="text" class="addCC" style="display: none;">
+      <button id="addCC">Добавить</button>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="form-block"><h3>Удаленные упоминания</h3></div>
+<div class="form-block ui-form" id="spam">
+  <div class="description">
+    <div class="no-marker"></div>
+    <div class="des-text">Показывать в кабинете и выгружать при экспорте</div>
+    <div class="clear"></div>
+  </div>
+  <div class="form-holder">
+    <div class="radio-block"><input checked="checked" type="radio" name="spam"> <span>да</span></div>
+    <div class="radio-block"><input type="radio" name="spam"> <span>нет</span></div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="form-block"><h3>Автотональность</h3>
+  <div class="textarea-help"> Внимание! При включении автотональности в теме предыдущие оценки, расставленные вручную, переписываются!</div>
+</div>
+<div class="form-block ui-form" id="autotone">
+  <div class="description">
+    <div class="no-marker"></div>
+    <div class="des-text">Включить автотональность</div>
+    <div class="clear"></div>
+  </div>
+  <div class="form-holder">
+    <div class="radio-block"><input checked="checked" type="radio" name="tone"> <span>выключить</span></div>
+    <div class="radio-block"><input type="radio" name="tone"> <span>включить (Только новые)</span></div>
+    <div class="radio-block"><input type="radio" name="tone"> <span>включить (Все сообщения)</span></div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="form-block ui-form" id="tone_type" style="display:none">
+  <div class="help-tone-obj"> Если Ваша тема связана с банковским сектором или розничными продажами, рекомендуем выбрать профильную тональность («Банковская» или «Торговля»), для всех остальных тем подойдет «Универсальная» тональность.
+</div>
+  <div class="description">
+    <div class="no-marker"></div>
+    <div class="des-text">Тип тональности:</div>
+    <div class="clear"></div>
+  </div>
+  <div class="form-holder">
+    <div class="radio-block"><input checked="checked" type="radio" name="tone_type"> <span>Универсальная</span></div>
+    <div class="radio-block"><input type="radio" name="tone_type"> <span>Банковская</span></div>
+    <div class="radio-block"><input type="radio" name="tone_type"> <span>Торговля</span></div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="form-block ui-form" id="tone_object" style="display:none">
+<div class="help-tone-obj"> Объект тональности - это предмет или явление, оценку которого Вы хотите видеть в упоминаниях. Это может быть название компании или бренда, продукт, персона, мероприятие, отдельные стороны основной темы мониторинга. Например, Вашей темой мониторинга является магазин «Универмаг», тогда в объектах тональности Вы указываете следующее: «универмаг, магазин». Если Вы также хотите автоматически оценить работу персонала, то в объекты стоит дописать: «кассир, менеджер, работник, сотрудник».</div>
+<div class="help-tone-obj"> Объекты тональности вводятся через запятую и допускается использование не более 10 объектов.</div>
+  <div class="description">
+    <div class="marker"></div>
+    <div class="des-text">Объекты тональности</div>
+    <div class="clear"></div>
+  </div>
+  <div class="form-holder">
+   <textarea></textarea>
+    <div class="error" id="tone_obj_error">Название темы должно быть больше трех символов</div>
+  </div>
+  <div class="clear"></div>
+</div>
+</div>
+<div class="layer" style="display: none;">
+  <div class="form-block" id="groups_head"><h3 style="display: inline">Группы социальных сетей</h3></div>
+  <div><p style="color: #000; font-size: 16px; margin-bottom: 10px; margin-top: 15px;">
+    Для подключения к мониторингу группы Facebook или Вконтакте укажите ссылку на страницу группы и сохраните настройки. Также вы можете подключить сбор упоминаний с наиболее популярных групп, названия которых соответствуют поисковому запросу.</p>
+  </div>
+  <div class="form-block" id="autogroups">
+    <input style="display: inline" type="checkbox" id="autogroup_check" checked="checked" name="autogroup">
+    <span>Включить в выдачу группы, соответствующие ключевому запросу. </span>
+    <a style="display: block; margin-top: 8px;" href="#" id="showGroups"> Показать группы</a>
+
+    <span style="color:red; display: none;" id="groupsError">Ключевые слова не заполнены</span>
+  </div>
+  <div class="form-block" id="groups"></div>
+  <div style="display: none; text-align: center" id='ajax-loader'><img src='./img/ajax-loader.gif'></div>
+  <div class="form-block">
+    <button id="add_group">Добавить группу</button>
+  </div>
+</div>
+<div class="layer">
+  <div class="form-block"><h3>Редактирование тегов</h3></div>
+  <div class="inline txt"><!--<a id="home-url" href="#"><img src="img/body_header_home.gif" /></a>--></div>
+  <div>
+    <p style="color: #000; font-size: 16px; margin-bottom: 10px; margin-top: 15px;">
+      Вы можете использовать автоматическую простановку тегов на основе ключевых слов. Для этого нажмите кнопку "автоматически" напротив названия тега и укажите ключевые слова через запятую.
+    </p>
+  </div>
+  <div id="sharetag">
+    <p>
+      Скопировать тегировочный лист из другой темы:
+    </p>
+    <div class="inline input-bg dropbox">
+      <select id="theme-list">
+        <option selected="selected" value="0">Выберите тему</option>
+      </select>
+      <span class="inline btn"><a href="#"><img class="img-cbdd" src="img/dda.png"/></a></span>
+    </div>
+    <button id="copy-tags">Копировать</button>
+  </div>
+  <table cellspacing="5" class="tagstable ui-form">
+    <tr class="template">
+      <td>
+        <table>
+          <tr>
+            <td class="name" width="250">
+              <span>пресс-релиз</span>
+              <input type="text" value="пресс-релиз"/>
+            </td>
+            <td class="auto" width="180">
+              <div id="radiotag1">
+                <input type="radio" name="radio" value="1"/> <label id="auto" style="float: left;">автоматически</label>
+                <input type="radio" name="radio" value="0"/> <label id="manual" style="float: left;">вручную</label>
+              </div>
+            </td>
+            <td class="edit">
+              <button title="редактировать"></button>
+            </td>
+            <td class="delete">
+              <button title="удалить"></button>
+            </td>
+          </tr>
+          <tr class="edithidden auto_type" style="display: none;">
+            <td colspan="4">
+              <input type="radio" name="autotag_type" value="simple" checked="checked" style="display: inline;">
+              <label>простой запрос</label>
+              <input type="radio" name="autotag_type" value="query" style="display: inline;">
+              <label>сложный запрос</label>
+            </td>
+          </tr>
+          <tr class="edithidden tag_akw" style="display: none;">
+            <td colspan="4">запрос<br><input type="text" style="width:460px;"></td>
+          </tr>
+          <tr class="edithidden kw" style="display: none;">
+            <td colspan="4">ключевые слова<br><input type="text" style="width:460px;"></td>
+          </tr>
+          <tr class="edithidden sw" style="display: none;">
+            <td colspan="4">стоп-слова<br><input type="text" style="width:460px;"></td>
+          </tr>
+          <tr class="edithidden" style="display: none;">
+            <td colspan="4">
+              <div class="ui-widget" id="tagerror" style="width:470px;font-size:12px;margin-bottom:5px;display: none;">
+                <div class="ui-state-error ui-corner-all" style="padding: 0 .7em;">
+                  <p style="padding: 10px 0;"><span class="ui-icon ui-icon-alert" style="float: left; margin-right: .7em;"></span>
+                    <strong>Ошибка:</strong> <span class="errormsg"></span></strong></p>
+                </div>
+              </div>
+              <button id="editsave">Ok</button>
+              <button id="editcancel">Отменить</button>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <div id="addtagform">
+    <br><br>
+    <table class="ui-form" style="margin-left: 4px">
+      <tr>
+        <td style=" width: 250px;"><input type="text" class="ui-form" id="addname" placeholder="Название тега"></td>
+        <td width="216">
+          <div id="addradio">
+            <input type="radio" name="addautotag" id="addradio1"><label for="addradio1" style="float: left;">автоматически</label>
+            <input type="radio" name="addautotag" id="addradio2" checked="checked"><label for="addradio2" style="float: left;">вручную</label>
+          </div>
+      </tr>
+      <tr class="hidden" style="display:none;">
+        <td colspan="2">
+          <input type="radio" name="autotag_type" id="autotag_type_simple" value="simple" checked="checked" style="display: inline;">
+          <label for="autotag_type_simple">простой запрос</label>
+          <input type="radio" name="autotag_type" id="autotag_type_query" value="query" style="display: inline;">
+          <label for="autotag_type_query">сложный запрос</label>
+        </td>
+      </tr>
+      <tr class="hidden" style="display:none;">
+        <td colspan="2">запрос<br>
+          <input type="text" class="ui-form ui-state-error" style="width:460px;" name="akw" id="akw" value=""></td>
+      </tr>
+      <tr class="hidden" style="display:none;">
+        <td colspan="2">ключевые слова<br>
+          <input type="text" class="ui-form ui-state-error" style="width:460px;" name="kwrd" id="kwrd" value="">
+        </td>
+      </tr>
+      <tr class="hidden" style="display:none;">
+        <td colspan="2">стоп-слова<br>
+          <input type="text" class="ui-form" style="width:460px;" name="swrd" id="swrd" value=""></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="ui-widget" style="width: 475px; font-size: 12px; margin-bottom: 10px; display: none;" id="adderror">
+    <div class="ui-state-error ui-corner-all" style="padding: 0 .7em;">
+      <p style="padding: 10px 0;">
+        <span class="ui-icon ui-icon-alert" style="float: left; margin-right: .7em;"></span>
+        <strong>Ошибка: </strong><span>Введите имя тега</span>
+      </p>
+    </div>
+  </div>
+
+  <div style="padding-left:0;">
+    <button id="addtag">Добавить новый тег</button>
+  </div>
+  <div style="padding-left: 6px;">
+    <button id="savetag">Ok</button>
+    <button id="canceltag">Отменить</button>
+  </div>
+</div>
+<div class="layer">
+  <div class="form-block"><h3>Удаление сообщений</h3></div>
+  <div>
+    <p style="color: #000; font-size: 16px; margin-bottom: 10px; margin-top: 15px;">
+      Сообщения в выбранном вами временном интервале буду <strong style="color: #d14836; font-weight: bold;">безвозвратно</strong> удалены из кабинета!
+    </p>
+  </div>
+  <div id="message-delete">
+    <div class="inline txt">Период</div>
+    <div id="date" class="inline input-bg dd">
+      <input class="inline input" id="datepicker" type="text" value="По дате"/>
+      <span class="inline btn"><a href="#" class="ddp dd"><img class="img-cbdd" src="img/dda.png"/></a></span>
+
+      <div class="dp" style="z-index: 100;">
+        <table>
+          <col width="50%"/>
+          <col width="50%"/>
+          <tr>
+            <th style=" font-size: 13px; font-weight:normal;"> Начало периода</th>
+            <th style=" font-size: 13px; font-weight:normal;"> Окончание периода</th>
+          </tr>
+          <tr>
+            <td style=" padding: 5px; vertical-align: top;">
+              <div id="dp-begin"></div>
+            </td>
+            <td style=" padding: 5px; vertical-align: top;">
+              <div id="dp-end"></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <button id="delete-button">Удалить сообщения</button>
+  </div>
+</div>
+<div class="layer">
+  <div class="form-block">
+    <div class="description">&nbsp;</div>
+    <div class="form-holder">
+      <button class="undo" id="undo">Отменить</button>
+      <button class="save" id="save">Сохранить изменения</button>
+    </div>
+    <div class="description" id="saveloader" style="display:none; width: 50px; text-align: left;">
+      <img src='./img/ajax-loader.gif'></div>
+    <div class="clear"></div>
+  </div>
+</div>
+
+</div>
+</div>
+<div id="footer">
+  <div class="ul">
+    <div id="logo"><img src="img/bottom_logo.gif"/></div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  var reformalOptions = {
+    project_id: 58144,
+    project_host: "wobot-dashboard.reformal.ru",
+    tab_orientation: "left",
+    tab_indent: "50%",
+    tab_bg_color: "#3cabdf",
+    tab_border_color: "#FFFFFF",
+    tab_image_url: "http://tab.reformal.ru/T9GC0LfRi9Cy0Ysg0Lgg0L%252FRgNC10LTQu9C%252B0LbQtdC90LjRjw==/FFFFFF/4bfb34d91c8d7fb481972ca3c84aec38/left/0/tab.png",
+    tab_border_width: 0
+  };
+
+  (function () {
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.async = true;
+    script.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'media.reformal.ru/widgets/v3/reformal.js';
+    document.getElementsByTagName('head')[0].appendChild(script);
+  })();
+</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+  var yaParams = {/*Здесь параметры визита*/};
+</script>
+
+<script type="text/javascript">
+  (function (d, w, c) {
+    (w[c] = w[c] || []).push(function () {
+      try {
+        w.yaCounter14523778 = new Ya.Metrika({id: 14523778, enableAll: true, trackHash: true, ut: "noindex", webvisor: true, params: window.yaParams || { }});
+      } catch (e) {
+      }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+      s = d.createElement("script"),
+      f = function () {
+        n.parentNode.insertBefore(s, n);
+      };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+      d.addEventListener("DOMContentLoaded", f);
+    } else {
+      f();
+    }
+  })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript>
+  <div><img src="//mc.yandex.ru/watch/14523778?ut=noindex" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
+
+</body>
+
+</html>

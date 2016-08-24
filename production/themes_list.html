@@ -1,0 +1,462 @@
+<?php
+require_once('/var/www/api/0/auth.php');
+auth();
+if (!$loged) header('Location: ./');
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <link rel="stylesheet" type="text/css" href="./css/theme.css">
+  <link rel="stylesheet" type="text/css" href="./css/master.css">
+  <link rel="stylesheet" type="text/css" href="./css/themelist.css">
+  <link rel="stylesheet" type="text/css" href="./css/msglist.css">
+  <link rel="stylesheet" type="text/css" href="./css/dropdown.css">
+  <link rel="stylesheet" type="text/css" href="./css/tooltip.css">
+  <link rel="stylesheet" type="text/css" href="./css/aristo/Aristo.css">
+  <link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox-1.3.4.css" media="screen"/>
+  <link rel="stylesheet" type="text/css" href="./css/jquery.gritter.css"/>
+  <link rel="stylesheet" type="text/css" href="./css/tipTip.css"/>
+
+  <script type="text/javascript" src="./js/ajax_config.js"></script>
+  <script type="text/javascript" src="./js/jquery.js"></script>
+  <script type="text/javascript" src="./js/jquery-ui.js"></script>
+  <script type="text/javascript" src="./js/highcharts.js"></script>
+  <script type="text/javascript" src="./js/modules/exporting.js"></script>
+  <script type="text/javascript" src="./js/tooltip.js"></script>
+  <script type="text/javascript" src="./js/dropbox.js"></script>
+  <script type="text/javascript" src="./js/jquery.rotate.js"></script>
+  <script type="text/javascript" src="./js/jquery.jstree.js"></script>
+  <script type="text/javascript" src="./js/jquery.cookie.js"></script>
+  <script type="text/javascript" src="./js/dateformat.js"></script>
+  <script type="text/javascript" src="./js/datejs.js"></script>
+  <script type="text/javascript" src="./js/jquery.ui.datepicker-ru.js"></script>
+  <script type="text/javascript" src="./js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+  <script type="text/javascript" src="./js/jquery.tinyscrollbar.min.js"></script>
+  <script type="text/javascript" src="./js/jquery.tipTip.js"></script>
+  <script type="text/javascript" src="./js/jquery.gritter.js"></script>
+  <script type="text/javascript" src="./js/checkbox.js"></script>
+  <script type="text/javascript" src="./js/themelist.js"></script>
+  <script type="text/javascript" src="./js/settings.js"></script>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Wobot: Список тем </title>
+</head>
+
+<body>
+<div class="error_info error_message">
+  <h3>template</h3>
+  <p>template</p>
+</div>
+
+<div class="error_error error_message">
+  <h3>template</h3>
+  <p>template</p>
+</div>
+
+<div class="error_warning error_message">
+  <h3>template</h3>
+  <p>template</p>
+</div>
+
+<div class="error_success error_message">
+  <h3>template</h3>
+  <p>template</p>
+</div>
+<div id="container">
+
+<div id="dialog-message-add" class="mdialog" title="Подсказка" style="display: none;">
+  <div class="ui-widget">
+    <div class="ui-state-highlight ui-corner-all" style="padding: 0 .7em;">
+      <p style="padding: 10px 0;"><span class="ui-icon ui-icon-info" style="float: left; margin-right: .7em;"></span>
+        <strong>Тема успешно добавлена.</strong></p>
+    </div>
+  </div>
+</div>
+
+<div id="dialog-newTheme" class="mdialog" title="Новая тема">
+  <div id="dialog-newTheme-message" style="width: 100%; height: 100%; text-align: center; vertical-align: middle; display: none;">
+    <div class="ui-widget">
+      <div class="ui-state-error ui-corner-all" style="padding: 0 .7em;">
+        <p style="padding: 10px 0;"><span class="ui-icon ui-icon-alert" style="float: left; margin-right: .7em;"></span>
+          <strong>Ошибка: невозможно добавить тему. Превышено количество тем для тарифа.</strong></p>
+      </div>
+    </div>
+  </div>
+  <div id="dialog-newTheme-message2" style="width: 100%; height: 100%; text-align: center; vertical-align: middle; display: none;">
+    <div class="ui-widget">
+      <div class="ui-state-error ui-corner-all" style="padding: 0 .7em;">
+        <p style="padding: 10px 0;"><span class="ui-icon ui-icon-alert" style="float: left; margin-right: .7em;"></span>
+          <strong>Ошибка: Недостаточно средств для добавления темы. </strong></p>
+      </div>
+    </div>
+  </div>
+  <div id="dialog-newTheme-message3" style="width: 100%; height: 100%; text-align: center; vertical-align: middle; display: none;">
+    <div class="ui-widget">
+      <div class="ui-state-error ui-corner-all" style="padding: 0 .7em;">
+        <p style="padding: 10px 0;"><span class="ui-icon ui-icon-alert" style="float: left; margin-right: .7em;"></span>
+          <strong>Ошибка: добавление тем не предусмотрено для вашего тарифа.</strong></p>
+      </div>
+    </div>
+  </div>
+  <div id="dialog-newTheme-hide" style="display: none;">
+    <form id="reset">
+      <div style="float: left; width: 100%;">
+        <div style="float: left; width: 48%; padding-right: 3%;">
+          <label for="dialog-newTheme-name">Название темы *</label>
+          <input type="text" id="dialog-newTheme-name" name="dialog-newTheme-name" class="ui-form"/>
+        </div>
+        <div style="float: left; width: 23%; padding-right: 3%;">
+          <label for="dialog-newTheme-datepicker1">Начало периода</label>
+          <input type="text" id="dialog-newTheme-datepicker1" name="dialog-newTheme-datepicker1" class="ui-form"/>
+        </div>
+        <div style="float: left; width: 23%;">
+          <label for="dialog-newTheme-datepicker2">Окончание периода</label>
+          <input type="text" id="dialog-newTheme-datepicker2" name="dialog-newTheme-datepicker2" class="ui-form"/>
+        </div>
+        <div style="float: left; width: 100%" id="tip-cont-1">
+          <div class="ui-widget">
+            <div class="ui-state-error ui-corner-all" style="padding: 0 .7em;">
+              <p style="padding: 10px 0;">
+                <span class="ui-icon ui-icon-alert" style="float: left; margin-right: .7em;"></span>
+                <strong>Ошибка:</strong> <span id="newTheme-name-tip"></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="float: left; width: 100%;">
+        <h1 style="font-size: 16px; padding: 10px 0px 0px 0px; margin-bottom: 0px;">Поисковый запрос</h1>
+        <div class="ui-state-highlight ui-corner-all" style="margin-top: 10px; margin-bottom: 10px; padding: 0 .7em;">
+          <p style="padding: 10px 0;">
+            <span class="ui-icon ui-icon-info" style="float: left; margin-right: .7em;"></span>
+            <strong>Подсказка:</strong>
+            Вводите ключевые слова через запятую. Для словосочетаний используйте "двойные кавычки".
+            Если при добавлении запроса у Вас возникли проблемы, обратитесь к менеджеру.</p>
+        </div>
+        <label for="dialog-newTheme-name" style="font-size: 14px;">Ключевые слова *
+          <em>(Будут найдены сообщения, где встречается
+            <span style="font-weight: bold">хотя бы одно</span> из слов)</em>.</label>
+        <input type="text" id="dialog-newTheme-keywordOr" class="ui-form"/>
+        <label for="dialog-newTheme-keywordAnd" style="font-size: 14px;">Дополнительные слова
+          <em>(Будут найдены сообщения, в текстах которых обязательно встречаются
+            <span style="font-weight: bold">все</span> перечисленные слова)</em>.</label>
+        <input type="text" id="dialog-newTheme-keywordAnd" class="ui-form"/>
+        <label for="dialog-newTheme-keywordNot" style="font-size: 14px;">Стоп-слова
+          <em>(Сообщения, содержащие стоп-слова, будут исключены)</em>.</label>
+        <input type="text" id="dialog-newTheme-keywordNot" class="ui-form"/>
+        <label style="font-size: 14px; margin-top: 10px;"><em>* - поля, обязательные для заполнения</em></label>
+      </div>
+      <div style="float: left; width: 100%; margin-top:10px;" id="tip-cont-2">
+        <div class="ui-widget">
+          <div class="ui-state-error ui-corner-all" style="padding: 0 .7em;">
+            <p style="padding: 10px 0;">
+              <span class="ui-icon ui-icon-alert" style="float: left; margin-right: .7em;"></span>
+              <strong>Ошибка:</strong> <span id="newTheme-kwrd-tip"></span></p>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <p id="d_mes"></p>
+</div>
+
+<div id="header">
+  <ul>
+    <li id="logo"><a href="./"><img src="img/header-logo.png" border="0"/></a></li>
+    <li>
+      <div id="user2">
+        <div class="bubbleInfo" style="margin-top: -10px;">
+          Настройка аккаунта:&nbsp;<a id="user_email" href="#" class="trigger" onclick="$('#dialog-Settings').dialog('open'); return false;"></a>
+          <div class="popup" id="user_email-tooltip">Настройки профиля</div>
+        </div>
+        <span class="inline">Осталось дней: <a id="user_exp" href="#" class="trigger" onclick="$('#dialog-Settings').dialog('open'); return false;"></a></span>
+      </div>
+    </li>
+    <li>
+      <div id="tarif-limit" class="bubbleInfo" style="width: 80px; margin-right: 0;"></div>
+    </li>
+    <li>
+      <div id="exits" style="width: 80px;">
+        <a id="exit" href="#">Выход&nbsp;<img width="10" src="img/header_x2.png"/></a>
+      </div>
+    </li>
+    <li>
+      <div id="problems" style="width: 80px;">
+        <a href="#" id="faq" target="_blank">Помощь</a>
+      </div>
+    </li>
+    <li>
+      <div id="access_setup">
+        <a href="#" id="access">Настройки доступа</a>
+      </div>
+    </li>
+  </ul>
+</div>
+
+
+<div id="body">
+  <div class="progress">
+    <div id="progressbar"></div>
+  </div>
+  <!-- Header -->
+  <div id="L1" class="layer L11">
+    <div class="inline tr" id="infofield" style="margin-left: 0px; padding-top:2px;">
+      <p> Темы <span id="dyn2">  </span></p>
+    </div>
+    <div class="inline btn-theme"><a href="theme_edit.html"><p><b>+</b> Тема</p></a></div>
+    <div class="inline btn-resources" style="background: none;"><!--<a href="#" onclick="$('#dialog-newResource').dialog('open');"><p><b>+</b> Ресурс</p></a> --></div>
+    <div class="inline btn-all selected"><p>Все</p></div>
+    <div class="inline txt ready btn-ready">
+      <p><!--<a href="#">-->Готовые<!--</a>--><span class="dyn" id="themes-ready"> </span></p>
+    </div>
+    <div class="inline txt sort">
+      <p class="inline">Сортировать по:</p>
+      <div class="inline input-bg dropbox" style="width: 165px;">
+        <select id="order-by">
+          <option selected="selected" value="default">началу исследования</option>
+          <option value="time">времени создания</option>
+          <option value="post">кол-ву упоминаний</option>
+          <option value="value">охвату</option>
+          <option value="alpha">алфавиту</option>
+        </select>
+        <span class="inline btn"><a href="#"><img class="img-cbdd" src="img/dda.png"/></a></span>
+      </div>
+    </div>
+    <div></div>
+  </div>
+  <!-- Theme ready-->
+  <div class="FL layer layer_T" id="theme-ready" style="display: none;" completed="1">
+    <div class="inline cl-left">
+      <div class="valign">
+      </div>
+    </div>
+    <div class="inline cl cl1-border order-href">
+      <div class="inline cl1 r0">&nbsp;</div>
+      <div class="inline r1">
+        <div class="valign" style="">
+          <div class="hide-long-text-wrapper" style="width: 232px;">
+            <a class="order-keyword" href="" style="">hse hghjgjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</a>
+          </div>
+          <div class="hide-long-text-list" style="">&nbsp;</div>
+        </div>
+      </div>
+      <div class="inline r2">
+        <div class="valign"><a href="#"><img class="order-image" src="img/dgrm33.png"/></a></div>
+      </div>
+      <div class="inline r3">
+        <div class="valign order-dates ">13 марта &#8211; 4 апреля</div>
+      </div>
+      <div class="inline r4 bubbleInfo">
+        <div class="valign ">
+          <div class="inline w ">
+            <div class="fa trigger">упоминания</div>
+            <div class="fb order-posts" style=" margin-left: -4px; width: 100px;">3230</div>
+            <div class="popup" id="1" style="width: 130px; height: 30px; font-size: 14px;">количество упоминаний по теме</div>
+          </div>
+          <div class="inline s pls order-posts-delta">+204</div>
+        </div>
+      </div>
+      <div class="inline r5 bubbleInfo">
+        <div class="valign">
+          <div class="inline w">
+            <div class="fa trigger">ресурсы</div>
+            <div class="fb order-src" style="margin-left: -5px; width: 60px;">1707</div>
+            <div class="popup" id="1" style="width: 130px; height: 30px;">количество ресурсов</div>
+          </div>
+          <div class="inline s mns order-src-delta">-305
+          </div>
+        </div>
+      </div>
+      <div class="inline r6 bubbleInfo">
+        <div class="valign">
+          <div class="inline w">
+            <div class="fa trigger">охват</div>
+            <div class="fb order-value" style="margin-left: -5px; width: 66px;">42809</div>
+            <div class="popup" id="1" style="width: 130px; height: 30px;">тут текст подсказки</div>
+          </div>
+          <div class="inline s pls order-value-delta">+54
+          </div>
+        </div>
+      </div>
+      <div class="inline r7">
+        <div class="valign">
+          <div class="rdy">Готов</div>
+          <div class="order-ready">4 апреля</div>
+        </div>
+      </div>
+      <div class="inline r8">
+        <div class="valign">
+          <a class="rss" href="#"><img src="img/RSS.png"/></a>
+        </div>
+      </div>
+      <div class="inline r9">
+        <div class="valign">
+          <a class="edittheme" target="_blank" alt="редактирование" href="#"><img width="17" height="" src="img/setting@2xgrey.png"/></a>
+        </div>
+      </div>
+      <div class="inline r10">
+        <div class="valign">
+          <a class="deletetheme" target="_blank" alt="удаление" href="#"><img width="17" height="" src="img/deletetheme.png"/></a>
+        </div>
+      </div>
+    </div>
+    <div style="width:100px">&nbsp;</div>
+  </div>
+  <!-- Theme NOT ready-->
+  <div class="FL layer layer_T" id="theme-notready" style="display: none;" completed="0">
+    <div class="inline cl-left" style="display: none;">
+      <div class="valign">
+        <div class="inline lr0" style="color: #fff" chk="0"><a href="#">Сравнить</a></div>
+        <div class="inline lr1"><img src="img/cb.png"/></div>
+      </div>
+    </div>
+    <div style="float: left; width: 110px;">&nbsp;</div>
+    <div class="inline cl cl2-border order-href">
+      <div class="inline cl2 r0">&nbsp;</div>
+      <div class="inline r1">
+        <div class="valign" style="">
+          <div class="hide-long-text-wrapper vltw1">
+            <a class="order-keyword" href="/themes/135" style="">hse hghjgjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</a>
+          </div>
+          <div class="hide-long-text" style="">&nbsp;</div>
+        </div>
+      </div>
+      <div class="inline r2">
+        <div class="valign"></div>
+      </div>
+      <div class="inline r3">
+        <div class="valign order-dates">13 марта &#8211; 4 апреля</div>
+      </div>
+      <div class="inline r4">
+        <div class="valign">
+          <div class="q"><img src="img/q.png"/></div>
+        </div>
+      </div>
+      <div class="inline r5">
+        <div class="valign">
+          <div class="q"><img src="img/q.png"/></div>
+        </div>
+      </div>
+      <div class="inline r6">
+        <div class="valign">
+          <div class="q"><img src="img/q.png"/></div>
+        </div>
+      </div>
+      <div class="inline r7">
+        <div class="valign">
+          <div class="notrdy">В процессе</div>
+        </div>
+      </div>
+      <div class="inline r8">
+        <div class="valign">
+          <img src="img/RSS.png"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div id="dialog-newResource" title="Новый ресурс">
+  <div class="ui-state-highlight ui-corner-all" style="margin-top: 10px; margin-bottom: 10px; padding: 0 .7em;">
+    <p style="padding: 10px 0;"><span class="ui-icon ui-icon-info" style="float: left; margin-right: .7em;"></span>
+      <strong>Подсказка:</strong>
+      Введите адрес ресурса для мониторинга. <br><em style="text-align: center;">(Пример:
+        http://www.example.com)</em><br>
+      Ресурс будет добавлен в течении 15 минут.
+      Если у вас возникли проблемы при добавлении ресурса, обратитесь к менеджеру.
+    </p>
+  </div>
+  <label for="add_src_url">URL ресурса</label>
+  <input type="text" id="add_src_url" name="add_src_url" class="ui-form"/>
+  <div class="ui-widget" id="tip-cont-3">
+    <div class="ui-state-error ui-corner-all" style="padding: 0 .7em;">
+      <p style="padding: 10px 0;"><span class="ui-icon ui-icon-alert" style="float: left; margin-right: .7em;"></span>
+        <strong>Ошибка:</strong> <span id="newUrlTip"></span></p>
+    </div>
+  </div>
+  <span style="font-size: 16px; cursor: pointer; border-bottom: 1px dashed;" id="yourRes">Ваши ресурсы</span>
+  <div id="scrollbar1">
+    <div class="scrollbar">
+      <div class="track">
+        <div class="thumb">
+          <div class="end"></div>
+        </div>
+      </div>
+    </div>
+    <div class="viewport">
+      <div class="overview">
+        <table style="width:470px; padding-bottom: 60px;" id="resTable">
+          <col width="65%"/>
+          <col width="35%"/>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div id="addMoreUrlCont" style="float: left; width: 100%;"></div>
+</div>
+
+
+<div id="footer">
+  <div class="ul">
+    <div id="logo"><img src="img/bottom_logo.gif"/></div>
+  </div>
+</div>
+<script type="text/javascript">
+  var reformalOptions = {
+    project_id: 58144,
+    project_host: "wobot-dashboard.reformal.ru",
+    tab_orientation: "left",
+    tab_indent: "50%",
+    tab_bg_color: "#3cabdf",
+    tab_border_color: "#FFFFFF",
+    tab_image_url: "http://tab.reformal.ru/T9GC0LfRi9Cy0Ysg0Lgg0L%252FRgNC10LTQu9C%252B0LbQtdC90LjRjw==/FFFFFF/4bfb34d91c8d7fb481972ca3c84aec38/left/0/tab.png",
+    tab_border_width: 0
+  };
+
+  (function () {
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.async = true;
+    script.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'media.reformal.ru/widgets/v3/reformal.js';
+    document.getElementsByTagName('head')[0].appendChild(script);
+  })();
+</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+  var yaParams = {/*Здесь параметры визита*/};
+</script>
+
+<script type="text/javascript">
+  (function (d, w, c) {
+    (w[c] = w[c] || []).push(function () {
+      try {
+        w.yaCounter14523778 = new Ya.Metrika({id: 14523778, enableAll: true, trackHash: true, ut: "noindex", webvisor: true, params: window.yaParams || { }});
+      } catch (e) {
+      }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+      s = d.createElement("script"),
+      f = function () {
+        n.parentNode.insertBefore(s, n);
+      };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+      d.addEventListener("DOMContentLoaded", f);
+    } else {
+      f();
+    }
+  })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript>
+  <div><img src="//mc.yandex.ru/watch/14523778?ut=noindex" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
+</body>
+
+</html>

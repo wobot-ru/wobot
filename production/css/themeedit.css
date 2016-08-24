@@ -1,0 +1,270 @@
+.clear {
+	clear: both;
+	height: 0;
+}
+.pagename{
+	font-weight: bold;
+}
+.back_to_list{
+	float: right;
+	margin-right: 23px;
+	font-size: 16px;
+	margin-top: 4px;
+}
+.description{
+	float: left;
+	width: 250px;
+	text-align: right;
+}
+.description .des-text{
+	width: 230px;
+	float: right;
+	margin-top: 3px;
+}
+.marker{
+	width: 20px;
+	height: 20px;
+	background: url("../img/markers_sprite.png") no-repeat 2px -18px transparent;
+	float: right;
+}
+.marker_q{
+	width: 20px;
+	height: 20px;
+	background: url("../img/markers_sprite.png") no-repeat 2px -18px transparent;
+	float: left;
+	margin-left: 49px;
+}
+.no-marker{
+	width: 20px;
+	height: 20px;
+	float: right;
+}
+.form-holder{
+	margin-left: 20px;
+	float: left;
+	width: 500px;
+}
+.form-holder a{
+	color: #0285dd;
+	text-decoration: underline;
+}
+.form-holder input[type="text"]{
+	width: 450px;
+}
+.form-block{
+	margin-top: 30px;
+}
+.radio-block{
+	margin-bottom: 8px;
+}
+.check-block{
+	margin-bottom: 8px;
+}
+.radio-block input[type="radio"]{
+	display: inline;
+}
+.check-block input[type="checkbox"]{
+	display: inline;
+}
+textarea {
+	width: 450px;
+	height: 120px;
+	resize: none;
+}
+.textarea-help{
+	width: 450px;
+	color: #BDBDBD;
+	font-size: 13px;
+}
+.quest_marker{
+	background: url("../img/quest_marker.png") no-repeat -1px 0px transparent;
+	position: relative;
+	top: -80px;
+	left: 8px;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+}
+.input-age{
+	width: 50px !important;
+	display: inline;
+}
+.addCC{
+	width: 300px !important;
+	display: inline;
+	margin-right: 20px;
+}
+#advance_key_words .description{
+	margin-top: 20px;
+}
+
+
+.adv_req_help{
+	float: right;
+	color: #BDBDBD;
+	padding-right: 50px;
+}
+.error{
+	width: 400px;
+	color: red;
+	font-size: 12px;
+}
+.show_period{
+	width: 150px;
+	margin-bottom: 10px;
+	line-height: 20px;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 3px;
+	border: 1px solid #EEE;
+	border-radius: 3px;
+	color: #A6A6A6;
+	font-size: 16px;
+}
+#dialog-newTheme-datepicker1{
+	width: 150px !important;
+}
+#dialog-newTheme-datepicker2{
+	width: 150px !important;
+}
+#undo{
+	margin-left: 150px;
+}
+.group_id{
+	display: none;
+}
+.group_val{
+	width: 300px;
+	float: left;
+	overflow: hidden;
+}
+.groups_auto{
+	/*float: left;*/
+	display: none;
+}
+.group_name{
+	float: left;
+	margin-right: 20px;
+	width: 300px;
+	height: 20px;
+	overflow: hidden;
+}
+#groups input{
+	float: left;
+	width: 290px;
+	margin-right: 8px;
+	height: 22px;
+}
+#autogroups input{
+	display: inline;
+}
+#showGroups{
+	color: #0071a5;
+}
+#showGroups:hover{
+	color: #a4ebfd;
+}
+
+/*ошибки*/
+.error_message{
+		background-size: 40px 40px;
+		background-image: linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%,
+							transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%,
+							transparent 75%, transparent);										
+		 box-shadow: inset 0 -1px 0 rgba(255,255,255,.4);
+		 width: 100%;
+		 border: 1px solid;
+		 color: #fff;
+		 padding: 15px;
+		 position: fixed;
+		 _position: absolute;
+		 text-shadow: 0 1px 0 rgba(0,0,0,.5);
+		 animation: animate-bg 5s linear infinite;
+		 z-index: 100;
+		 height: 50px;
+		 text-align: center;
+}
+
+
+.error_info{
+		 background-color: #4ea5cd;
+		 border-color: #3b8eb5;
+}
+
+.error_error{
+		 background-color: #de4343;
+		 border-color: #c43d3d;
+}
+		 
+.error_warning{
+		 background-color: #eaaf51;
+		 border-color: #d99a36;
+}
+
+.error_success{
+		 background-color: #61b832;
+		 border-color: #55a12c;
+}
+
+.message h3{
+		 margin: 0 0 5px 0;													 
+}
+
+.message p{
+		 margin: 0;													 
+}
+.help-tone-obj{
+	width: 100%;
+	padding-bottom: 10px;
+	color: #BDBDBD;
+	font-size: 13px;
+}
+#tone_object textarea{
+	height: 50px;
+}
+
+@keyframes animate-bg {
+    from {
+        background-position: 0 0;
+    }
+    to {
+       background-position: -80px 0;
+    }
+}
+
+.groups_row {padding-bottom: 5px;}
+
+#sharetag { margin: 10px 0 20px; }
+#sharetag #copy-tags { height: 25px; padding: 0 5px; }
+#sharetag p { font-size: 14px; font-weight: bold; margin-bottom: 10px; }
+#sharetag .input-bg.dropbox { margin-top: 1px; width: 300px; }
+#sharetag #tdd-theme-list { width: 280px; }
+#sharetag .dropdown dd ul { width: 300px; max-height: 150px; }
+
+#message-delete { position: relative; }
+#message-delete .inline.txt { font-size: 13px; line-height: 24px; }
+#message-delete #date { margin-left: 10px; overflow: visible; width: 225px; position: relative; margin-top: 1px; }
+#message-delete #datepicker { width: 196px; height: 20px; }
+#message-delete .dp { position: absolute; top: -217px; left: -1px; border: 1px solid #CECECE; padding: 7px; background: #fff; display: none; }
+#message-delete #delete-button { height: 25px; padding: 0 5px; }
+.delete-messages-popup { font-size: 14px; }
+.delete-messages-popup strong { font-weight: bold; }
+.delete-messages-popup .radios { font-size: 14px; margin-top: 10px; text-align: center; }
+.delete-messages-popup .radios label { margin: 0 20px 0 5px; font-size: 14px; font-weight: bold; }
+#delete_messages_all, #delete_messages_spam { display: inline; }
+
+.search-object { border: 1px solid #CECECE; border-radius: 5px; margin: 10px 40px 0 0; padding: 5px; font-size: 0; }
+.search-object legend { margin: 0 10px; padding: 0 5px; font-size: 14px; }
+.search-object div { display: inline-block; border: 1px solid #CECECE; border-radius: 3px; padding: 0 5px; margin: 2px; font-size: 12px; cursor: pointer; color: #999; }
+.search-object div:hover { color: #000; }
+
+.left-symbols-count { text-align: right; margin: 0 40px 10px 0; }
+.left-symbols-count.red { color: #c43d3d; }
+#advance_key_words .selected-search-object { position: absolute; top: 30px; border: 1px solid #CECECE; border-radius: 2px; padding: 3px; height: 120px; width: 450px; display: none; background: #fff; }
+.selected-search-object>div { display: inline-block; border: 1px solid #CECECE; border-radius: 3px; padding: 0 25px 0 25px; margin: 2px; font-size: 16px; color: #000; position: relative; }
+.selected-search-object>div:after { content: ' '; width: 13px; height: 13px; position: absolute; top: 4px; left: 5px; background: url("../img/i-eye.png") no-repeat center center; cursor: pointer; }
+.selected-search-object>div .close { position: absolute; width: 13px; height: 13px; top: 4px; right: 5px; font-weight: bold; line-height: 10px; text-align: center; cursor: pointer; }
+.selected-search-object>div .close:hover { background: #ccc; }
+
+#period input[type="radio"] { display: inline-block !important; }
+#period label { font-size: 14px; }

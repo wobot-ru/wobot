@@ -1,0 +1,44 @@
+.metrixbox {
+background: #fff; 	height: 54px; float: left; border: 1px solid #eee; margin: 3px; padding: 10px; font-size: 10px; width: 150px;
+}
+
+.filterbox {
+background: #fff; border: 1px solid #eee;padding: 20px;margin: 3px;/*width: 760px;*/ height: 20px; width: 665px; white-space: nowrap; display: block; overflow: hidden;
+}
+
+.filterbox-contents {
+	visibility: hidden;
+}
+
+.filterbox-contents-show {
+	visibility: visible;
+}
+
+.filterbox-show {
+background: #fff; border: 1px solid #eee;padding: 20px;margin: 3px;/*width: 760px;*/ height: 400px; width: 665px; white-space: nowrap; display: block; overflow: hidden;
+}
+
+.mapbox {
+background: #fff; border: 1px solid #eee;padding: 20px;margin: 6px 3px;/*width: 760px;*/ width: 665px; 
+}
+
+.metrix
+{
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+}
+ 
+.metrixtag
+{
+	text-decoration:none;
+	border-bottom:1px dashed #333;
+	font-style:normal;	
+}
+ 
+.metrixdyn
+{
+	font-size: 20px;
+	font-style: normal;
+	color: #3c6087;
+}

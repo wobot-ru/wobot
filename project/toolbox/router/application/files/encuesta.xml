@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<forms>
+	<form name="coca">
+		<fields>
+			<field type="" name="all" value="">
+				<settings>
+					<size>10</size>
+				</settings>
+			</field>
+			<field type="" name="all" value="" />
+		</fields>
+	</form>
+</forms>

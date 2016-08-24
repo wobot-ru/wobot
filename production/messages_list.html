@@ -1,0 +1,617 @@
+<?php
+require_once('/var/www/api/0/auth.php');
+auth();
+if (!$loged) header('Location: ./');
+?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <link rel="stylesheet" type="text/css" href="./css/theme.css">
+  <link rel="stylesheet" type="text/css" href="./css/master.css">
+  <link rel="stylesheet" type="text/css" href="./css/themelist.css">
+  <link rel="stylesheet" type="text/css" href="./css/msglist.css">
+  <link rel="stylesheet" type="text/css" href="./css/dropdown.css">
+  <link rel="stylesheet" type="text/css" href="./css/tooltip.css">
+  <link rel="stylesheet" type="text/css" href="./css/aristo/Aristo.css">
+  <link rel="stylesheet" type="text/css" href="./css/pagination.css">
+  <link rel="stylesheet" type="text/css" href="./css/jquery.gritter.css"/>
+  <link rel="stylesheet" type="text/css" href="./css/tipTip.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="form.css">
+  <link rel="stylesheet" type="text/css" href="blueprint/screen.css" media="screen, projection">
+
+  <link rel="stylesheet" href="blueprint/print.css" type="text/css" media="print">
+  <link rel="stylesheet" href="js/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen"/>
+  <link rel="stylesheet" href="./css/export.css" type="text/css">
+  <link rel="stylesheet" href="./css/hotkey.css" type="text/css">
+
+  <!--[if lt IE 8]>
+  <link rel="stylesheet" href="blueprint/ie.css" type="text/css" media="screen, projection">
+  <![endif]-->
+
+  <script type="text/javascript" src="./js/ajax_config.js"></script>
+  <script type="text/javascript" src="./js/jquery.js"></script>
+  <script type="text/javascript" src="./js/jquery-ui.js"></script>
+  <script type="text/javascript" src="./js/highcharts.src.js"></script>
+  <script type="text/javascript" src="./js/modules/exporting.src.js"></script>
+  <script type="text/javascript" src="./js/tooltip.js"></script>
+  <script type="text/javascript" src="./js/dropbox.js"></script>
+  <script type="text/javascript" src="./js/jquery.rotate.js"></script>
+  <script type="text/javascript" src="./js/jquery.jstree.js"></script>
+  <script type="text/javascript" src="./js/jquery.cookie.js"></script>
+  <script type="text/javascript" src="./js/dateformat.js"></script>
+  <script type="text/javascript" src="./js/datejs.js"></script>
+  <script type="text/javascript" src="./js/jquery.pagination.js"></script>
+  <script type="text/javascript" src="./js/jquery.ui.datepicker-ru.js"></script>
+  <!--    <script type="text/javascript" src="http://highcharts.com/js/testing.js"></script>-->
+  <script type="text/javascript" src="./js/jquery.tinyscrollbar.min.js"></script>
+
+  <script type="text/javascript" src="js/ZeroClipboard.js"></script>
+  <script type="text/javascript" src="js/jquery.zclip.js"></script>
+  <script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+  <script type="text/javascript" src="js/fancybox/jquery.easing-1.3.pack.js"></script>
+  <script type="text/javascript" src="js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+  <script type="text/javascript" src="./js/checkbox.js"></script>
+  <script type="text/javascript" src="./js/messagespage.js"></script>
+  <script type="text/javascript" src="./js/settings.js"></script>
+  <script type="text/javascript" src="./js/jquery.tipTip.js"></script>
+  <script type="text/javascript" src="./js/jquery.gritter.js"></script>
+
+  <script type="text/javascript" src="./js/export.js"></script>
+  <script type="text/javascript" src="./js/hotkey.js"></script>
+  <script type="text/javascript" src="./twitter/js/style.js"></script>
+  <script type="text/javascript" src="./facebook/js/style.js"></script>
+  <script type="text/javascript" src="http://vk.com/js/api/openapi.js"></script>
+  <script type="text/javascript" src="./vkontakte/js/style.js"></script>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Wobot: Список сообщений </title>
+</head>
+
+<body id="messages-page">
+
+
+<div id="preset-dialog-add" style="display: none;">
+  <br/>
+  <label>Название&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" namae="name" class="name" value="Новый пресет"/></label>
+  <br/>
+</div>
+<div id="container">
+
+
+<div id="header">
+  <ul>
+    <li id="logo"><a href="./"><img src="img/header-logo.png" border="0"/></a></li>
+    <li>
+      <div id="user2">
+        <div class="bubbleInfo" style="margin-top: -10px;">
+          Настройка аккаунта:&nbsp;<a id="user_email" href="#" class="trigger" onclick="$('#dialog-Settings').dialog('open'); return false;"></a>
+
+          <div class="popup" id="user_email-tooltip">Настройки профиля</div>
+        </div>
+        <span class="inline">Осталось дней: <a id="user_exp" href="#" class="trigger" onclick="$('#dialog-Settings').dialog('open'); return false;"></a></span>
+      </div>
+    </li>
+    <li>
+      <div id="tarif-limit" class="bubbleInfo" style="margin-right: 35px;"></div>
+    </li>
+    <li>
+      <div id="exits" style="width: 80px;">
+        <a id="exit" href="#">Выход&nbsp;<img width="10" src="img/header_x2.png"/></a>
+      </div>
+    </li>
+    <li>
+      <div id="problems" style="margin-right: 20px;">
+        <a href="#" id="faq" target="_blank">Помощь</a>
+      </div>
+    </li>
+    <li>
+      <div id="hotkey">
+        <a href="http://wobot.ru/faq/#1_41" id="faq_hotkey" target="_blank">Горячие клавиши</a>
+      </div>
+    </li>
+  </ul>
+</div>
+
+
+<!-- M1 -->
+<div id="M1" class="ns">
+  <div class="progress">
+    <div id="progressbar"></div>
+  </div>
+  <div class="lines">
+    <!-- Line 1 -->
+    <div class="line line1">
+      <div id="L-1" class="inline layer"><a href="/" id="order_home">&larr; статистика темы</a></div>
+      <div id="CRMsync" class="CRMsync"></div>
+      <div id="CRMsync-plug" class="CRMsync-plug"></div>
+      <div id="L-2" class="inline layer">
+        <div class="inline elem1" style=" margin-top: 0px;">
+          <div style="float: right; padding-right: 29px;"> Период</div>
+        </div>
+        <div id="date" class="inline input-bg dd">
+          <input class="inline input" id="datepicker" type="text" value="По дате"/>
+          <span class="inline btn"><a href="#" class="ddp dd"><img class="img-cbdd" src="img/dda.png"/></a></span>
+
+          <div class="dp" style="z-index: 100;">
+            <table>
+              <col width="50%"/>
+              <col width="50%"/>
+              <tr>
+                <th style=" font-size: 13px; font-weight:normal;"> Начало периода</th>
+                <th style=" font-size: 13px; font-weight:normal;"> Окончание периода</th>
+              </tr>
+              <tr>
+                <td style=" padding: 5px; vertical-align: top;">
+                  <div id="dp-begin"></div>
+                </td>
+                <td style=" padding: 5px; vertical-align: top;">
+                  <div id="dp-end"></div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="inline txt">
+          <p id="preset">
+            &nbsp;&nbsp;&nbsp;/&nbsp;
+            <a href="#" onclick="today(); return false;">день</a>&nbsp;&nbsp;
+            <!--<a href="#" onclick="yesterday(); return false;"></a>&nbsp;&nbsp;-->
+            <a href="#" onclick="week(); return false;">неделя</a>&nbsp;&nbsp;
+            <a href="#" onclick="month(); return false;">месяц</a>&nbsp;&nbsp;
+            <a href="#" onclick="year(); return false;">год</a>&nbsp;&nbsp;
+          </p>
+        </div>
+      </div>
+
+      <div class="inline elem6">Показать</div>
+      <div class="inline elem7">
+        <select id="filter-show" class="inline" style="width: 116px">
+          <option value="all">Все упоминания</option>
+          <option value="nospam">Без удаленных</option>
+          <option value="fav">Избранные</option>
+          <option value="spam">Только удаленные</option>
+        </select>
+        <span class="inline btn"><a href="#"><img src="img/dda.png"/></a></span>
+      </div>
+    </div>
+    <!-- Line 2 -->
+    <div class="line line2">
+      <div class="inline elem1">
+        <a href="#" id="tone_toggle" onclick="return false;" style="margin-top:3px;">применить фильтры</a>
+        <a href="#" id="clear_filter" onclick="return false;"><img src="img/clear_filter.png" alt=""/></a>
+      </div>
+      <div class="inline elem2">
+        <div style="padding-right: 20px; float: left;">Тональность</div>
+        <div class="inline cb cb1 "><a href="#" id="positive"><img src="img/CHECK.png"/></a></div>
+        <div class="inline cb cb2 "><a href="#" id="neutral"><img src="img/CHECK.png"/></a></div>
+        <div class="inline cb cb3 "><a href="#" id="negative"><img src="img/CHECK.png"/></a></div>
+      </div>
+      <div class="inline elem3">
+
+      </div>
+      <div class="inline elem4">Города</div>
+      <div class="inline elem5 input-bg jstree-wrapper" id="filter_cities">
+        <input class="inline input" type="text" value="Все города"/>
+        <span class="inline btn"><a href="#"><img src="img/dots.png"/></a></span>
+
+        <div id="filter_cities-tree" class="tree-dd"></div>
+        <div id="filter_cities-type" class="filter-type-selector">
+          <div cast="selected" class="choice-button selected">
+            <img src="img/ico_gl.png"/>Только
+          </div>
+          <div cast="except" class="choice-button">
+            <img src="img/ico_minus.png"/>Кроме
+          </div>
+        </div>
+      </div>
+      <div class="inline elem6">Ресурсы</div>
+      <div class="inline elem7 jstree-wrapper" id="filter_resources">
+        <input class="inline" type="text" value="Все ресурсы"/>
+        <span class="inline btn"><a href="#"><img src="img/dots.png"/></a></span>
+
+        <div id="filter_resources-tree" class="tree-dd"></div>
+        <div id="filter_resources-type" class="filter-type-selector">
+          <div cast="selected" class="choice-button selected">
+            <img src="img/ico_gl.png"/>Только
+          </div>
+          <div cast="except" class="choice-button">
+            <img src="img/ico_minus.png"/>Кроме
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="vk_login_popup">
+      <div class="close"></div>
+      <h3>Добавление аккаунта "Вконтакте"</h3>
+      <p>1. Перейдите по следующей <a href="" class="vk-window">ссылке</a>.</p>
+      <p>2. В открывшемся окне, скопируйте содержимое адресной строки и вставьте в поле ниже.</p>
+      <p>3. Нажмите кнопку "Добавить аккаунт".</p>
+      <span class="error">Вставте содержимое адресной строки</span>
+      <input type="text" name="access_token" value=""/>
+      <button class="addVkAccount">Добавить аккаунт</button>
+    </div>
+  </div>
+</div>
+<!---->
+
+<div id="MB">
+<!-- MM -->
+<div id="MM" style="opacity: 1;">
+  <div id="mm-items" style="display: table-row;">
+    <div class="mm-header" style="overflow: hidden;white-space: nowrap;width: auto;">
+      <div class="inline el1">Дополнительно</div>
+      <div class="inline el2" style="width: 26px; height: 25px;"></div>
+      <div class="inline el3 pressed" id="pin"></div>
+    </div>
+    <div class="mm-itm-open mm-item" id="mm-template">
+      <div class="h"><p><span class="flag">&#8211;</span><span class="text"> &nbsp; Спикеры</span></p></div>
+
+      <div class="flist">
+
+      </div>
+
+      <div class="btns">
+        <div class="btns-bg" value="mm-promouters">
+          <div class="btn1 btn-dwn inline" cast="all">
+            <img class="inline" src="img/ico_circle.png"/>
+
+            <p class="inline">Все</p>
+          </div>
+          <div class="btn2 btn-up inline" cast="selected">
+            <img class="inline" src="img/ico_gl.png"/>
+
+            <p class="inline">Только</p>
+          </div>
+          <div class="btn3 btn-up inline" cast="except">
+            <img class="inline" src="img/ico_minus.png"/>
+
+            <p class="inline">Кроме</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="top-button">Вверх</div>
+</div>
+<!-- ML -->
+<div id="ML">
+<!-- Header -->
+<div id="ml-header">
+  <div class="inline elem1"></div>
+  <div class="inline elem2">
+    <p class="inline" id="order_posts">25356 &#8211;&nbsp;</p> <!-- <a href="#" id="order_home"> --><span class="dyn inline" id="order_name">"манчестер юнайтед"</span><!-- </a> -->
+  </div>
+  <div class="inline elem3">Сортировать</div>
+  <div class="inline elem4 input-bg">
+    <select id="filter-sort" class="inline" style="width: 78px">
+      <option value="date">по дате</option>
+      <option value="audience">по охвату</option>
+      <option value="eng">по вовлеченности</option>
+    </select>
+    <span class="inline btn"><a href="#"><img class="img-cbdd" src="img/dda.png"/></a></span>
+  </div>
+  <div class="inline elem5">Экспорт отчета в</div>
+  <div class="inline elem6">
+    <div id="export" class="inline input-bg dropbox">
+      <div id="export-as"></div>
+      <div id="export-variant">
+        <div>
+          <input type="radio" id="export_format_xls" name="export_format" value="xls" checked="checked"/>
+          <label for="export_format_xls">XLS</label><br/>
+          <input type="radio" id="export_format_doc" name="export_format" value="doc"/>
+          <label for="export_format_doc">DOC</label><br/>
+          <input type="radio" id="export_format_csv" name="export_format" value="csv"/>
+          <label for="export_format_csv">CSV</label>
+        </div>
+        <div id="export_page_list">
+          <div id="xls_export_page_list">
+            <input type="checkbox" id="xls_export_page_analitic" name="xls_export_page" value="analytics" checked="checked"/>
+            <label for="xls_export_page_analitic">Отчет</label><br/>
+            <input type="checkbox" id="xls_export_page_mention" name="xls_export_page" value="mentions"/>
+            <label for="xls_export_page_mention">Упоминания</label><br/>
+            <input type="checkbox" id="xls_export_page_author" name="xls_export_page" value="authors"/>
+            <label for="xls_export_page_author">Авторы</label>
+          </div>
+          <div id="doc_export_page_list">
+            <input type="radio" id="doc_export_page_analitic" name="doc_export_page" value="analytics" checked="checked"/>
+            <label for="doc_export_page_analitic">Отчет</label><br/>
+            <input type="radio" id="doc_export_page_mention" name="doc_export_page" value="mentions"/>
+            <label for="doc_export_page_mention">Упоминания</label><br/>
+            <!--<input type="checkbox" id="doc_export_page_author" name="export_page" value="authors" checked="checked" readonly="readonly" disabled="disabled"/>-->
+            <!--<label for="doc_export_page_author">Авторы</label>-->
+          </div>
+          <div id="csv_export_page_list">
+            <input type="radio" id="csv_export_page_mention" name="csv_export_page" value="mentions" checked="checked"/>
+            <label for="csv_export_page_mention">Упоминания</label><br/>
+            <input type="radio" id="csv_export_page_author" name="csv_export_page" value="authors"/>
+            <label for="csv_export_page_author">Авторы</label>
+          </div>
+        </div>
+        <div class="lang_choice">
+          <input type="radio" id="export_lang_2" name="export_lang" value="2" checked="checked"/>
+          <label for="export_lang_2">русский</label>
+          &nbsp;&nbsp;&nbsp;
+          <input type="radio" id="export_lang_1" name="export_lang" value="1"/>
+          <label for="export_lang_1">английский</label>
+        </div>
+        <button id="submit_export_form">Сформировать отчет</button>
+      </div>
+
+
+      <form id="export-form" target="_blank" method="post">
+        <input type="hidden" name="order_id" value=""/>
+        <input type="hidden" name="start" value=""/>
+        <input type="hidden" name="end" value=""/>
+        <input type="hidden" name="format" value=""/>
+        <input type="hidden" name="analytics" value=""/>
+        <input type="hidden" name="mentions" value=""/>
+        <input type="hidden" name="authors" value=""/>
+      </form>
+    </div>
+  </div>
+  <!--<div class="inline elem7">-->
+    <!--<a href="#" onclick="exportAll(); return false;"><img src="img/btn_export_out.gif"/></a>-->
+  <!--</div>-->
+  <!--<div class="inline elem8">-->
+
+  <!--</div>-->
+</div>
+<div id="group-actions">
+  <div class="group-choices check">
+    <div class="title">
+      <input type="checkbox" value="none" id="group-checkbox">
+    </div>
+    <div class="variants hidden">
+      <ul>
+        <li><a href="all">Все</a></li>
+        <li><a href="on_page">На странице</a></li>
+        <li><a href="has_tag">С тегами</a></li>
+        <li><a href="no_tag">Без тегов</a></li>
+        <li><a href="none">Ниодного</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="group-choices actions hidden">
+    <div class="title">
+      Действия
+    </div>
+    <div class="variants hidden">
+      <ul>
+        <li><a href="favorite">В избранное</a></li>
+        <li><a href="not_favorite">Удалить из избранного</a></li>
+        <li>
+          <a href="positive" class="inline cb cb1"></a>
+          <a href="neutral" class="inline cb cb2"></a>
+          <a href="negative" class="inline cb cb3"></a>
+        </li>
+        <li><a href="spam">Спам</a></li>
+        <li><a href="not_spam">Не спам</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="group-choices tags hidden">
+    <div class="title">
+      Теги
+    </div>
+    <div class="variants hidden">
+      <ul></ul>
+    </div>
+  </div>
+  <div class="group-selected-count">
+    Выделено сообщений: <span>0</span>
+  </div>
+</div>
+<!-- Message -->
+<div class="message">
+  <div class=" msg-line">
+    <div class="inline msg-l1-elm1">1</div>
+    <div class="inline msg-l1-elm2 cb1">&nbsp;</div>
+    <div class="inline msg-l1-elm3"><img src="img/ico_fb.png"/></div>
+    <div class="inline msg-l1-elm4">
+      Джесс только 18, но она твердо знает, что сделает ее счастливой: футбольная
+    </div>
+    <div class="inline msg-l1-elm5"></div>
+    <div class="inline msg-l1-elm6"><a href="#"><img src="img/btn_star.png"/></a></div>
+    <div class="inline msg-l1-elm7"><a href="#"><img src="img/btn_pls.png"/></a></div>
+    <div class="inline msg-l1-elm8"><a href="#"><img src="img/btn_x.png"/></a></div>
+    <div class="fill1">&nbsp;</div>
+  </div>
+
+  <div class="msg-line msg-footer-empty">
+    <div class="inline msg-l3-elm1"><img src="img/ico_person.png"/></div>
+    <div class="inline msg-l3-elm2">Olga Fedorova</div>
+    <div class="inline msg-l3-elm3">
+      <ul>
+        <li><img src="img/ico_bubble.png"/><span>156</span></li>
+        <li><img src="img/ico_heart.png"/><span>27</span></li>
+        <li><img src="img/ico_rss.png"/><span>345</span></li>
+        <li><img src="img/ico_E.png"/><span>90%</span></li>
+        <li><span>Томск</span></li>
+      </ul>
+    </div>
+    <div class="rinline msg-l3-elm4">
+      <a href="#">Добавить теги</a>
+    </div>
+  </div>
+</div>
+<!-- template -->
+<div class="message" id="template" style=":hover {background: url('./img/msg-sel-bg.png'; repeat-x;)}">
+  <div class="inline dup-link"><a href="2" onclick="return showBup($(this));">+</a></div>
+  <div class="msg-block">
+  <div class="msg-line">
+    <div class="inline msg-l1-elm0"><input type="checkbox" value="2" class="group-action-item"/></div>
+    <div class="inline msg-l1-elm1 order_no">2</div>
+    <div class="inline msg-l1-elm2 cb2 tonloader" style="display:none;"><img src="img/tonloader.gif"/></div>
+    <div class="inline msg-l1-elm2 cb2 order_tone">&nbsp;</div>
+    <div class="inline msg-l1-elm2-m2 order_tone-changer">
+      <div class="inline cb cb1 "><p href="#" class="positive">&nbsp;</p></div>
+      <div class="inline cb cb2 "><p href="#" class="neutral">&nbsp;</p></div>
+      <div class="inline cb cb3 "><p href="#" class="negative">&nbsp;</p></div>
+    </div>
+    <div class="inline msg-l1-elm3">
+      <a href="#" target="_blank"><img class="service_ico" src="img/ico_fb.png" width="16" height="16"/></a>
+    </div>
+    <div class="inline msg-l1-elm4 post_title">
+
+    </div>
+    <div class="inline msg-l1-elm5 post_date"></div>
+    <div class="inline msg-l1-elm6"><a href="#" class="order_fav"><img src="img/btn_star.png"/></a></div>
+    <div class="inline msg-l1-elm7"><a href="#" class="order_open"><img src="img/btn_pls.png"/></a></div>
+    <div class="inline msg-l1-elm8"><a href="#" class="order_spam"><img src="img/btn_x.png"/></a></div>
+    <div class="fill1">&nbsp;</div>
+  </div>
+  <div class="msg-line msg-txt full_text">
+
+  </div>
+  <div class="answer">
+    <img class="avatar"/>
+    <div class="name"></div>
+    <div class="text"></div>
+  </div>
+  <div class="msg-line msg-footer">
+    <div class="inline msg-l3-elm1"><img class="gender" src="img/ico_person2.png"/></div>
+    <div class="inline msg-l3-elm2"><a href="#" class="nick"> </a><a href="#" class="order_spam_author"> </a></div>
+    <div class="inline msg-l3-elm3">
+      <ul>
+        <li class="foll"><img src="img/ico_rss.png"/><span></span></li>
+        <li class="eng"><img src="img/ico_E.png"/><span></span></li>
+        <li><span class="geo"></span></li>
+        <li class="dup-count">Перепечаток: <span>0</span></li>
+      </ul>
+    </div>
+    <div class="rinline msg-l3-elm4 tag_add">
+      <a href="#">Добавить теги</a>
+    </div>
+    <a href="#" class="tag_add-label" style="display: none;">
+      <div class="rinline msg-l3-elm5"><p>Добавить теги</p></div>
+    </a>
+    <dd class="tag_add-db" style="position:relative; z-index:100;">
+      <div class="rinline add-tag">
+        <div class="m template">
+          <div class="line">
+            <div class="e1"><a href="#" onclick="return false;"><img src="img/cb_ck.png"/></a></div>
+            <div class="e2_2 input-bg hidden"><input type='text' class='inline input' value=""/></div>
+            <div class="e2">тэг №1</div>
+            <div class="e3"><a href="#" onclick="return false;"> <img src="img/btn_x.png"/></a></div>
+            <!-- -->
+          </div>
+        </div>
+
+        <div class="message-tag-container">
+
+        </div>
+
+        <div style="  display: block; position: absolute; bottom: 0px;" class="tag-panel">
+          <div class="f input-bg">
+            <input class="inline input" type="text" value="Новый тег"/>
+            <span class="inline btn"><a href="#"><img src="img/btn_plus.png"/></a></span>
+          </div>
+        </div>
+      </div>
+    </dd>
+    <div class="rinline msg-l3-elm4 answer_message">
+      <a href="#">Ответить</a>
+      <div class="answer-block">
+        <div class="account-list"></div>
+        <button class="add-account">Добавить аккаунт</button>
+        <button class="logout-account">Разлогиниться</button>
+        <input type="hidden" name="message_link"/>
+        <div class="group-checkbox">
+          <input type="checkbox" name="from_group" id=""/>
+          <label for="" class="checkbox-label">От имени группы</label>
+        </div>
+        <span class="error">Введите текст сообщения</span>
+        <textarea name="message_body"></textarea>
+        <button class="answer-button">Отправить сообщение</button>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- Foter -->
+<div class="ml-footer ">
+  <ul id="pagination">
+
+  </ul>
+  <div style="clear: both; position: absolute; margin-top: 32px; margin-left: 370px; padding-bottom: 40px;">
+
+    <div class="inline elm01">Сообщений на страницу</div>
+    <div class="inline elm02 input-bg">
+      <select id="perpage" class="inline" style="width: 35px">
+        <option value="10">10</option>
+        <option value="50">50</option>
+        <option value="100">100</option>
+      </select>
+      <span class="inline btn"><a href="#"><img class="img-cbdd" src="img/dda.png"/></a></span>
+    </div>
+
+
+    <div class="inline elm1">Перейти к странице</div>
+    <div class="inline elm2 input-bg">
+      <input class="inline input gotopage-value" type="text" value="1"/>
+    </div>
+    <div class="inline elm3">
+      <a href="#" class="gotopage"><img class="img-cbdd" src="img/btn_export_out.gif"/></a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="dialog-message-add" class="mdialog" title="Подсказка" style="display: none;">
+
+  <div class="ui-widget">
+    <div class="ui-state-highlight ui-corner-all" style="padding: 0 .7em;">
+      <p style="padding: 10px 0;"><span class="ui-icon ui-icon-info" style="float: left; margin-right: .7em;"></span>
+        <strong>Экспорт добавлен.</strong></p>
+    </div>
+  </div>
+</div>
+
+<div id="dialog-message-sync" class="mdialog" title="Подсказка" style="display: none;">
+
+  <div class="ui-widget">
+    <div class="ui-state-highlight ui-corner-all" style="padding: 0 .7em;">
+      <p style="padding: 10px 0;"><span class="ui-icon ui-icon-info" style="float: left; margin-right: .7em;"></span>
+        <strong id="resultOfSync">Синхронизация произведена.</strong></p>
+    </div>
+  </div>
+</div>
+
+<div id="footer" style="clear: both;">
+  <div class="ul">
+    <div id="logo"><img src="img/bottom_logo.gif"/></div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  var reformalOptions = {
+    project_id: 58144,
+    project_host: "wobot-dashboard.reformal.ru",
+    tab_orientation: "left",
+    tab_indent: "50%",
+    tab_bg_color: "#3cabdf",
+    tab_border_color: "#FFFFFF",
+    tab_image_url: "http://tab.reformal.ru/T9GC0LfRi9Cy0Ysg0Lgg0L%252FRgNC10LTQu9C%252B0LbQtdC90LjRjw==/FFFFFF/4bfb34d91c8d7fb481972ca3c84aec38/left/0/tab.png",
+    tab_border_width: 0
+  };
+
+  (function () {
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.async = true;
+    script.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'media.reformal.ru/widgets/v3/reformal.js';
+    document.getElementsByTagName('head')[0].appendChild(script);
+  })();
+</script>
+
+</body>
+
+</html>

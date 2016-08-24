@@ -1,0 +1,555 @@
+﻿body {
+	font-size:11px;
+	font-family: Verdana;
+	color:#514b4b;
+}
+
+a {
+	color:#514b4b;
+	font-size:11px;
+	font-family: Verdana;
+}
+.show_blog{
+	border: 1px #b4b2b2 solid;
+	background-color:#f6f0f0;
+	width:280px;
+}
+.rusbuttons{
+	background-color:#f6f6f6;
+	width:100%;	
+	border:0px;
+	padding:0px;
+	margin-top:-3px;	
+}
+.contentpaneopen_blog{
+	background-color:#f6f6f6;
+	width:100%;	
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	margin-bottom:-10px;
+}
+.blog_blog{
+	background-color:#f6f6f6;
+	width:100%;
+	padding:10px;
+}
+.banneritem a img{
+	border:0px;
+	padding-bottom: 5px;
+}
+.message ul li{
+	text-align:left;
+	list-style-type: none;
+}
+.breadcrumbs, .breadcrumbs a{
+	padding-bottom:20px;
+	color:#aba8a8;
+}
+.opovest{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.contentpaneopen_reg{
+	padding-top:20px;
+}
+.reg_td{
+	text-align:center;
+	padding-top:20px;
+}
+.titleCell{
+	font-size:11px;
+	font-family: Verdana;
+	font-weight:bold;	
+}
+.fieldCell{
+	font-size:11px;
+	font-family: Verdana;
+}
+.cbFields{
+	width:400px;
+}
+.componentheading, .mod_title, .tab_Description{
+	font-size:16px;
+	padding-bottom:20px;
+	padding-top:13px;
+	width:100%;
+	text-align:left;
+}
+.contentheading{
+	font-size:16px;
+	width:100%;
+	text-align:left;
+}
+.contentheading_blog a{
+	font-size:16px;
+	width:100%;
+	text-align:left;
+	padding:0px;
+	text-decoration:none;
+}
+.artist_title{
+	font-size:16px;
+	padding-bottom:20px;
+	padding-top:10px;	
+	width:100%;
+	text-align:left;
+}
+.main_artist_tab{
+	padding-top:20px;
+}
+.left_col_artisi_table{
+	width:280px;
+}
+.left_col_1{
+	width:130px;
+	background-color:#ece5e5;
+	border-bottom:thin #ffffff solid;
+	border-right:thin #ffffff solid;
+	padding:3px;
+	color:#2c2828;
+}
+.left_col_2{
+	width:150px;
+	background-color:#f6f0f0;
+	border-bottom:thin #ffffff solid;
+	border-right:thin #ffffff solid;
+	padding:3px;
+	color:#2c2828;
+}
+.center_col_artisi_table{
+	width:15px;
+}
+.right_col_artisi_table_td{
+	vertical-align:top;
+	color:#2c2828;
+}
+.right_col_artisi_table{
+	background-color:#ece5e5;
+	height:10px;
+	padding:3px;
+}
+.bold{
+	font-weight:bold;
+	color:#2c2828;
+}
+.right_col_artisi_table2{
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:3px;
+	padding-right:3px;
+}
+.right_col_artisi_table2 tr td{
+	color:#2c2828;
+}
+.right_col_artisi_table3{
+	background-color:#ece5e5;
+}
+.right_col_artisi_table3 tr td{
+	padding-left:3px;
+	padding-right:3px;
+	color:#2c2828;
+	border-right:3px #ffffff solid;
+	text-align:center;
+}
+.right_col_artisi_table3_active{
+	background-color:#efd4fd;
+}
+.right_col_artisi_table3_noactive{
+	padding-top:4px;
+	padding-bottom:4px;
+}
+.right_col_artisi_table3_white{
+	background-color:#ffffff;
+	height:4px;
+	padding-top:0px;
+	padding-bottom:0px;	
+}
+.right_col_artisi_table4{
+	background-color:#efd4fd;
+	padding-top:10px;
+	border-right:3px #ffffff solid;	
+}
+.right_col_artisi_table4_service{
+	background-color:#efd4fd;
+	border-right:3px #ffffff solid;	
+}
+.right_col_artisi_table4 tr td, .right_col_artisi_table4_service tr td{
+	padding-left:3px;
+	padding-right:3px;
+	padding-bottom:3px;
+	color:#2c2828;
+	border-right:1px #ffffff solid;
+}
+.right_col_artisi_table4_tr1{
+	text-align:center;
+}
+.right_col_artisi_table4_last{
+	border-right-color:#efd4fd;
+}
+.right_col_artisi_table4_lasttr{
+	height:20px;
+}
+.white_td{
+	background-color:#ffffff;
+}
+
+.centr-midmod{
+	padding-left: 0px;
+	padding-top:13px;
+	padding-bottom:13px;
+}
+
+.addtab{
+}
+
+#cbProfileTitle{
+	font-size:18px;
+}
+.maintab{
+	padding-top:14px;
+}
+.maintab_ftr_top{
+	background-color:#efd4fd;
+	text-align:right;	
+}
+.maintab_ftr_top td{
+	border-right: thin #ffffff solid;
+}
+.maintab_ftr{
+	background-color:#efd4fd;
+	text-align:center;
+}
+.maintab_ftr td{
+	border-right: thin #ffffff solid;
+}
+.maintab_ftr_bot{
+	background-color:#efd4fd;
+	text-align:right;	
+}
+.maintab_ftr_bot td{
+	border-bottom: thin #ffffff solid;
+	border-right: thin #ffffff solid;
+}
+
+
+.maintab_ntr1{
+	background-color:#f6f0f0;
+	text-align:left;
+	height:20px;	
+}
+.maintab_ntr1 td{
+	padding:3px;
+	border-bottom: thin #ffffff solid;
+	border-right: thin #ffffff solid;	
+	text-align:left;
+}
+.maintab_ntr2{
+	background-color:#ece5e5;
+	text-align:left;
+	height:20px;	
+}
+.maintab_ntr2 td{
+	padding:3px;
+	border-bottom: thin #ffffff solid;
+	border-right: thin #ffffff solid;
+	text-align:left;	
+}
+.login-ul{
+	
+}
+.menu_left{
+	padding-top:21px;
+	padding-bottom:34px;
+	list-style:none;
+	margin-left: 0;
+	padding-left: 0px;
+	text-indent: 0em;
+}
+.login-ul{
+	list-style:none;
+	margin-left: 0;
+	padding-left: 0px;
+	text-indent: 0em;
+}
+.menu_left li{
+	margin:5px 0px;
+}
+#login-form, .userdata {
+     border:0px;
+     margin:0px;
+     padding:0px;
+}
+#form-login-username, #form-login-password, #form-login-remember, .add_artist{
+	 margin:0px;
+     padding:2px;
+}
+.mod_login_a{
+	padding-top:2px;
+}
+
+.mod_login_a1{
+	padding-top:5px;
+	padding-left:0px;
+}
+
+#mod_login_remembermetext{
+	color:#aba8a8;
+}
+.inputbox_login{
+     color:#aba8a8;
+     border:1px #8da8bf solid; 
+     font-size:12px;
+     padding-left:5px;
+     width:148px;
+	 font-family: Verdana;  
+	 margin-top:3px;   
+}
+.inputbox_chb{
+	border: thin #8da8bf;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:4px;
+}
+.add_artist{
+     color:gray;
+     border:1px gray solid; 
+     font-size:11px;
+     padding-left:5px;
+     width:200px;
+	 font-family: Verdana;  
+	 margin-top:5px;   
+}
+
+.index_sel{
+     color:black;
+     border:1px #d7cdcd solid; 
+     font-size:11px;
+     padding-left:5px;
+	 font-family: Verdana;   
+	 background-color:#ece5e5;  	
+}
+
+.navtab
+{
+	padding-top: 7px;
+}
+
+.index_but_noactive{
+     color:#807e7e;
+     border:0px gray solid; 
+     font-size:11px;
+     padding-left:3px;
+	 font-family: Verdana;
+	 background-color:#f4efef; 
+	 background-image:url('../images/index_but_noactive.png');
+	 width:121px;
+	 height:24px;  
+}
+ .index_but_noactive:hover{
+	cursor:pointer;
+}
+
+.search_artist{
+     color:gray;
+     border:1px #b4b2b2 solid; 
+	 /*border: 1px #8DA8BF solid;*/
+     font-size:12px;
+     padding-left:5px;
+	 padding-top: 5px;
+	 padding-bottom: 5px;
+     width:732px;
+	 font-family: Verdana; 
+	 height:12px;    
+}
+
+.search_artist_button{
+	background-image: url('/img/but_search.png');
+	background-repeat:no-repeat;
+	width:57px;
+	height:24px;
+	border:0;
+}
+.search_artist_button:hover{
+	background-image: url('../images/but_search_over.png');
+	background-repeat:no-repeat;
+	width:57px;
+	height:24px;
+	border:0;
+	cursor:pointer;
+}
+.add_artist_btn, .vosst_pass_btn, .button_reg{
+	background-image: url('../images/add_artist_btn.png');
+	background-repeat:repeat-x;
+	height:24px;
+	width:150px;
+	border:0;
+	color:#040404;
+}
+.add_artist_btn:hover, .vosst_pass_btn:hover, .button_reg:hover{
+	background-image: url('../images/add_artist_btn_over.png');
+	background-repeat:repeat-x;
+	height:24px;
+	width:150px;
+	border:0;
+	color:#040404;
+	cursor:pointer;
+}
+
+#form-login-remember label {
+	font-size:12px;
+	font-family: Verdana;
+    color:gray;
+}
+
+.remember-text {
+    margin-top:0px;
+}
+.remember-text font{
+	font-size:11px;
+	font-family: Verdana;
+    color:gray;	
+}
+.alogin{
+	font-size:11px;
+	font-family: Verdana;
+	text-decoration:underline;	
+	color:#514b4b;
+}
+.alogin:hover{
+	cursor:pointer;
+}
+.menu_bot li{
+	float: right;
+	list-style:none;
+	margin-left: 10;
+	padding-left: 10px;
+}
+.menu_bot li a{
+	color:#6e00ab;
+}
+.bottomtd{
+	text-align:right;
+	vertical-align:top;
+}
+.menu_bot {
+	padding-right:20px;
+}
+.leftmod{
+	width:200px;
+	margin: 6px 0 0 0;
+}
+hr{
+	border:0px;
+	border-bottom:thin #cdcbcb solid;
+}
+
+
+
+
+@charset "UTF-8";
+
+/* A variation on Eric Meyer's CSS Reset: 
+   This is disbaled because the Blueprint framework already has it.
+   You should enable it if you aren't using Blueprint.
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse:collapse;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+abbr,acronym {
+	border:0;
+}
+*/
+
+/* Below are the CSS styles that aren't included with Blueprint. It's a good idea to keep them whether or not you use it unless you know what you're doing. */
+
+/* Text styles */
+.blog-featured h2 { 
+	font-size: 1.5em;
+	margin-bottom:0em; 
+}
+p.readmore {
+	text-indent:0;
+	font-size: .9em;
+}
+.joomla-footer {
+	font-size: .9em;
+	margin-bottom: 30px;
+}
+
+/* Article functions */
+ul.actions {
+	clear:both;
+	margin-top: -50px;
+	float:right;
+}
+ul.actions li {
+	list-style-type: none;
+	float:right;
+	margin-left: 10px;
+}
+
+/* Login styles */
+p#form-login-username label,
+p#form-login-password label {
+	width: 160px;
+	display:block;
+}
+p#form-login-remember label {
+	font-size: .9em;
+	font-weight: normal;
+	line-height: 25px;
+}
+p#form-login-remember input {
+	float:left;
+	margin-right: 5px;
+}
+form#form-login ul {
+	margin: 0;
+	padding: 0;
+}
+form#form-login ul li {
+	list-style-type: none;
+	margin-left: 20px;
+	font-size: .9em;
+}

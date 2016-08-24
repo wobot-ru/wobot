@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<accesslist>
+	<controller name="index">
+		<user group="all" />
+	</controller>
+	<controller name="encuesta">
+		<user group="survey" privileges="all" />
+	</controller>
+	<controller name="encuestas">
+		<user group="administrators" privileges="all" />
+	</controller>
+	<controller name="admin">
+		<user group="administrators" privileges="all" />
+	</controller>
+	<controller name="supervisor">
+		<user group="supervisors" privileges="all" />
+		<user group="administrators" privileges="all" />
+	</controller>
+	<controller name="reportes">
+		<user group="supervisors" privileges="all" />
+		<user group="reports" privileges="all" />
+		<user group="administrators" privileges="all" />
+	</controller>
+</accesslist>

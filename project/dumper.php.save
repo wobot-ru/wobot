@@ -1,0 +1,39 @@
+<?
+$link = mysql_connect('localhost', 'wobot', 'JFHsvosd');
+/*mysql_query("SET character_set_results=utf8", $link);
+mysql_query("SET character_set_client=utf8", $link);
+mysql_query("SET character_set_connection=utf8", $link);
+mb_language('uni');
+mb_internal_encoding('UTF-8');*/
+//mysql_select_db($config['db']['database'], $link);
+$db_selected = mysql_select_db('wobot', $link);
+
+//blog_full_com
+//
+
+/*function dataadd($keyword_id,$class,$source,$type,$rtype,$date,$data)
+{
+$result = mysql_query('INSERT INTO `starindex`.`data` (
+`keyword_id`,`data_class`,`data_source`,`data_type`,`data_rtype`,`data_date`,`data_data`
+)
+VALUES
+('.intval($keyword_id).',"'.$class.'","'.$source.'","'.$type.'","'.$rtype.'","'.$date.'","'.addslashes($data).'")');
+}*/
+/*while ($row = mysql_fetch_assoc($result)) {
+	//print_r($row);
+$name_qw=$row['type'];
+}*/
+$table='blog_posts';
+$result = mysql_query('SELECT post_id, post_link, post_time, post_content FROM blog_post WHERE order_id=310 or order_id=311');
+while($row=mysql_fetch_assoc($result))
+{
+	//Full Texts 	about_id 	keyword_id 	wiki_year 	wiki_country 	wiki_genre 	discogs_varnames 	discogs_albums 	funky_albums
+	/*$q='';
+	foreach ($row as $key=>$value) {
+		if (strlen($q)>0) $q.=', ';
+		$q.=$key.'="'.addslashes($value).'"';
+	}*/
+	echo 'INSERT INTO blog_post (post_link, post_time, post_content) values ("'.$row['post_link'].'","'.$row['post_time'].'","'.addslashes($row['post_content']).'");
+';
+}
+?>

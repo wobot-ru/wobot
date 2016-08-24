@@ -1,0 +1,78 @@
+#top { margin-top: 20px; margin-left: 50px; }
+#top .date { float: left; }
+#top ul.controls { display: inline; float: left; margin-left: 4em; }
+#top ul.controls li { float: left; margin-left: 4em; font-style: oblique; }
+#top ul.controls li a { color: black; }
+#top .bot_line { padding-top: 0.4em; clear: both; }
+
+#table { margin-left: 40px; margin-top: 10px; }
+
+.fav
+{
+	width: 16px; height: 16px; margin: 3px; padding: 0; background: url('/img/fav.png'); float: left; cursor: pointer; cursor: hand;
+}
+
+.fav2
+{
+	width: 16px; height: 16px; margin: 3px; padding: 0; background: url('/img/fav0.png'); float: left; cursor: pointer; cursor: hand;
+}
+
+.spamm
+{
+	width: 16px; height: 16px; margin: 3px; padding: 0; background: url('/img/spam0.png'); float: left; cursor: pointer; cursor: hand;
+}
+
+.spamm2
+{
+	width: 16px; height: 16px; margin: 3px; padding: 0; background: url('/img/spam.png'); float: left; cursor: pointer; cursor: hand;
+}
+
+.plus
+{
+	width: 16px; height: 16px; margin: 3px; padding: 0; background: url('/img/plus.png'); float: left; cursor: pointer; cursor: hand;
+}
+
+.minus
+{
+	width: 16px; height: 16px; margin: 3px; padding: 0; background: url('/img/minus.png'); float: left; cursor: pointer; cursor: hand;
+}
+
+.neutral
+{
+	width: 16px; height: 16px; margin: 3px; padding: 0; background: url('/img/neutral.png'); float: left; cursor: pointer; cursor: hand;
+}
+
+.viewfull
+{
+	width: 16px; height: 16px; margin: 3px; margin-top: 4px; margin-right: 5px; padding: 0; background: url('/img/viewfull.png'); float: left; cursor: pointer; cursor: hand;
+}
+
+.pagination {
+            font-size: 80%;
+        }
+
+.pagination a {
+    text-decoration: none;
+	color: black;
+}
+
+.pagination a, .pagination span {
+    display: block;
+    float: left;
+    padding: 0.3em 0.5em;
+    margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+.pagination .current {
+    background: #3c6087;
+    color: #fff;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+.pagination .current.prev, .pagination .current.next{
+	color:black;
+	background: #fff;
+}
+

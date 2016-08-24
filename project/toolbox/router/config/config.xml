@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<configdata>
+	<production>
+		<!-- pageRootUrl, disable trailing slash -->
+		<pageRootURL>/test/router</pageRootURL>
+		<database>
+			<adapter>pdo_mysql</adapter>
+			<params>
+                <host>localhost</host>
+                <username>webuser</username>
+                <password>resubew</password>
+                <dbname>test</dbname>
+            </params>
+        </database>
+		<!-- Template Settings -->
+		<Template>
+			<main>/tpl/mainLayout.php</main>
+			<error>/tpl/error.php</error>
+			<css>main.css</css>
+		</Template>
+		<TemplateHelpers>
+			<item>app</item>
+		</TemplateHelpers>
+		<authUsersSettings>
+			<identityColumn>Usuario</identityColumn>
+			<credentialColumn>Password</credentialColumn>
+			<tableName>usuarios</tableName>
+		</authUsersSettings>
+    </production>
+    <staging extends="production">
+        <database>
+            <params>
+                <host>localhost</host>
+                <username>webuser</username>
+                <password>resubew</password>
+            </params>
+        </database>
+    </staging>
+</configdata>

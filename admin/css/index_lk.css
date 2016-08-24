@@ -1,0 +1,15 @@
+#table { margin-left: 15%; margin-top: 50px; color: #737373; width: 600px; }
+#table a { color: #3c6087; }
+#table .record { margin-bottom: 2em; }
+#table #button_new_trend { margin-top: 3em; margin-left: 235px; }
+
+.images { float: right; }
+.images img { margin-left: 0.4em; }
+
+.top_line { font-size: 14px; margin-bottom: 6px; }
+
+.bot_line { margin-left: 1.15em; }
+
+.report_url a { color: #3c6087; }
+
+.bot_line { font-size: 12px; }

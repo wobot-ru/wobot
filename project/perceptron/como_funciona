@@ -1,0 +1,43 @@
+/**************************************************/
+/*                                                */   
+/*          RNA - PERCEPTRON CLASS                */
+/*                                                */
+/**************************************************/
+
+
+1 - O QUE ISSO FAZ?
+
+Perceptron é um modelo de RNA que é, normalmente, usado em aplicações de reconhecimento de padrões.
+A aplicação mais comum que podemos encontrar em nosso dia-a-dia é o palmtop.
+O palmtop usa o perceptron para reconhecer as palavras que você desenha no pen pad. O palmtop deve aprender como o usuário
+desenha algumas palavras para que ele possa se lembrar de como o usuário desenha o "A", por exemplo. Para tornar a tarefa
+ainda mais complicada, nós não desenhamos as letras da mesma forma sempre, portanto o sistema deve ser esperto o bastante
+para saber que você está desenhando a letra "A" novamente mesmo que não de forma identica à anterior.
+
+2 - COMO USAR O PERCEPTRON EM CODIGO PHP?
+
+Dentro desse pacote de classe, você irá encontrar um código exemplo que usa o perceptron para encontrar pares de perfis pessoais.
+TeEncontro.com é uma empresa ficticia que ajuda pessoas a encontrar pessoas que casem com seu estilo de vida e humor.
+Este service funciona da seguinte forma:
+A - A página principal é um questionário web composto de perguntas "sim" ou "não" sobre suas características pessoais.
+Esta página é usada pessoa que está procurando um par no site.
+B - Quando a pessoa submete as respostas do questionário, o sistema irá gerar uma nova lista mudando as respostas inverssas
+às submetidas, como se fosse o coipa invertida das respostas dadas pelo usuário.
+O sistema então irá juntar as duas listas em um única lista. Esta lista irá então ser usada para ensinar o perceptron.
+Isso é feito para que o perceptron conheça quando a combinação de características é um apr e quando não é (respostas invertidas)
+Após treinar o perceptro, o sistema terá os pesos (a relevancia que cada pergunta tem de acordo com o que o usuário respondeu 
+no questionário) para cada entrada (respostas) para saber quando um conjunto de respostas é uma par ou não.
+C - Finalmente o sistema irá varrer o banco de dados de respostas hardcode - digitado no código de exemplo - que outras pessoas
+responderam. Uma pontução é calculada para cada pessoa no banco de dados. Se a pontuação for positiva significa que existe um par,
+se a pontuação for negativa, então não é um par.
+
+Em resumo, o perceptron funciona the acordo com os seguintes passos:
+PASSO1 - Terinando a Rede Nerural Artificial:
+Descrição: Submeta padrões opostos para perceptron, para que eles possa saber o que é um par e o que não é.
+Método da Classe: $class->train(array input_array, int alpha, int teta).
+PASSO2 - Encontrando um par:
+Descrição: Teste o padrão desconhecido (conjunto de respostas) contra o percetron. Ele irá sinalizar se é um par ou não, de
+acordo com o padrão ensinado a ele no passo1.
+Método da classe: $class->test_class(array input_array, array train_result)
+
+LEMBRE-SE: A base de conhecimento do perceptron (respostas às perguntas) deve ser boleanas.
