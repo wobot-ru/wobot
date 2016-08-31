@@ -222,6 +222,7 @@ function get_elastic($keyword,$ts,$te,$lan,$global)
 					if (check_post($item['_source']['post_body'],$tmp_keyword)==0) continue;
 					echo '.';
 					// if (in_array($item['_source']['message'], $outmas['fulltext'])) continue;
+					if (preg_match('/^https\:\/\/www\.facebook\.com/isu', $item['_source']['post_href'])) $item['_source']['post_href']=preg_replace('/https\:\/\//isu','http://',$item['_source']['post_href']);
 					$outmas['link'][]=$item['_source']['post_href'];
 					$outmas['nick'][]=$item['_source']['sm_profile_id'];
 					$outmas['fulltext'][]=$item['_source']['post_body'];

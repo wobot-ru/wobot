@@ -31,6 +31,7 @@ require_once('mail.php');
 require_once('instagram.php');
 require_once('tag_instagram.php');
 require_once('instagram_locations.php');
+require_once('tp_sources.php');
 
 require_once('/var/www/daemon/com/infix.php');
 require_once('/var/www/daemon/fsearch3/ch.php');
@@ -371,6 +372,23 @@ while($blog=$db->fetch($ressec))
 	{
 		echo $blog['gr_id']."\n";
 		$mas=get_instagram_locations($blog['gr_id'],$mstart,$mend);
+		foreach ($mas['link'] as $key => $it)
+		{
+			$m1['link'][]=$it;
+			$m1['content'][]=$mas['content'][$key];
+			$m1['time'][]=$mas['time'][$key];
+			$m1['author_id'][]=$mas['author_id'][$key];
+			$m1['author_name'][]=$mas['author_id'][$key];
+			$m1['engage'][]=0;
+		}
+		unset($mas);
+	}
+	if ($blog['tp_type']=='adv')
+	{
+		echo $blog['gr_id']."\n";
+		$settings_blog=json_decode($blog['gr_id'],true);
+		print_r($settings_blog);
+		$mas=get_posts_sources($settings_blog,$mstart,$mend);
 		foreach ($mas['link'] as $key => $it)
 		{
 			$m1['link'][]=$it;

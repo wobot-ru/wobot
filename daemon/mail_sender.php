@@ -77,7 +77,7 @@ function send_mail_post_aws($mail,$title,$content,$from)
 	$curl = curl_init();
  
 	//уcтанавливаем урл, к которому обратимся
-	curl_setopt($curl, CURLOPT_URL, 'http://146.185.183.12/api/aws/send_mail.php');
+	curl_setopt($curl, CURLOPT_URL, 'http://localhost/api/service/aws/aws/send_mail.php');
 	//включаем вывод заголовков
 	//curl_setopt($curl, CURLOPT_HEADER, 1);
 	 
@@ -99,8 +99,10 @@ function send_mail_post_aws($mail,$title,$content,$from)
 	$errmsg  = curl_error( $curl );
 	$header  = curl_getinfo( $curl );
 	curl_close( $curl );
+	echo '|'.$content.'|';
 	$mcontent=json_decode($content,true);
 	print_r($mcontent);
+	echo '|||';
 	// die();
 	return $mcontent['status'];
 	// return intval($content);
