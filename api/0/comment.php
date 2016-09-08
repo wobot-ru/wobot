@@ -197,7 +197,7 @@ if (isset($_SESSION[$_POST['md5']]))
 			$mas[$i]['post']=$post['post_link'];
 		}
 		$mas[$i]['title']=preg_replace('/\s+/is',' ',strip_tags($post['post_content']));
-		if ((intval(date('H',$post['post_time']))>0)||(intval(date('i',$post['post_time']))>0)) $stime=date("H:i:s d.m.Y",($post['post_time']-3600));
+		if ((intval(date('H',$post['post_time']))>0)||(intval(date('i',$post['post_time']))>0)) $stime=date("H:i:s d.m.Y",($post['post_time']));
 		else $stime=date("d.m.Y",$post['post_time']);
 		$mas[$i]['time']=$stime;
 		$mas[$i]['url']=$post['post_link'];
@@ -757,7 +757,7 @@ else
 		}
 		//$mas[$i]['post']=preg_replace('/\s+/is',' ',strip_tags($post['post_content']));
 		$mas[$i]['title']=preg_replace('/\s+/is',' ',strip_tags($post['post_content']));
-		if ((intval(date('H',$post['post_time']))>0)||(intval(date('i',$post['post_time']))>0)) $stime=date("H:i:s d.m.Y",($post['post_time']-3600));
+		if ((intval(date('H',$post['post_time']))>0)||(intval(date('i',$post['post_time']))>0)) $stime=date("H:i:s d.m.Y",($post['post_time']));
 		else $stime=date("d.m.Y",$post['post_time']);
 		$mas[$i]['time']=$stime;
 		$mas[$i]['url']=$post['post_link'];
