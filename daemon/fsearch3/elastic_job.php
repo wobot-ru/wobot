@@ -132,7 +132,7 @@ while($blog=$db->fetch($ressec))
 		$qw=$db->query('SELECT post_id FROM blog_post WHERE  order_id='.$blog['order_id'].' AND post_link=\''.addslashes($item).'\' LIMIT 1');
 		echo 'SELECT post_id FROM blog_post WHERE  order_id='.$blog['order_id'].' AND post_link=\''.addslashes($item).'\' LIMIT 1'."\n";
 		// echo 'SELECT * FROM blog_post WHERE  order_id='.$blog['order_id'].' AND post_time='.$m1['time'][$key].' AND post_content=\''.addslashes($m1['content'][$key]).'\''."\n";
-		if ((mysql_num_rows($qw)==0) && (!in_array($item,$rep)) && ((check_post($m1['content'][$key],$blog['order_keyword'])==1)||(check_post($m1['fulltext'][$key],$blog['order_keyword'])==1)) && (check_local($m1['content'][$key],$text_lang)==1))
+		if ((mysql_num_rows($qw)==0) && (!in_array($item,$rep)) && (check_post($m1['fulltext'][$key],$blog['order_keyword'])==1) && (check_local($m1['content'][$key],$text_lang)==1))
 		{
 			echo $key.' ';
 			//echo $item['content']."\n";
