@@ -52,12 +52,13 @@ function get_market($vars,$ts,$te)
 		{
 			do
 			{
-				$cont=parseURLproxy( 'http://m.market.yandex.ru/grades-shop.xml?shop_id='.$vars['shop_id'].'&sort_by=date&page_num='.intval($page),$mproxy[rand(0,399)] );
+				$cont=parseURLproxy( 'https://m.market.yandex.ru/shop/'.$vars['shop_id'].'?sort_by=date&page_num='.intval($page),$mproxy[rand(0,399)] );
+				// $cont=parseURLproxy( 'http://m.market.yandex.ru/grades-shop.xml?shop_id='.$vars['shop_id'].'&sort_by=date&page_num='.intval($page),$mproxy[rand(0,399)] );
 				if ($cont=='') $attemp++;
 			}
 			while (($cont=='') && ($attemp<30));
 			$link='http://market.yandex.ru/shop/'.$vars['shop_id'].'/reviews?sort_by=date&page_num='.floor(intval($page)/10);
-			echo 'http://m.market.yandex.ru/grades-shop.xml?shop_id='.$vars['shop_id'].'&sort_by=date&page_num='.intval($page)."\n";
+			echo 'https://m.market.yandex.ru/shop/'.$vars['shop_id'].'?sort_by=date&page_num='.intval($page)."\n";
 		}
 		elseif (($vars['modelid']!='') && ($vars['hid']!=''))
 		{
@@ -72,13 +73,10 @@ function get_market($vars,$ts,$te)
 		}
 		if (preg_match('/charset=windows\-1251"/is', $cont)) $cont=iconv('windows-1251','UTF-8',$cont);
 		// echo $cont.'***';
-		$regex='/<p class=\"?b-comment\"?>(?<cont>.*?)<\/p>/isu';
-		preg_match_all($regex, $cont, $out_cont);
-		$regex='/<span class="b\-plate__verybad">(?<cont>.*?)<\/span>/isu';
-		preg_match_all($regex, $cont, $out_cont_bad);
-		// print_r($out_cont);
-		$regex='/<span class=\"?b-plate__date\"?>(?<time>.*?)<\/span>/isu';
-		preg_match_all($regex, $cont, $out_time);
+		$regex='/<i class="b-stars__star b-stars__star_type_full"><\/i><\/div>(?<time>[\.\d]*?)<\/div><div[^\<]*?>(?<good>.*?)<\/div><div[^\<]*?>(?<bad>.*?)<\/div>/isu';
+		preg_match_all($regex, $cont, $out);
+		// print_r($out);
+		// die();
 		// if (trim($out_time['time'][0])=='') 
 		if (preg_match('/block\.yandex\.ru/isu', $cont)||($cont=='')||!preg_match('/<title>.*Яндекс\.Маркет.*<\/title>/isu', $cont))
 		{
@@ -89,47 +87,20 @@ function get_market($vars,$ts,$te)
 		}
 		// echo '+++';
 		// print_r($out_time);
-		// print_r($out_time);
-		if ($out_time['time'][0]=='сегодня') $time=mktime(0,0,0,date('n'),date('j'),date('Y'));
-		elseif ($out_time['time'][0]=='вчера') $time=mktime(0,0,0,date('n'),date('j')-1,date('Y'));
-		elseif (preg_match('/\d+\s[а-яё]+\s\d+/isu', $out_time['time'][0]))
-		{
-			// echo '++++';
-			$regex='/(?<day>\d+)\s(?<mon>[а-яё]+)\s(?<year>\d+)/isu';
-			preg_match_all($regex, $out_time['time'][0], $otime);
-			$time=mktime(0,0,0,$masmon[$otime['mon'][0]],$otime['day'][0],$otime['year'][0]);
-		}
-		elseif ($out_time['time'][0]!='')
-		{
-			echo '----';
-			$regex='/(?<day>\d+)\s(?<mon>[а-яё]+)/isu';
-			preg_match_all($regex, $out_time['time'][0], $otime);
-			$time=mktime(0,0,0,$masmon[$otime['mon'][0]],$otime['day'][0],date('Y'));
-		}
 
-		if (trim(strip_tags(implode(' ', $out_cont['cont'])).' '.implode(' ', $out_cont_bad['cont']))=='') $break++;
-		else $break=0;
-		if ($break==10) break;
-
-		if (($time<=$te)&&($time>=$ts))
-		{ 
-			$outpost['time'][]=$time;
-			$outpost['content'][]=strip_tags(implode(' ', $out_cont['cont'])).' '.implode(' ', $out_cont_bad['cont']);
-			$outpost['link'][]=$link;
-			$outpost['eng'][]=0;
-			$regex_nick='/<a class=\"?b-user__link\"? href="http\:\/\/(?<user_nick>.*?)\.ya\.ru\/go\-market\.xml\">/isu';
-			preg_match_all($regex_nick, $cont, $out_nick);
-			/*if (trim($out_nick['user_nick'][0])!='')
-			{
-				$regex='/<b class=\"?b\-user\"?.*?>\s*(?<nick>.*?)<\/b>/isu';
-				preg_match_all($regex, $cont, $out_nick);
-				print_r($out_nick);
-				$out_nick['user_nick'][0]=strip_tags($out_nick['nick'][0]);
-			}*/
-			$outpost['author_id'][]=$out_nick['user_nick'][0];
-			$outpost['author_name'][]=$out_nick['user_nick'][0];
+		foreach ($out['time'] as $key => $item)
+		{
+			$time=strtotime($item);
+			if (($time<=$te)&&($time>=$ts))
+			{ 
+				$outpost['time'][]=$time;
+				$outpost['content'][]=strip_tags($out['good'][$key].' '.$out['bad'][$key]);
+				$outpost['link'][]=$link;
+				$outpost['eng'][]=0;
+			}
 		}
-		print_r($outpost);
+		// print_r($outpost);
+		// die();
 		// echo 'gg';
 		$page++;
 		if ($page>1000) return $outpost;
