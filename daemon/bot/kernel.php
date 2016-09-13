@@ -338,6 +338,33 @@ function encoding($string){
         }
     }
 }
+
+function emoticons($text) {
+    $icons = array(
+        ':)'    =>  '',
+        ':-)'   =>  '',
+        ':D'    =>  '',
+        ':d'    =>  '',
+        ';)'    =>  '',
+        ':P'    =>  '',
+        ':-P'   =>  '',
+        ':-p'   =>  '',
+        ':p'    =>  '',
+        ':('    =>  '',
+        ':o'    =>  '',
+        ':O'    =>  '',
+        ':0'    =>  '',
+        ':|'    =>  '',
+        ':-|'   =>  '',
+        ':/'    =>  '',
+        ':-/'   =>  ''
+    );
+    foreach($icons as $icon=>$image) {
+        $icon = preg_quote($icon);
+        $text = preg_replace("~\b$icon\b~",$image,$text);
+    }
+    return $text;
+}
 //echo encoding($string);
 
 ?>

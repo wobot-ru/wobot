@@ -7,6 +7,7 @@ require_once('/var/www/daemon/com/config.php');
 require_once('/var/www/daemon/com/func.php');
 require_once('/var/www/daemon/com/db.php');
 require_once('/var/www/daemon/bot/kernel.php');
+require_once('/var/www/daemon/bot/emojify.php');
 /*require_once('/var/www/userjob/get_vkontakte.php');
 require_once('/var/www/userjob/get_twitter.php');
 require_once('/var/www/userjob/get_livejournal.php');*/
@@ -37,7 +38,7 @@ require_once('/var/www/daemon/com/infix.php');
 require_once('/var/www/daemon/fsearch3/ch.php');
 date_default_timezone_set('Europe/Moscow');
 ini_set('memory_limit', '2048M');
-// error_reporting(E_ALL);
+error_reporting(0);
 ignore_user_abort(true);
 set_time_limit(0);
 ini_set('max_execution_time',0);
@@ -490,7 +491,8 @@ while($blog=$db->fetch($ressec))
 			$count_pst_hn[$hn]++;
 			echo 'INSERT INTO blog_post (order_id,post_link,post_host,post_time,post_content,blog_id,post_engage,post_advengage) VALUES ('.$blog['order_id'].',\''.addslashes($item).'\',\''.addslashes($hn).'\',\''.$m1['time'][$key].'\',\''.addslashes(mb_substr($m1['content'][$key],0,150,'UTF-8').' ...').'\','.intval($bb1['blog_id']).','.intval($m1['engage'][$key]).',\''.addslashes(json_encode($m1['adv_engage'][$key])).'\')'."\n\n\n\n";
 			$db->query('INSERT INTO blog_post (order_id,post_link,post_host,post_time,post_content,blog_id,post_engage,post_advengage) VALUES ('.$blog['order_id'].',\''.addslashes($item).'\',\''.addslashes($hn).'\',\''.$m1['time'][$key].'\',\''.addslashes(mb_substr($m1['content'][$key],0,150,'UTF-8').' ...').'\','.intval($bb1['blog_id']).','.intval($m1['engage'][$key]).',\''.addslashes(json_encode($m1['adv_engage'][$key])).'\')');
-			$db->query('INSERT INTO blog_full_com (ful_com_post_id,ful_com_order_id,ful_com_post) VALUES ('.$db->insert_id().','.$blog['order_id'].',\''.addslashes($m1['content'][$key]).'\')');
+			echo 'INSERT INTO blog_full_com (ful_com_post_id,ful_com_order_id,ful_com_post) VALUES (,'.$blog['order_id'].',\''.addslashes(removeEmoji($m1['content'][$key])).'\')'."\n";
+			$db->query('INSERT INTO blog_full_com (ful_com_post_id,ful_com_order_id,ful_com_post) VALUES ('.$db->insert_id().','.$blog['order_id'].',\''.addslashes(removeEmoji($m1['content'][$key])).'\')');
 			//$db->query('INSERT INTO blog_post_prev (order_id,post_link,post_host,post_time,post_content,blog_id,post_ful_com) VALUES ('.$blog['order_id'].',\''.addslashes($item).'\',\''.addslashes($hn).'\',\''.$m1['time'][$key].'\',\''.addslashes(mb_substr($m1['content'][$key],0,150,'UTF-8').' ...').'\','.intval($bb1['blog_id']).','.addslashes($m1['content'][$key]).')');
 			//$db->query('INSERT INTO blog_post (order_id,post_link,post_host,post_time,post_content,blog_id,post_engage) VALUES ('.$blog['order_id'].',\''.addslashes($item).'\',\''.addslashes($hn).'\',\''.$m1['time'][$key].'\',\''.addslashes($m1['content'][$key]).'\','.intval($bb1['blog_id']).','.intval($m1['eng'][$key]).')');
 		}
