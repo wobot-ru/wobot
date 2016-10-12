@@ -42,10 +42,10 @@ function parseUrlHeader($url){
 function get_tag_instagram($grid,$ts,$te)
 {
 	//$token = '1543782233.1fb234f.9fa10e5a4a08443186b264ae3d127214';
-	$mtoken[]='1032401910.ec53e3f.2b04849f03d04054be56981b5718fd48';
-	$mtoken[]='1032401910.ec53e3f.2b04849f03d04054be56981b5718fd48';
-	$mtoken[]='1032401910.ec53e3f.2b04849f03d04054be56981b5718fd48';
-	$mtoken[]='1032401910.ec53e3f.2b04849f03d04054be56981b5718fd48';
+	$mtoken[]='1032401910.ec53e3f.a09b7eceff8c4d1aa86be0b6a867ce25';
+	$mtoken[]='1032401910.ec53e3f.a09b7eceff8c4d1aa86be0b6a867ce25';
+	$mtoken[]='1032401910.ec53e3f.a09b7eceff8c4d1aa86be0b6a867ce25';
+	$mtoken[]='1032401910.ec53e3f.a09b7eceff8c4d1aa86be0b6a867ce25';
 
 	$outmas = array();
 	$next_link = '';
