@@ -135,14 +135,14 @@ while($blog=$db->fetch($ressec))
 		if ((mysql_num_rows($qw)==0) && (!in_array($item,$rep)) && (check_post($m1['fulltext'][$key],$blog['order_keyword'])==1) && (check_local($m1['content'][$key],$text_lang)==1))
 		{
 			echo $key.' ';
-			//echo $item['content']."\n";
-			$rep[]=$item;
-			$hn='';
 			$hn=parse_url($item);
 		    $hn=$hn['host'];
 		    $ahn=explode('.',$hn);
 		    $hn = $ahn[count($ahn)-2].'.'.$ahn[count($ahn)-1];
 			$hh = $ahn[count($ahn)-2];
+			//echo $item['content']."\n";
+			$rep[]=$item;
+			$hn='';
 			$bb1['blog_id']=0;
 
 			$m2['content'][$key]=$m1['content'][$key];

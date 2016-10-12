@@ -136,26 +136,28 @@ function getsearch($query,$size,$from,$ts,$te,$month,$year,$scroll_token)
 	echo 'http://91.218.113.136:9200/*y'.$year.'*m'.$month.'/post/_search?scroll=1m'."\n";
 	do
 	{
+		$count++;
+		if ($count>3) die();
 		if ($scroll_token=='') curl_setopt($ch, CURLOPT_URL, 'http://91.218.113.136:9200/*y'.$year.'*m'.$month.'/post/_search?scroll=1m');
 		else curl_setopt($ch, CURLOPT_URL, 'http://91.218.113.136:9200/_search/scroll?scroll=1m');
-		curl_setopt($ch, CURLOPT_HEADER, false);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+		curl_setopt($ch, CURLOPT_HEADER, false);
 		//Нужно явно указать, что будет POST запрос
-		curl_setopt($ch, CURLOPT_POST, true);
 		curl_setopt($ch, CURLOPT_USERPWD, "es:Elastic777"); 
+		curl_setopt($ch, CURLOPT_POST, true);
 		//Здесь передаются значения переменных
 		//{"query":{"bool":{"must":[{"query_string":{"default_field":"post_body.ru","query":"\"голодные игры\" OR \"THE HUNGER GAMES\" OR \"HUNGERGAMES\" OR \"сойка пересмешница\""}},{"range":{"post_date":{"gte":"2014-06-01","lt":"2014-07-16"}}}]}}}
-		if ($scroll_token=='') $query='{"query":{"bool":{"must":[{"query_string":{"query":"'.$query.'","fields":["post_body.ru"]}}],"filter":{"query":{"range":{"post_date":{"gte":"'.date('Y-m-d\TH:i:00.000\Z',$ts).'","lte":"'.date('Y-m-d\TH:i:00.000\Z',$te).'"}}}}}},"from":'.$from.',"size":'.$size.'}';
-		else $query=$scroll_token;
-		echo $query;
+		if ($scroll_token=='') $query2='{"query":{"bool":{"must":[{"query_string":{"query":"'.$query.'","fields":["post_body.ru"]}}],"filter":{"query":{"range":{"post_date":{"gte":"'.date('Y-m-d\TH:i:00.000\Z',$ts).'","lte":"'.date('Y-m-d\TH:i:00.000\Z',$te).'"}}}}}},"from":'.$from.',"size":'.$size.'}';
+		else $query2=$scroll_token;
+		// echo "\n".$query2."\n";
 		// $query=preg_replace('/[^а-яА-Яa-zA-Z0-9ё\(\)\|\&\?\.\,\[\]\*\~]/isu', ' ', $query);
 		// $query='{"query":{"bool":{"must":[{"query_string":{"default_field":"post.message","query":"'.$query.'"}},{"range":{"post.post_date":{"from":"'.date('Y-n-j\TH:i:s',$ts).'","to":"'.date('Y-n-j\TH:i:s',$te).'"}}}],"must_not":[],"should":[]}},"from":'.$from.',"size":'.$size.',"sort":[],"facets":{}}';
 		// $fp = fopen('/var/www/daemon/logs/elastic_query.log', 'a');
 		// fwrite($fp, date('r').' '.$query."\n");
 		// fclose($fp);
 		// echo $query."\n";
-		// curl_setopt($ch, CURLOPT_POSTFIELDS, '{"query": { "filtered" : { "filter" : { "range" : { "post_date" : {	"from": "'.date('Y-n-j\TH:i:s',$ts).'", "to": "'.date('Y-n-j\TH:i:s',$te).'" } } },	"query" : { "text" : { "message" : "'.$query.'" } } } }, "size": "'.$size.'", "from": "'.$from.'" }');
-		curl_setopt($ch, CURLOPT_POSTFIELDS, $query);
+		curl_setopt($ch, CURLOPT_POSTFIELDS, '{"query": { "filtered" : { "filter" : { "range" : { "post_date" : {	"from": "'.date('n-Y-j\TH:i:s',$ts).'", "to": "'.date('Y-n-j\TH:i:s',$te).'" } } },	"query" : { "text" : { "message" : "'.$query.'" } } } }, "size": "'.$size.'", "from": "'.$from.'" }');
+		curl_setopt($ch, CURLOPT_POSTFIELDS, $query2);
 		// $fp = fopen('log_elastic.txt', 'a');
 		// fwrite($fp, $query."\n");
 		// fclose($fp);
@@ -165,8 +167,9 @@ function getsearch($query,$size,$from,$ts,$te,$month,$year,$scroll_token)
 		curl_setopt($ch, CURLOPT_TIMEOUT, 10);        // таймаут ответа
 		curl_setopt($ch, CURLOPT_USERAGENT, 'FUCK');
 		$data = curl_exec($ch);
-		// echo $data."\n";
-		print_r(json_decode($data,true));
+		echo '|'.$data.'|'."\n";
+		sleep(1);
+		// print_r(json_decode($data,true));
 		curl_close($ch);
 	}
 	while ($data=='');

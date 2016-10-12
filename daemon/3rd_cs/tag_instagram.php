@@ -42,10 +42,10 @@ function parseUrlHeader($url){
 function get_tag_instagram($grid,$ts,$te)
 {
 	//$token = '1543782233.1fb234f.9fa10e5a4a08443186b264ae3d127214';
-	$mtoken[]='1032401910.ec53e3f.a09b7eceff8c4d1aa86be0b6a867ce25';
-	$mtoken[]='1032401910.ec53e3f.a09b7eceff8c4d1aa86be0b6a867ce25';
-	$mtoken[]='1032401910.ec53e3f.a09b7eceff8c4d1aa86be0b6a867ce25';
-	$mtoken[]='1032401910.ec53e3f.a09b7eceff8c4d1aa86be0b6a867ce25';
+	$mtoken[]='1032401910.ec53e3f.2b04849f03d04054be56981b5718fd48';
+	$mtoken[]='1032401910.ec53e3f.2b04849f03d04054be56981b5718fd48';
+	$mtoken[]='1032401910.ec53e3f.2b04849f03d04054be56981b5718fd48';
+	$mtoken[]='1032401910.ec53e3f.2b04849f03d04054be56981b5718fd48';
 
 	$outmas = array();
 	$next_link = '';
@@ -58,13 +58,14 @@ function get_tag_instagram($grid,$ts,$te)
 	    if($next_link!=''){
 	        $url = $next_link;
 	    } else {
-	        $url = 'https://api.instagram.com/v1/tags/'.$grid.'/media/recent?access_token='.$mtoken[$iter%(count($mtoken)-1)];
+	        $url = 'https://api.instagram.com/v1/tags/'.urlencode($grid).'/media/recent?access_token='.$mtoken[$iter%(count($mtoken)-1)];
 	        //$url = 'https://api.instagram.com/v1/tags/'.$grid.'/media/recent?access_token='.$token;
+	        // $url='https://api.instagram.com/v1/tags/%D0%BA%D0%BE%D1%84%D0%B5%D1%85%D0%B0%D1%83%D1%81/media/recent?access_token=1032401910.ec53e3f.2b04849f03d04054be56981b5718fd48';
 
 	    }
-
+	    // echo $url.$count."\n";
 	    $cont=parseURL($url.$count);
-
+	    echo $cont;
 	    //$cont=parseUrlHeader($url.$count);
 	    //$cont=parseUrlHeader($url.$count);
 	    $mcont = json_decode($cont, true);
